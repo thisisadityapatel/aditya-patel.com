@@ -24,7 +24,7 @@ const Experience = ({experiences}) => {
     return (
         <div className="container experinceDisplay">
             <div className="text-center mt-5">
-                {companyLogo?<Image src={companyLogo} alt={temp.company} width={temp.width} height={temp.height}/>:''}
+                {companyLogo?<img src={companyLogo} alt={temp.company} style={{width: "15rem"}}/>:''}
             </div>
 
             <h4 className="text-center mt-4">{temp.position}</h4>

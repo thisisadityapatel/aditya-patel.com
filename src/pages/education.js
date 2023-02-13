@@ -6,7 +6,7 @@ const Education = () => {
   return (
     <div className="educationDiv container portfolioElement">
             <div className="text-center my-5" >
-                <Image src="/tmu.gif" width={200} height={100} alt="tmu gif"></Image>
+                <img src="/tmu.gif" alt="tmu gif" style={{width: "14rem"}}></img>
             </div> 
 
             <h4 className="text-center">{"Bachelor's of Science (Honours), "}<span className="fw-bold">{"Computer Science"}</span>{"(Co-op)"}</h4>
