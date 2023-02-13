@@ -1,0 +1,186 @@
+body{
+    animation: fadeIn 2.5s;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+
+.navbarItems > li{
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+.sidebarNavButtonPhone{
+    width: 100%;
+    text-align: left !important;
+}
+.sidebarNavButtonPhone:hover{
+    background-color: #e6e6e6;
+}
+.aboutNav:hover{
+    padding-left: 1.3rem;
+    transition: 0.25s;
+}
+.container{
+    max-width: 52vw !important;
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #0087ca;
+  }
+  .hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0066ff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  } 
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }  
+
+@media(max-width: 600px){
+    .container{
+        max-width: 90vw !important;
+    }
+    .introIconFont{
+        font-size: 165% !important;
+        margin: 1rem !important;
+    }
+    .introProfileImage{
+        width: 13rem !important;   
+    }
+}
+.introDiv{
+    font-size: 93%;
+    color: #333333;
+}
+.introProfileImage{
+    width: 15.6rem;   
+}
+.educationDiv{
+    font-size: 93%;
+    color: #333333;
+}
+.experienceDiv{
+    font-size: 93%;
+    color: #333333;
+}
+.hobbiesDiv{
+    font-size: 93%;
+    color: #333333;
+}
+.introDiv p{
+    margin-top: 1.8rem;
+}
+.projectDescription{
+    font-size: 93%;
+    color: #333333;
+}
+.introLink{
+    text-decoration: none;
+    color: #808080 !important;
+}
+.introIconFont{
+    font-size: 200%;
+    margin: 1.3rem;
+}
+.introSocials{
+    text-align: center;
+    margin-top: 3rem;
+}
+.introSocialIconLink{
+    text-decoration: none;
+    color: #4d4d4d; 
+}
+.introSocialIconLink:hover{
+    text-decoration: none;
+    color: black; 
+}
+.skillDesign{
+    background-color: #e6e6e6;
+    color: black;
+    border-radius: 8px;
+    padding: 6px;;
+    font-size: 90%;
+    margin: 2px;
+}
+.projectVisitLink{
+    width: 100%;
+    border-radius:8px !important;
+}
+.experienceButton{
+    width: 100%;
+    text-align: left !important;
+}
+.experienceButton{
+    text-align: left !important;
+    width: 100%;
+}
+.experienceButton:hover{
+    background-color: #e6e6e6;
+}
+.designName{
+    color: #484848;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 7px;
+    cursor: pointer
+}
+.designName span{
+    transition: .5s linear
+}
+.designName:hover span:nth-child(1){
+    margin-right: 5px
+}
+.designName:hover span:nth-child(1):after{
+    content: " Kamleshkumar";
+}
+.designName:hover span:nth-child(2){
+    margin-left: 30px
+}
+.designName:hover span{
+    color: blue;
+    text-shadow: 0 0 10px #fff,
+                0 0 20px #fff, 
+                0 0 40px #fff;
+}
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-weight: bold;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}  
