@@ -5,6 +5,7 @@ import Sidenav1 from '../components/Sidenav1'
 import Sidenav2 from '../components/Sidenav2'
 import '@/styles/animateCharacter.css'
 import { Nunito_Sans } from '@next/font/google'
+import 'bootstrap-icons/font/bootstrap-icons.css'
 
 const nunito = Nunito_Sans({
   subsets: ['latin'],

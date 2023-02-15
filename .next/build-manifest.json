@@ -34,11 +34,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/experience/[work].js"
-    ],
-    "/projects/[project]": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/projects/[project].js"
     ]
   },
   "ampFirstPages": []
