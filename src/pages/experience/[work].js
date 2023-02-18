@@ -19,7 +19,7 @@ const Experience = ({experiences}) => {
     let hasImages = true;
     let hasTechnologies = true;
     (imagesPath?.length) === 0 ? hasImages = false: hasImages = true;
-    (technologies?.length) === 0 ? hasTechnologies = false: hasTechnologies = true;
+    (technologies?.length) !== 0 ? hasTechnologies = true: hasTechnologies = false;
 
     return (
         <div className="container experinceDisplay">

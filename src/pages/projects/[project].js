@@ -3,7 +3,6 @@ import { useRouter } from "next/router";
 const Post = () => {
     const router = useRouter();
     const { project, name, description, htmllink, technologies} = router.query;
-    console.log(technologies);
 
     return (
         <div className="projectDescription container">

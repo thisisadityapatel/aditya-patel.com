@@ -10,7 +10,7 @@ const Education = () => {
             </div> 
 
             <h4 className="text-center">{"Bachelor's of Science (Honours), "}<span className="fw-bold">{"Computer Science"}</span>{"(Co-op)"}</h4>
-            <h6 className="text-center text-secondary">{"September 2021 - May 2025"}</h6>
+            <h6 className="text-center text-secondary">{"September 2021 - May 2026"}</h6>
 
             <div className="mt-5">
                 <div className="h5 text-secondary">{"Awards"}</div>
@@ -27,15 +27,18 @@ const Education = () => {
                 <hr />
                 <div className="pt-1 courseListGrid">
                    {" Here are the relevent couses I have taken so far:"}
-                    <ul className="mt-1" style={{listStyle:'none'}}>
+                    <ul className="mt-1" style={{listStyle:'none', columns: '2'}}>
                         <li><i className="bi bi-caret-right greenColor"></i>{"CPS305 Data Structures"}</li>
                         <li><i className="bi bi-caret-right greenColor"></i>{"CPS393 Introduction to UNIX, C and C++"}</li>
+                        <li><i className="bi bi-caret-right greenColor"></i>{"CPS506 Comparative Programming Languages"}</li>
+                        <li><i className="bi bi-caret-right greenColor"></i>{"CPS590 Operating Systems"}</li>
                         <li><i className="bi bi-caret-right greenColor"></i>{"CPS109 Computer Science 1"}</li>
                         <li><i className="bi bi-caret-right greenColor"></i>{"CPS209 Computer Science 2"}</li>
                         <li><i className="bi bi-caret-right greenColor"></i>{"CPS213 Computer Organization 1"}</li>
                         <li><i className="bi bi-caret-right greenColor"></i>{"CPS310 Computer Organization 2"}</li>
                         <li><i className="bi bi-caret-right greenColor"></i>{"MTH207 Calculus & Computation 1"}</li>
                         <li><i className="bi bi-caret-right greenColor"></i>{"MTH110 Discrete Mathematics I"}</li>
+                        <li><i className="bi bi-caret-right greenColor"></i>{"CPS420 Discrete Structures"}</li>
                         <li><i className="bi bi-caret-right greenColor"></i>{"MTH108 Linear Algebra"}</li>
                     </ul>
                 </div>

@@ -12,7 +12,7 @@ const Header = () => {
                 <div className="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul className="ms-auto navbar-nav navbarItems">
                         <li className="nav-item">
-                            <Link className="nav-link hover-underline-animation active" aria-current="page" href="/introduction">Aditya</Link>
+                            <Link className="nav-link hover-underline-animation active" aria-current="page" href="/">Introduction</Link>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link hover-underline-animation active" href="/Resume_Aditya_Patel.pdf" target="_blank" rel="noopener noreferrer">Resume</a>

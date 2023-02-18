@@ -15,6 +15,7 @@ const Sidenav2 = () => {
         .then((res) => res.json())
         .then((data) => {
             setProjects(data);
+            console.log(data);
         })
         .catch((err) => {
             console.log(err.message);
