@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
       <div className="container introDiv portfolioElement">
         <div className="text-center my-5">
-            <Image src="/introImage.webp" width={250} height={250} alt={"Aditya Patel Profile Picture"}/>
+            <img src="/introImage.webp" alt={"Aditya Patel Profile Picture"} class="introProfileImage"/>
         </div>
         <p> 
             {"Hey, my name is Aditya Patel and I'm a Computer Science major at"} <a href="https://www.torontomu.ca/about/" className="introLink hover-underline-animation">Toronto Metropolitan University</a> {"in my Sophomore year, planning on graduating by April 2026. An industrious student aspiring to be an amazing Software Engineer."}
