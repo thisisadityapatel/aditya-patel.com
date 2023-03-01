@@ -36,7 +36,7 @@ export default function Home() {
         </div>
 
         <div className="text-secondary text-center mt-5 mb-2">
-            {"👾 Developed and designed by Aditya Patel © 2023"}
+            <span style={{fontSize: "150%"}}>👾</span>{" Developed & Designed by Aditya Patel © 2023"}
         </div>
       </div>
     </>
