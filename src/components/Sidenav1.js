@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import { Router, useRouter } from 'next/router'
+import { useState, useEffect } from 'react'
 
 const Sidenav1 = () => {
     const router = useRouter();
@@ -8,6 +9,23 @@ const Sidenav1 = () => {
     const sendString = (value) => {
         router.push(`/Sidenav2?category=${value}`)
     }
+
+    const [wtemp, setWtemp] = useState();
+    const [wsnow, setWsnow] = useState();
+    const [wrain, setWrain] = useState();
+
+    useEffect(() => {
+        fetch('https://api.open-meteo.com/v1/forecast?latitude=43.66&longitude=-79.38&hourly=temperature_2m,rain,snowfall,windspeed_10m')
+        .then((res) => res.json())
+        .then((data) => {
+            setWrain(data['hourly']['rain'][0]);
+            setWsnow(data['hourly']['snowfall'][0]);
+            setWtemp(data['hourly']['temperature_2m'][0]);
+        })
+        .catch((err) => {
+            console.log(err.messsage);
+        });
+    }, []);
 
     return (
     <>
@@ -87,18 +105,17 @@ const Sidenav1 = () => {
                         Toronto Weather
                     </li>
                     <li style={{marginLeft: '12px'}}>
-                        <i className="bi bi-thermometer-sun"></i> : <span className="tempInputSpan"></span> C
+                        <i className="bi bi-thermometer-sun"></i> : {wtemp} °C
                     </li>
                     <li style={{marginLeft: '12px'}}>
-                        <i className="bi bi-snow"></i> : <span className="snowInputSpan"></span> %
+                        <i className="bi bi-snow"></i> : {wsnow} cm
                     </li>
                     <li style={{marginLeft: '12px'}}>
-                        <i className="bi bi-cloud-rain-fill"></i> : <span className="rainInputSpan"></span> %
+                        <i className="bi bi-cloud-rain-fill"></i> : {wrain} mm
                     </li>
                 </ul>
-
-                <div style={{position: 'absolute', bottom: '0'}} className="d-none">
-                    <button className="btn text-center" id="darklightbutton">Dark Mode</button>
+                <div className="w-100 d-none">
+                    <button className="btn btn-secondary w-100">Dark Mode</button>
                 </div>
             </div>
         </div>
