@@ -29,7 +29,7 @@ export const experiences = [
         "to" : "March 2023",
         "worktype" : "Volunteering",
         "position" : "Software Developer",
-        "images" : [],
+        "images" : ["/ieeeevent2.webp", "/ieeeevent1.webp"],
         "description" : [
             "Volunteered with IEEE Toronto Metropolitan University as a Software Developer (Web). My role included engineering, designing and maintaining the IEEE TMU website and registration systems.",
             "With the university changing its name from Ryerson University to Toronto Metropolitan University, I'm worked on creating a new robust, modern UI that boldly represents the goals of the university simultaneously being precise, clean, and capturing for the users.",

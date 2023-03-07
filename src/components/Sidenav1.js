@@ -63,8 +63,8 @@ const Sidenav1 = () => {
                         Quick Links
                     </li>
                     <li>
-                        <a className="btn sidebarNavButtonPhone aboutNav" href="/Resume_Aditya_Patel.pdf" target="_blank" rel="noopener noreferrer">
-                            <i className="bi bi-file-earmark-pdf-fill"></i> <span className="ms-1">Resume</span>
+                        <a className="btn sidebarNavButtonPhone aboutNav" href="mailto:adityakdpatel@gmail.com?subject=Email Requesting Resume">
+                            <i className="bi bi-file-earmark-pdf-fill"></i> <span className="ms-1">Request Resume</span>
                         </a>
                     </li>
                     <li>
