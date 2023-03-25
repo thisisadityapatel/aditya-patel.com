@@ -19,10 +19,10 @@ export default function Home() {
             <img src="/introImage.webp" alt={"Aditya Patel Profile Picture"} className="introProfileImage"/>
         </div>
         <p> 
-            {"Hey, my name is Aditya Patel and I'm a Computer Science major at"} <a href="https://www.torontomu.ca/about/" className="introLink hover-underline-animation">Toronto Metropolitan University</a> {"in my Sophomore year, planning on graduating by April 2026. An industrious student aspiring to be an amazing Software Engineer."}
+            {"Hey, my name is Aditya Patel and I'm a Computer Science major at"} <a href="https://www.torontomu.ca/about/" className="introLink hover-underline-animation">Toronto Metropolitan University</a> {"in my Sophomore year, planning on graduating by April 2026. An industrious student passionate about Software Engineering and building cool stuff."}
         </p>
         <p>
-            {"An incoming Software Developer Intern at"} <a href="https://www.rbccm.com/en/" className="introLink hover-underline-animation">Royal Bank of Canada</a> {". I also previously interned as a Trade Floor Web Developer for"} <a href="https://www.gbm.scotiabank.com/en.html" className="introLink hover-underline-animation">Scotiabank</a> {"and am currently open to Internship/Research opportunities."}
+            {"An incoming Software Developer Engineer Intern at"} <a href="https://www.rbccm.com/en/" className="introLink hover-underline-animation">Royal Bank of Canada</a> {". I also previously interned as a Trade Floor Web Developer for"} <a href="https://www.gbm.scotiabank.com/en.html" className="introLink hover-underline-animation">Scotiabank</a> {"and am currently open to Internship/Research opportunities."}
         </p>
         <p>
             {"I love talking about Space, Sports (literally any) and about different food options in the Toronto area, I'm also a sucker for a good book or TV Show recommendation - So feel free to shoot me an email - "} <span><a className="hover-underline-animation introLink" href="mailto:adityakdpatel@gmail.com">adityakdpatel@gmail.com</a></span> {" , or set-up some time in my schedule by clicking the calendar below!"}
