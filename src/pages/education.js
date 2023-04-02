@@ -48,10 +48,10 @@ const Education = () => {
                 <div className="h5 text-secondary">{"Extracurricular Activities"}</div>
                 <hr />
                 <p>
-                   {"Aside from academics, I like swimming. I'm the type of person that enjoys learning and perfecting new skills. I recently learned to ice skate and frequently find myself working on improving my skills."}
+                   {"In addition to my academic pursuits, I have a passion for swimming. I thrive on acquiring and honing new skills, which is why I recently took up ice skating and now dedicate considerable effort towards improving my abilities on the ice."}
                 </p>
                 <p>
-                   {"During high school, I was a member of the athletic teams for clustures and a professional soccer player. I also have achieved several medals in athlectic events like long-jump, 100m & 200m sprints."}
+                   {"In high school, I was not only a member of the athletic teams for clusters but also a professional soccer player. Furthermore, I have earned multiple medals in various athletic events, such as the long-jump, 100-meter, and 200-meter sprints."}
                 </p>
             </div>
     </div>
