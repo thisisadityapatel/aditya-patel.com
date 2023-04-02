@@ -28,10 +28,10 @@ function EmailModal(){
                     setMessage("");
                     setMsgSender("");
                     setSubject("");
-                    alert("Email Sent. Thank your for reaching out : )")
+                    alert("Thank you for your email. I have received it and will get back to you shortly");
                     //console.log('SUCCESS!', response.status, response.text);
                 }, function(error) {
-                    alert("Unable to send email at this time.")
+                    alert("Unable to send email at this time.");
                     //console.log('FAILED...', error);
                 });
             }
