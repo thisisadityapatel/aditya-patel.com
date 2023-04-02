@@ -53,7 +53,7 @@ const Sidenav1 = () => {
                     </li>
                     <li>
                         <Link className="btn sidebarNavButtonPhone aboutNav" href="/hobbies" data-bs-dismiss="offcanvas" data-bs-target="#sidebarNav1" role="button" aria-controls="offcanvasExample">
-                            Hobbies
+                            Misc
                         </Link>
                     </li>
                 </ul>
@@ -68,7 +68,7 @@ const Sidenav1 = () => {
                         </a>
                     </li>
                     <li>
-                        <a className="btn sidebarNavButtonPhone aboutNav" href="mailto:adityakdpatel@gmail.com">
+                        <a className="btn sidebarNavButtonPhone aboutNav" data-bs-toggle="modal" data-bs-target="#emailMeModal" data-bs-dismiss="offcanvas">
                             <i className="bi bi-envelope aboutIcon"></i> <span className="ms-1">Email-Me</span>
                         </a>
                     </li>

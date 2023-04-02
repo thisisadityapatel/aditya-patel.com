@@ -18,7 +18,7 @@ const Header = () => {
                         <a className="nav-link hover-underline-animation active" href="mailto:adityakdpatel@gmail.com?subject=Email Requesting Resume">Resume</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link hover-underline-animation active" href="mailto:adityakdpatel@gmail.com">Email-Me</a>
+                            <a className="btn nav-link hover-underline-animation active" data-bs-toggle="modal" data-bs-target="#emailMeModal">Email-Me</a>
                         </li>
                     </ul>
                 </div>

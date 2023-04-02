@@ -33,6 +33,18 @@ const Experience = ({experiences}) => {
             <div className="clearfix mt-5">
                 {hasImages?
                 <div id="internshipImagesCarousel" className="carousel slide text-center col-md-6 float-md-end mb-3 ms-md-3" data-bs-ride="carousel">
+                    <div className="carousel-indicators">
+                        {
+                            imagesPath?.map((img, index) => {
+                                if(index == 0){
+                                    return <button key={index} type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Team Pic:)"></button>
+                                }
+                                else{
+                                    return <button key={index} type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to={index} aria-label="Other Pics"></button>
+                                }
+                            })
+                        }
+                    </div>
                     <div className="carousel-inner">
                         {
                         imagesPath?.map((img, index) => {
