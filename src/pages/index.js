@@ -39,6 +39,7 @@ export default function Home() {
           <span style={{fontSize: "160%"}} className="wave mx-1">👾</span>{" Developed by Aditya Patel © 2023"}
         </div>
       </div>
+      <footer></footer>
     </>
   )
 }

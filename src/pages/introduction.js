@@ -18,7 +18,7 @@ const Introduction = () => {
             {"I love talking about Space, Sports (literally any) and about different food options in the Toronto area, I'm also a sucker for a good book or TV Show recommendation - So feel free to shoot me an email - "} <span><a className="hover-underline-animation introLink" href="mailto:adityakdpatel@gmail.com">adityakdpatel@gmail.com</a></span> {" , or set-up some time in my schedule by clicking the calendar below!"}
         </p>
         <div className="introSocials">
-            <Link href="https://www.linkedin.com/in/thisisadityapatel/" className="introSocialIconLink" target="_blank"><i className="bi bi-linkedin introIconFont"></i></Link>
+            <Link href="https://www.linkedin.com/in/thisisadityapatel/" className="introSocialIconLink" target="_blank"><i className="bi bi-linkedin introIconFont mouse-cursor-gradient-tracking"></i></Link>
             <Link href="https://www.instagram.com/thisisadityapatel/" className="introSocialIconLink" target="_blank"><i className="bi bi-instagram introIconFont"></i></Link>
             <Link href="https://github.com/thisisadityapatel" className="introSocialIconLink" target="_blank"><i className="bi bi-github introIconFont"></i></Link>
             <Link href="mailto:adityakdpatel@gmail.com" className="introSocialIconLink"><i className="bi bi-envelope-fill introIconFont"></i></Link>

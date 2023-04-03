@@ -57,7 +57,7 @@ function EmailModal(){
                         <form onSubmit={sendEmail}>
                             <div className="modal-body">
                                     <div className="mb-3">
-                                    <i class="bi bi-envelope-fill greenColor wave h5"></i> <span className="ms-1 fw-bold">To:</span> adityakdpatel@gmail.com
+                                    <i className="bi bi-envelope-fill greenColor wave h5"></i> <span className="ms-1 fw-bold">To:</span> adityakdpatel@gmail.com
                                     </div>
                                     <div className="mb-3">
                                         <label htmlFor="email-sender" className="col-form-label">Your Email Address:</label>
