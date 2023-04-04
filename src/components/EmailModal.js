@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import emailjs from '@emailjs/browser';
 
 function EmailModal(){
@@ -36,12 +36,12 @@ function EmailModal(){
                 });
             }
             else{
-                alert("U sure that's your correct email?");
+                alert("Make sure to enter your correct email!");
                 setMsgSender("");
             }
         }
         else{
-            alert("Make sure to fill all inputs to send the email : )");
+            alert("Make sure to fill all inputs to send the email. )");
         }
     }
 
@@ -51,7 +51,7 @@ function EmailModal(){
                 <div className="modal-dialog modal-dialog-centered">
                     <div className="modal-content">
                         <div className="modal-header">
-                            <h5 className="modal-title" id="emailMeModalLabel">Email Me!!</h5>
+                            <h5 className="modal-title" id="emailMeModalLabel">Email Me!</h5>
                             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <form onSubmit={sendEmail}>

@@ -1,8 +1,5 @@
 import { useRouter } from "next/router";
 import React from 'react'
-import useSWR from 'swr'
-import Image from "next/image";
-import { images } from "next.config";
 import { experiences } from "_data/expdata";
 
 const Experience = ({experiences}) => {

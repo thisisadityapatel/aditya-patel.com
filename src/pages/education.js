@@ -1,5 +1,4 @@
 import React from 'react'
-// import tmuimage from 'public/tmu.gif'
 import Image from 'next/image'
 
 const Education = () => {
