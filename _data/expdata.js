@@ -1,5 +1,24 @@
 export const experiences = [
     {
+        "work_id" : "RBC",
+        "company" : "Royal Bank of Canada",
+        "from" : "May 2023",
+        "to" : "Present",
+        "worktype" : "Co-op/Internship",
+        "position" : "Software Development Engineer Intern",
+        "images" : [],
+        "description" : [
+            "I am currently interning as a Software Developer for the Technology and Operations Team at the RBC Toronto Head Office, where I work on Full Stack Development, Data Engineering and DevOps."
+        ],
+        "technologies" : [
+            "Python", "Django", "Postgres", "Apache", "Docker", "Kafka", "React.js", "JavaScript ES6+"
+        ],
+        "link" : "https://www.rbccm.com/en/",
+        "companylogo" : "/rbc.png",
+        "width": "250",
+        "height": "40"
+    },
+    {
         "work_id" : "Scotiabank",
         "company" : "Scotiabank",
         "from" : "May 2022",

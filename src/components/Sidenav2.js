@@ -32,6 +32,11 @@ const Sidenav2 = () => {
                     <h5 className="text-secondary">Professional Experience</h5>
                     <ul style={{listStyle:'none', paddingLeft: '0rem'}}>
                         <li>
+                            <Link  href="/experience/RBC" className="btn experienceButton aboutNav" data-bs-dismiss='offcanvas' data-bs-target='#sidebarNavExperience'>
+                                RBC
+                            </Link>
+                        </li>
+                        <li>
                             <Link  href="/experience/Scotiabank" className="btn experienceButton aboutNav" data-bs-dismiss='offcanvas' data-bs-target='#sidebarNavExperience'>
                                 Scotiabank
                             </Link>

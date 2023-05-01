@@ -84,7 +84,7 @@ const Experience = ({experiences}) => {
 
 export async function getStaticPaths() {
     return {
-      paths: [{ params: { work: 'Scotiabank' } }, { params: { work: 'Enactus' } }, { params: { work: 'Ieee' } }],
+      paths: [{ params: { work: 'RBC' } }, { params: { work: 'Scotiabank' } }, { params: { work: 'Enactus' } }, { params: { work: 'Ieee' } }],
       fallback: false,
     }
 }
