@@ -6,7 +6,7 @@ const Education = () => {
     <div className="educationDiv container portfolioElement">
             <div className="text-center my-5" >
                 <img src="/tmu.gif" alt="tmu gif" style={{width: "14rem"}}></img>
-            </div> 
+            </div>
 
             <h4 className="text-center">{"Bachelor's of Science (Honours), "}<span className="fw-bold">{"Computer Science"}</span>{"(Co-op)"}</h4>
             <h6 className="text-center text-secondary">{"September 2021 - May 2026"}</h6>
