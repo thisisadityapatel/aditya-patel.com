@@ -47,13 +47,13 @@ const Sidenav1 = () => {
                         </Link>
                     </li>
                     <li>
-                        <Link className="btn sidebarNavButtonPhone aboutNav directPage" data-bs-dismiss="offcanvas" data-bs-target="#sidebarNav1" href="/education">
-                            Education
+                        <Link className="btn sidebarNavButtonPhone aboutNav" href="/misc" data-bs-dismiss="offcanvas" data-bs-target="#sidebarNav1" role="button" aria-controls="offcanvasExample">
+                            Misc
                         </Link>
                     </li>
                     <li>
-                        <Link className="btn sidebarNavButtonPhone aboutNav" href="/hobbies" data-bs-dismiss="offcanvas" data-bs-target="#sidebarNav1" role="button" aria-controls="offcanvasExample">
-                            Misc
+                        <Link className="btn sidebarNavButtonPhone aboutNav directPage" data-bs-dismiss="offcanvas" data-bs-target="#sidebarNav1" href="/education">
+                            Education
                         </Link>
                     </li>
                 </ul>
@@ -102,7 +102,7 @@ const Sidenav1 = () => {
 
                 <ul style={{listStyle:'none'}} className="mt-4">
                     <li className="text-secondary">
-                        Toronto Weather
+                        Toronto Weather 
                     </li>
                     <li style={{marginLeft: '12px'}}>
                         <i className="bi bi-thermometer-sun"></i> : {wtemp} °C

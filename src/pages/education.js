@@ -16,7 +16,8 @@ const Education = () => {
                 <hr />
                 <div className="pt-1 courseListGrid">
                     <ul className="mt-1" style={{listStyle:'none'}}>
-                        <li><i className="bi bi-caret-right greenColor"></i>{"Dean's List (2021 - 2022)"}</li>
+                        <li><i className="bi bi-caret-right greenColor"></i>{"TMU Dean's List (2022-23)"}</li>
+                        <li><i className="bi bi-caret-right greenColor"></i>{"TMU Dean's List (2021-22)"}</li>
                     </ul>
                 </div>
             </div>
