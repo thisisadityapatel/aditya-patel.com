@@ -7,8 +7,8 @@ const misc = () => {
           <h4> <span style={{fontSize: "150%"}} className="wave mx-1">🏗️</span> Kinda Useful Projects</h4>
       </div>
 
-      <div class="border border-3 p-4 flex" style={{borderRadius: "10px"}}>
-        <div class="text-left mb-3">
+      <div className="border border-3 p-4 flex" style={{borderRadius: "10px"}}>
+        <div className="text-left mb-3">
           <span className="h4">DeskGenius </span>
           <span className="h5">
             <a href="https://deskgenius.vercel.app/" className="hover-underline-animation" style={{textDecoration:"none", color:"#4d94ff"}}>deskgenius.vercel.app<i className='bi bi-box-arrow-up-right ms-1'></i>

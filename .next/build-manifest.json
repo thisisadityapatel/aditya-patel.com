@@ -30,15 +30,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/education": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/education.js"
+    ],
+    "/experience/[work]": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/experience/[work].js"
+    ],
     "/misc": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/misc.js"
-    ],
-    "/projects/[project]": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/projects/[project].js"
     ]
   },
   "ampFirstPages": []
