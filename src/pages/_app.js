@@ -6,7 +6,6 @@ import Sidenav2 from '../components/Sidenav2'
 import '@/styles/animateCharacter.css'
 import { Nunito_Sans } from '@next/font/google'
 import 'bootstrap-icons/font/bootstrap-icons.css'
-import EmailModal from '@/components/EmailModal'
 
 const nunito = Nunito_Sans({
   subsets: ['latin'],
@@ -25,7 +24,6 @@ export default function App({ Component, pageProps }) {
     <Header />
     <Sidenav1 />
     <Sidenav2 />
-    <EmailModal />
     <Component {...pageProps} />
   </main>
 }
