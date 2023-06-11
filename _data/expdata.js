@@ -47,10 +47,10 @@ export const experiences = [
         "from" : "August 2022",
         "to" : "March 2023",
         "worktype" : "Volunteering",
-        "position" : "Software Developer",
+        "position" : "Software Engineer",
         "images" : ["/ieeeevent2.webp", "/ieeeevent1.webp"],
         "description" : [
-            "Volunteered with IEEE Toronto Metropolitan University as a Software Developer (Web). My role included engineering, designing and maintaining the IEEE TMU website and registration systems.",
+            "Volunteered with IEEE Toronto Metropolitan University as a Software Engineering. My role included engineering, designing and maintaining the IEEE TMU online registration systems.",
             "With the university changing its name from Ryerson University to Toronto Metropolitan University, I'm worked on creating a new robust, modern UI that boldly represents the goals of the university simultaneously being precise, clean, and capturing for the users.",
             "I further assisted the team in organizing events like IEEE Industry Night and reached out to TMU Alumni working at leading tech firms to invite them to represent their organizations and provide career advice to TMU Engineering and Computer Science students."
         ],
