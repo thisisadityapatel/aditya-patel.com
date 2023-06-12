@@ -63,8 +63,8 @@ const Sidenav1 = () => {
                         Quick Links
                     </li>
                     <li>
-                        <a className="btn sidebarNavButtonPhone aboutNav" href="mailto:adityakdpatel@gmail.com?subject=Email Requesting Resume">
-                            <i className="bi bi-file-earmark-pdf-fill"></i> <span className="ms-1">Request Resume</span>
+                        <a className="btn sidebarNavButtonPhone aboutNav" href="/Resume_Aditya_Patel.pdf" target='_blank'>
+                            <i className="bi bi-file-earmark-pdf-fill"></i> <span className="ms-1">Resume</span>
                         </a>
                     </li>
                     <li>
@@ -114,9 +114,6 @@ const Sidenav1 = () => {
                         <i className="bi bi-cloud-rain-fill"></i> : {wrain} mm
                     </li>
                 </ul>
-                <div className="w-100 d-none">
-                    <button className="btn btn-secondary w-100">Dark Mode</button>
-                </div>
             </div>
         </div>
     </>

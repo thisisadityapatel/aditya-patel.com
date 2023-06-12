@@ -11,7 +11,7 @@ export const experiences = [
             "I am currently interning as a Software Developer for the Technology and Operations Team at the RBC Toronto Head Office, where I work on Full Stack Development, Data Engineering and DevOps."
         ],
         "technologies" : [
-            "Python", "Django", "Postgres", "Apache", "Docker", "Kafka", "React.js", "JavaScript ES6+"
+            "Python", "Django", "Postgres", "Apache Airflow", "Docker", "Kafka", "React.js", "JavaScript ES6+"
         ],
         "link" : "https://www.rbccm.com/en/",
         "companylogo" : "/rbc.png",
@@ -24,10 +24,10 @@ export const experiences = [
         "from" : "May 2022",
         "to" : "August 2022",
         "worktype" : "Internship",
-        "position" : "Trade Floor Web Developer",
+        "position" : "Trade Floor Software Developer",
         "images" : [ "/scotiaImage1.webp", "/scotiaImage2.webp", "/scotiaImage3.webp" ],
         "description" : [
-            "I interned at Scotiabank as a Trade Floor Web Developer and Technology Analyst in the Global Banking and Markets Technology Team. In this role I worked on Scotiabank's trading floor, engineering full stack web development (C#) projects and enhancement of web-based systems.",
+            "I interned at Scotiabank as a Trade Floor Software Developer and Technology Analyst in the Global Banking and Markets Technology Team. In this role I worked on Scotiabank's trading floor, engineering full stack web development (C#) projects and enhancement of web-based systems.",
             "As part of the Global Banking & Markets team, I analyzed business processes, liaise with various groups within the bank, engineered web-based systems, and design user interfaces to meet business needs. I had the chance to work with advanced web development technologies, including working with large datasets, bulk editing, APIs, encryption, and intelligent prediction using analytics/machine learning.",
             "I engineered 4 Full Stack Web Projects independently from scratch. The projects were: Email Communication Archive System, File Validator (along with its API), JSON to Excel (along with its API) and SSH-File-Transfer API.",
             "It was an excellent opportunity to learn and grow personally, getting a chance to gain exposure to capital markets and the financial world. The opportunity to collaborate with the other engineers on the team was a great way to learn more about their approaches and experiences.",

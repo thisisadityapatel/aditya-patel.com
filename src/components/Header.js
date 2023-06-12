@@ -15,7 +15,7 @@ const Header = () => {
                             <Link className="nav-link hover-underline-animation active" aria-current="page" href="/">Introduction</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link hover-underline-animation active" href="mailto:adityakdpatel@gmail.com?subject=Email Requesting Resume">Resume</a>
+                            <a className="nav-link hover-underline-animation active" href="/Resume_Aditya_Patel.pdf" target='_blank'>Resume</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link hover-underline-animation active" href="mailto:adityakdpatel@gmail.com?subject">Email-Me</a>
