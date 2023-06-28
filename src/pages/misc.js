@@ -11,8 +11,7 @@ const misc = () => {
         <div className="text-left mb-3">
           <span className="h4">DeskGenius </span>
           <span className="h5">
-            <a href="https://deskgenius.vercel.app/" className="hover-underline-animation" style={{textDecoration:"none", color:"#4d94ff"}}>deskgenius.vercel.app<i className='bi bi-box-arrow-up-right ms-1'></i>
-            </a>
+            <a href="https://deskgenius.vercel.app/" className="hover-underline-animation mx-2" style={{textDecoration:"none", color:"#4d94ff"}}>deskgenius.vercel.app <i class="bi bi-link-45deg"></i></a>
           </span>
         </div>
         <div>
@@ -38,6 +37,36 @@ const misc = () => {
           </div>
           <div className="rounded-pill me-1 my-1 px-1" style={{ backgroundColor: "#e6ccff", borderRadius: "20px", border: "2px solid #6600cc" }}>
             <span style={{ color: "#6600cc" }}>&#x2022;</span> Tailwind CSS
+          </div>
+        </div>
+      </div>
+      
+      <div className="border border-3 p-4 flex" style={{borderRadius: "10px", marginTop: "2.5rem"}}>
+        <div className="text-left mb-3">
+          <span className="h4">PetroForecast </span>
+          <span className="h5">
+            <a href="https://github.com/thisisadityapatel/petroforecast" className="hover-underline-animation mx-2" style={{textDecoration:"none", color:"#4d94ff"}}>thisisadityapatel/petroforecast <i class="bi bi-link-45deg"></i>
+            </a>
+          </span>
+        </div>
+        <div>
+          Eduardo Saverin (context: mark zuckerberg's friend) made 300k during his summer at harvard betting on heating oil futures, crazy! Built this Full Stack Machine Learning project to visualize and predict the data and to understand his bet from a prespect of smart analytics.
+        </div>
+        <div className="mt-3 d-flex flex-wrap">
+          <div className="rounded-pill me-1 my-1 px-1" style={{ backgroundColor: "#ffccff", borderRadius: "20px", border: "2px solid #800080" }}>
+            <span style={{ color: "#800080" }}>&#x2022;</span> Python
+          </div>
+          <div className="rounded-pill me-1 my-1 px-1" style={{ backgroundColor: "#99ddff", borderRadius: "20px", border: "2px solid #0099e6" }}>
+            <span style={{ color: "#0099e6" }}>&#x2022;</span> Jupyter
+          </div>
+          <div className="rounded-pill me-1 my-1 px-1" style={{ backgroundColor: "#e6fff2", borderRadius: "20px", border: "2px solid #00994d" }}>
+            <span style={{ color: "#00994d" }}>&#x2022;</span> React.js
+          </div>
+          <div className="rounded-pill me-1 my-1 px-1" style={{ backgroundColor: "#ffffb3", borderRadius: "20px", border: "2px solid #cccc00" }}>
+            <span style={{ color: "#cccc00" }}>&#x2022;</span> JavaScript
+          </div>
+          <div className="rounded-pill me-1 my-1 px-1" style={{ backgroundColor: "#d1e0e0", borderRadius: "20px", border: "2px solid #476b6b" }}>
+            <span style={{ color: "#476b6b" }}>&#x2022;</span> SQLite3
           </div>
         </div>
       </div>
