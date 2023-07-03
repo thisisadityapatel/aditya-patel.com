@@ -5,7 +5,7 @@ export const experiences = [
         "from" : "May 2023",
         "to" : "Present",
         "worktype" : "Co-op/Internship",
-        "position" : "Software Development Engineer Intern",
+        "position" : "Software Developer Intern",
         "images" : [],
         "description" : [
             "I am currently interning as a Software Developer for the Technology and Operations Team at the RBC Toronto Head Office, where I work on Full Stack Development, Data Engineering and DevOps."
