@@ -9,7 +9,7 @@ const Education = () => {
             </div>
 
             <h4 className="text-center">{"Bachelor's of Science (Honours), "}<span className="fw-bold">{"Computer Science"}</span>{"(Co-op)"}</h4>
-            <h6 className="text-center text-secondary">{"September 2021 - May 2026"}</h6>
+            <h6 className="text-center text-secondary">{"September 2021 - December 2025"}</h6>
 
             <div className="mt-5">
                 <div className="h5 text-secondary">{"Awards"}</div>
