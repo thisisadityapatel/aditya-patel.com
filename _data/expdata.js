@@ -34,7 +34,7 @@ export const experiences = [
             "At the GBM Tech Showcase, I presented my projects to the COO and Executive of GBM, where I talked about the impact, utility and benefits of the tools I developed. If you want to learn more about my work at Scotiabank in a more technical detail, don't hesitate to get in touch with me."
         ],
         "technologies" : [
-            ".NET Framework", "JavaScript", "C# Programming Language", "HTML & CSS", "RESTful API's", "SSH & HTTP", "jQuery"
+            ".NET Framework", "JavaScript", "C# Programming Language", "HTML & CSS", "RESTful API's", "SSH & HTTP", "jQuery", "React.js"
         ],
         "link" : "https://www.gbm.scotiabank.com/",
         "companylogo" : "/scotialogo.png",
