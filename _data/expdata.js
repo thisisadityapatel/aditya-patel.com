@@ -8,7 +8,12 @@ export const experiences = [
         "position" : "Software Developer Intern",
         "images" : [],
         "description" : [
-            "I am currently interning as a Software Developer for the Technology and Operations Team at the RBC Toronto Head Office, where I work on Full Stack Development, Data Engineering and DevOps."
+            "I am currently interning as a Software Developer for the Helios Automation Insights Team at the RBC Innovation and Technology headquaters in Toronto, where I work on Full Stack Development, Data Engineering and DevOps.",
+            "So far I designed a more efficient Log Parsing System for GitHub Actions CI/CD Pipeline using AWS S3, PostgreSQL, Apache Kafka, Apache Spark, and Python3. This made it easier to collect, store, and analyze logs, providing valuable data for our deployment process.",
+            "I also built Full Stack Dashboard applications using React.js and Typescript, with a Django back-end. These dashboards included mathematical calculations to offer DevOps insights and boosted our story completion rate by 32%.",
+            "I managed various Python DAGs for scheduled data tasks, making data collection, storage, and analysis more streamlined by integrating with Elasticsearch through Apache Airflow. This led to an impressive 82% efficiency improvement.",
+            "Additionally, I created a scalable Python API that utilized GitHub Secret Scanning. This automated the detection and resolution of hard-coded passwords in code across Enterprise GitHub, greatly enhancing security by addressing over 80,000 vulnerabilities at RBC.",
+            "Throughout these projects, I worked collaboratively in an Agile development environment, ensuring the timely delivery of high-quality software solutions."
         ],
         "technologies" : [
             "Python", "Django", "Postgres", "Apache Airflow", "Docker", "Kafka", "React.js", "JavaScript ES6+"
