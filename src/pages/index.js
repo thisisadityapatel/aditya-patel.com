@@ -22,7 +22,12 @@ export default function Home() {
             {"Hey, my name is"} <span style={{textDecoration: "underline"}}>{"Aditya Patel"}</span> {" and I'm a "} <span style={{textDecoration: "underline"}}>{"Computer Science"}</span> {" major at"} <a href="https://www.torontomu.ca/about/" className="introLink hover-underline-animation">Toronto Metropolitan University</a> {"in my junior year, planning on graduating by December 2025. A passionate programmer, I am eager to challenge myself to do things I’ve never accomplished before and I strive to learn and build stuff."}
         </p>
         <p>
-            {"Currently a "} <a style={{textDecoration: "underline"}} className="introLink hover-underline-animation" href="/experience/RBC">{"Software Developer Intern"}</a> {" at"} <a href="https://www.rbccm.com/en/" className="introLink hover-underline-animation">Royal Bank of Canada</a> {". I also previously interned as a "} <a style={{textDecoration: "underline"}} className="introLink hover-underline-animation" href="/experience/Scotiabank">{"Trade Floor Software Developer (Web) Intern"}</a> {"for"} <a href="https://www.gbm.scotiabank.com/en.html" className="introLink hover-underline-animation">Scotiabank Capital Markets</a> {"and am open to Internship/Research opportunities."}
+            {"Currently a "} <Link style={{textDecoration: "underline"}} className="introLinkJob hover-underline-animation" href="/experience/RBC">{"Software Developer Intern"}</Link> {" at"} 
+            <a href="https://www.rbccm.com/en/" className="introLink hover-underline-animation">Royal Bank of Canada</a> 
+            {". I also previously interned as a "}
+            <Link style={{textDecoration: "underline"}} className="introLinkJob hover-underline-animation" href="/experience/Scotiabank">
+              {"Trade Floor Software Developer (Web) Intern"}
+            </Link> {"for"} <a href="https://www.gbm.scotiabank.com/en.html" className="introLink hover-underline-animation">Scotiabank Capital Markets</a> {"and am open to Internship/Research opportunities."}
         </p>
         <p>
             {"I love talking about Space, Sports (literally any) and about different food options in the Toronto area, I'm also a sucker for a good book or TV Show recommendation - So feel free to shoot me an email - "} <span><a className="hover-underline-animation introLink" href="mailto:adityakdpatel@gmail.com">adityakdpatel@gmail.com</a></span> {" , or set-up some time in my schedule by clicking the calendar below!"}
