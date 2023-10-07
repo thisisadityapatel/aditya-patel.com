@@ -4,7 +4,7 @@ const misc = () => {
   return (
     <div className="hobbiesDiv container">
       <div className="mt-5 text-center pb-5">
-          <h4> <span style={{fontSize: "150%"}} className="wave mx-1">🏗️</span> Kinda Useful Projects</h4>
+          <h4> <span style={{fontSize: "150%"}} className="wave mx-1">🏗️</span> Kinda Useful Stuff</h4>
       </div>
 
       <div className="border border-3 p-4 flex" style={{borderRadius: "10px"}}>
@@ -41,7 +41,7 @@ const misc = () => {
         </div>
       </div>
       
-      <div className="border border-3 p-4 flex" style={{borderRadius: "10px", marginTop: "2.5rem"}}>
+      <div className="border border-3 p-4 flex" style={{borderRadius: "10px", marginTop: "2.5rem", marginBottom: "5em"}}>
         <div className="text-left mb-3">
           <span className="h4">PetroForecast </span>
           <span className="h5">

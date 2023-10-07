@@ -108,6 +108,12 @@ body{
 .introLink{
     text-decoration: none;
     color: #808080 !important;
+    font-weight: 500;
+}
+.introLinkJob{
+    text-decoration: none;
+    color: #333333 !important;
+    cursor: pointer;
 }
 .introIconFont{
     font-size: 200%;

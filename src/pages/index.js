@@ -22,17 +22,17 @@ export default function Home() {
             {"Hey, my name is"} <span style={{textDecoration: "underline"}}>{"Aditya Patel"}</span> {" and I'm a "} <span style={{textDecoration: "underline"}}>{"Computer Science"}</span> {" major at"} <a href="https://www.torontomu.ca/about/" className="introLink hover-underline-animation">Toronto Metropolitan University</a> {"in my junior year, planning on graduating by December 2025. A passionate programmer, I am eager to challenge myself to do things I’ve never accomplished before and I strive to learn and build stuff."}
         </p>
         <p>
-            {"Currently a "} <span style={{textDecoration: "underline"}}>{"Software Developer Intern"}</span> {" at"} <a href="https://www.rbccm.com/en/" className="introLink hover-underline-animation">Royal Bank of Canada</a> {". I also previously interned as a "} <span style={{textDecoration: "underline"}}>{"Trade Floor Software Developer (Web) Intern"}</span> {"for"} <a href="https://www.gbm.scotiabank.com/en.html" className="introLink hover-underline-animation">Scotiabank Capital Markets</a> {"and am currently open to Internship/Research opportunities."}
+            {"Currently a "} <a style={{textDecoration: "underline"}} className="introLink hover-underline-animation" href="/experience/RBC">{"Software Developer Intern"}</a> {" at"} <a href="https://www.rbccm.com/en/" className="introLink hover-underline-animation">Royal Bank of Canada</a> {". I also previously interned as a "} <a style={{textDecoration: "underline"}} className="introLink hover-underline-animation" href="/experience/Scotiabank">{"Trade Floor Software Developer (Web) Intern"}</a> {"for"} <a href="https://www.gbm.scotiabank.com/en.html" className="introLink hover-underline-animation">Scotiabank Capital Markets</a> {"and am currently open to Internship/Research opportunities."}
         </p>
         <p>
             {"I love talking about Space, Sports (literally any) and about different food options in the Toronto area, I'm also a sucker for a good book or TV Show recommendation - So feel free to shoot me an email - "} <span><a className="hover-underline-animation introLink" href="mailto:adityakdpatel@gmail.com">adityakdpatel@gmail.com</a></span> {" , or set-up some time in my schedule by clicking the calendar below!"}
         </p>
         <div className="introSocials">
             <Link href="https://www.linkedin.com/in/thisisadityapatel/" className="introSocialIconLink" target="_blank"><i className="bi bi-linkedin introIconFont"></i></Link>
-            <Link href="https://www.instagram.com/thisisadityapatel/" className="introSocialIconLink" target="_blank"><i className="bi bi-instagram introIconFont"></i></Link>
+            <Link href="/Resume_Aditya_Patel.pdf" className="introSocialIconLink" target="_blank"><i className="bi bi-filetype-pdf introIconFont"></i></Link>
             <Link href="https://github.com/thisisadityapatel" className="introSocialIconLink" target="_blank"><i className="bi bi-github introIconFont"></i></Link>
             <Link href="mailto:adityakdpatel@gmail.com" className="introSocialIconLink"><i className="bi bi-envelope-fill introIconFont"></i></Link>
-            <Link href="https://calendly.com/adityakdpatel/30min" className="introSocialIconLink" target="_blank"><i className="bi bi-calendar2-check introIconFont"></i></Link>
+            <Link href="https://calendly.com/adityakdpatel/30min" className="introSocialIconLink" target="_blank"><i className="bi bi-calendar-week introIconFont"></i></Link>
         </div>
 
         <div className="text-secondary text-center mt-5 mb-5">
