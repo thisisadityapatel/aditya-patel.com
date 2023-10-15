@@ -4,7 +4,7 @@ import Link from 'next/link'
 const Header = () => {
   return (
     <>
-        <nav className="navbar navbar-expand-lg navbar-light sticky-top navbar-inner" style={{backgroundColor: "white !important", backdropfilter: blur("10px")}}>
+        <nav className="navbar navbar-expand-lg navbar-light sticky-top navbar-inner" style={{backgroundColor: "white !important"}}>
             <div className="container-fluid">
                 <button className="btn animate-charcter" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebarNav1" aria-controls="sidebarNav1">
                     <i className="bi bi-justify h5"></i>
