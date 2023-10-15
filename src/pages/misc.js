@@ -11,7 +11,7 @@ const misc = () => {
         <div className="text-left mb-3">
           <div className="h4">DeskGenius </div>
           <div className="h5">
-            <a href="https://deskgenius.vercel.app/" className="hover-underline-animation" style={{textDecoration:"none", color:"#4d94ff", fontSize: "17px"}}>deskgenius.vercel.app <i class="bi bi-link-45deg"></i></a>
+            <a href="https://deskgenius.vercel.app/" className="hover-underline-animation" style={{textDecoration:"none", color:"#4d94ff", fontSize: "15.5px"}}>deskgenius.vercel.app <i class="bi bi-link-45deg"></i></a>
           </div>
         </div>
         <div>
@@ -45,7 +45,7 @@ const misc = () => {
         <div className="text-left mb-3">
           <div className="h4">PetroForecast </div>
           <div className="h5">
-            <a href="https://github.com/thisisadityapatel/petroforecast" className="hover-underline-animation" style={{textDecoration:"none", color:"#4d94ff", fontSize: "17px"}}>thisisadityapatel/petroforecast <i class="bi bi-link-45deg"></i>
+            <a href="https://github.com/thisisadityapatel/petroforecast" className="hover-underline-animation" style={{textDecoration:"none", color:"#4d94ff", fontSize: "15.5px"}}>thisisadityapatel/petroforecast <i class="bi bi-link-45deg"></i>
             </a>
           </div>
         </div>
@@ -75,7 +75,7 @@ const misc = () => {
         <div className="text-left mb-3">
           <div className="h4">SchedulingSignals</div>
           <div className="h5">
-            <a href="https://github.com/thisisadityapatel/schedulingSignals_OperatingSystem" className="hover-underline-animation" style={{textDecoration:"none", color:"#4d94ff", fontSize: "17px"}}>thisisadityapatel/schedulingSignals<i class="bi bi-link-45deg"></i>
+            <a href="https://github.com/thisisadityapatel/schedulingSignals_OperatingSystem" className="hover-underline-animation" style={{textDecoration:"none", color:"#4d94ff", fontSize: "15.5px"}}>thisisadityapatel/schedulingSignals<i class="bi bi-link-45deg"></i>
             </a>
           </div>
         </div>
@@ -96,7 +96,7 @@ const misc = () => {
         <div className="text-left mb-3">
           <div className="h4">SecureCash</div>
           <div className="h5">
-            <a href="https://github.com/thisisadityapatel/SecureCash" className="hover-underline-animation" style={{textDecoration:"none", color:"#4d94ff", fontSize: "17px"}}>thisisadityapatel/SecureCash<i class="bi bi-link-45deg"></i>
+            <a href="https://github.com/thisisadityapatel/SecureCash" className="hover-underline-animation" style={{textDecoration:"none", color:"#4d94ff", fontSize: "15.5px"}}>thisisadityapatel/SecureCash<i class="bi bi-link-45deg"></i>
             </a>
           </div>
         </div>
