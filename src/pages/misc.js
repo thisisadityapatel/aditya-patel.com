@@ -9,10 +9,10 @@ const misc = () => {
 
       <div className="border border-3 p-4 flex" style={{borderRadius: "10px"}}>
         <div className="text-left mb-3">
-          <span className="h4">DeskGenius </span>
-          <span className="h5">
-            <a href="https://deskgenius.vercel.app/" className="hover-underline-animation mx-2" style={{textDecoration:"none", color:"#4d94ff"}}>deskgenius.vercel.app <i class="bi bi-link-45deg"></i></a>
-          </span>
+          <div className="h4">DeskGenius </div>
+          <div className="h5">
+            <a href="https://deskgenius.vercel.app/" className="hover-underline-animation" style={{textDecoration:"none", color:"#4d94ff"}}>deskgenius.vercel.app <i class="bi bi-link-45deg"></i></a>
+          </div>
         </div>
         <div>
           DeskGenius is a software that utilizes 3D rendering technology to help you visualize table arrangements before making a purchase. 
@@ -43,11 +43,11 @@ const misc = () => {
       
       <div className="border border-3 p-4 flex" style={{borderRadius: "10px", marginTop: "2.5rem"}}>
         <div className="text-left mb-3">
-          <span className="h4">PetroForecast </span>
-          <span className="h5">
-            <a href="https://github.com/thisisadityapatel/petroforecast" className="hover-underline-animation mx-2" style={{textDecoration:"none", color:"#4d94ff"}}>thisisadityapatel/petroforecast <i class="bi bi-link-45deg"></i>
+          <div className="h4">PetroForecast </div>
+          <div className="h5">
+            <a href="https://github.com/thisisadityapatel/petroforecast" className="hover-underline-animation" style={{textDecoration:"none", color:"#4d94ff"}}>thisisadityapatel/petroforecast <i class="bi bi-link-45deg"></i>
             </a>
-          </span>
+          </div>
         </div>
         <div>
           Eduardo Saverin (context: mark zuckerberg's friend) made 300k during his summer at harvard betting on heating oil futures, crazy! Built this Full Stack Machine Learning project to visualize and predict the data and to understand his bet from a prespect of smart analytics.
@@ -73,11 +73,11 @@ const misc = () => {
 
       <div className="border border-3 p-4 flex" style={{borderRadius: "10px", marginTop: "2.5rem"}}>
         <div className="text-left mb-3">
-          <span className="h4">SchedulingSignals</span>
-          <span className="h5">
-            <a href="https://github.com/thisisadityapatel/schedulingSignals_OperatingSystem" className="hover-underline-animation mx-2" style={{textDecoration:"none", color:"#4d94ff"}}>thisisadityapatel/schedulingSignals<i class="bi bi-link-45deg"></i>
+          <div className="h4">SchedulingSignals</div>
+          <div className="h5">
+            <a href="https://github.com/thisisadityapatel/schedulingSignals_OperatingSystem" className="hover-underline-animation" style={{textDecoration:"none", color:"#4d94ff"}}>thisisadityapatel/schedulingSignals<i class="bi bi-link-45deg"></i>
             </a>
-          </span>
+          </div>
         </div>
         <div>
           Project focused on multiprocessing with Round Robin (RR) and Lucky 7 (L7) algorithms for inter-process communication via. signals in C and Bash Scripts, having master-worker cluster architecture. Minimized latency and optimized data synchronization through algorithms, facilitating seamless inter-process coordination.
@@ -94,11 +94,11 @@ const misc = () => {
 
       <div className="border border-3 p-4 flex" style={{borderRadius: "10px", marginTop: "2.5rem", marginBottom: "5em"}}>
         <div className="text-left mb-3">
-          <span className="h4">SecureCash</span>
-          <span className="h5">
-            <a href="https://github.com/thisisadityapatel/SecureCash" className="hover-underline-animation mx-2" style={{textDecoration:"none", color:"#4d94ff"}}>thisisadityapatel/SecureCash<i class="bi bi-link-45deg"></i>
+          <div className="h4">SecureCash</div>
+          <div className="h5">
+            <a href="https://github.com/thisisadityapatel/SecureCash" className="hover-underline-animation" style={{textDecoration:"none", color:"#4d94ff"}}>thisisadityapatel/SecureCash<i class="bi bi-link-45deg"></i>
             </a>
-          </span>
+          </div>
         </div>
         <div>
           Java-based graphical user interface (GUI Java Swing) ATM system that enables secure and easier transactions. Object orientated structure to its core alongside a live database to store and collect transaction data.
