@@ -75,7 +75,7 @@ const misc = () => {
         <div className="text-left mb-3">
           <span className="h4">SchedulingSignals</span>
           <span className="h5">
-            <a href="https://github.com/thisisadityapatel/schedulingSignals_OperatingSystem" className="hover-underline-animation mx-2" style={{textDecoration:"none", color:"#4d94ff"}}>thisisadityapatel/schedulingSignals_OperatingSystem<i class="bi bi-link-45deg"></i>
+            <a href="https://github.com/thisisadityapatel/schedulingSignals_OperatingSystem" className="hover-underline-animation mx-2" style={{textDecoration:"none", color:"#4d94ff"}}>thisisadityapatel/schedulingSignals<i class="bi bi-link-45deg"></i>
             </a>
           </span>
         </div>
