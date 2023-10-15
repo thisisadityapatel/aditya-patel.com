@@ -4,7 +4,7 @@ const misc = () => {
   return (
     <div className="hobbiesDiv container">
       <div className="mt-5 text-center pb-5">
-          <h4> <span style={{fontSize: "150%"}} className="wave mx-1">🏗️</span> Kinda Useful Stuff</h4>
+          <h4> <span style={{fontSize: "150%"}} className="wave mx-1">🏗️</span> Stuff that's kinda useful</h4>
       </div>
 
       <div className="border border-3 p-4 flex" style={{borderRadius: "10px"}}>
@@ -41,7 +41,7 @@ const misc = () => {
         </div>
       </div>
       
-      <div className="border border-3 p-4 flex" style={{borderRadius: "10px", marginTop: "2.5rem", marginBottom: "5em"}}>
+      <div className="border border-3 p-4 flex" style={{borderRadius: "10px", marginTop: "2.5rem"}}>
         <div className="text-left mb-3">
           <span className="h4">PetroForecast </span>
           <span className="h5">
@@ -64,6 +64,51 @@ const misc = () => {
           </div>
           <div className="rounded-pill me-1 my-1 px-1" style={{ backgroundColor: "#ffffb3", borderRadius: "20px", border: "2px solid #cccc00" }}>
             <span style={{ color: "#cccc00" }}>&#x2022;</span> JavaScript
+          </div>
+          <div className="rounded-pill me-1 my-1 px-1" style={{ backgroundColor: "#d1e0e0", borderRadius: "20px", border: "2px solid #476b6b" }}>
+            <span style={{ color: "#476b6b" }}>&#x2022;</span> SQLite3
+          </div>
+        </div>
+      </div>
+
+      <div className="border border-3 p-4 flex" style={{borderRadius: "10px", marginTop: "2.5rem"}}>
+        <div className="text-left mb-3">
+          <span className="h4">SchedulingSignals</span>
+          <span className="h5">
+            <a href="https://github.com/thisisadityapatel/schedulingSignals_OperatingSystem" className="hover-underline-animation mx-2" style={{textDecoration:"none", color:"#4d94ff"}}>thisisadityapatel/schedulingSignals_OperatingSystem<i class="bi bi-link-45deg"></i>
+            </a>
+          </span>
+        </div>
+        <div>
+          Project focused on multiprocessing with Round Robin (RR) and Lucky 7 (L7) algorithms for inter-process communication via. signals in C and Bash Scripts, having master-worker cluster architecture. Minimized latency and optimized data synchronization through algorithms, facilitating seamless inter-process coordination.
+        </div>
+        <div className="mt-3 d-flex flex-wrap">
+          <div className="rounded-pill me-1 my-1 px-1" style={{ backgroundColor: "#cfcccc", borderRadius: "20px", border: "2px solid #4d4d4d" }}>
+            <span style={{ color: "#4d4d4d" }}>&#x2022;</span> C Programming
+          </div>
+          <div className="rounded-pill me-1 my-1 px-1" style={{ backgroundColor: "#8adcf2", borderRadius: "20px", border: "2px solid #118cad" }}>
+            <span style={{ color: "#118cad" }}>&#x2022;</span> Bash Scripting
+          </div>
+        </div>
+      </div>
+
+      <div className="border border-3 p-4 flex" style={{borderRadius: "10px", marginTop: "2.5rem", marginBottom: "5em"}}>
+        <div className="text-left mb-3">
+          <span className="h4">SecureCash</span>
+          <span className="h5">
+            <a href="https://github.com/thisisadityapatel/SecureCash" className="hover-underline-animation mx-2" style={{textDecoration:"none", color:"#4d94ff"}}>thisisadityapatel/SecureCash<i class="bi bi-link-45deg"></i>
+            </a>
+          </span>
+        </div>
+        <div>
+          Java-based graphical user interface (GUI Java Swing) ATM system that enables secure and easier transactions. Object orientated structure to its core alongside a live database to store and collect transaction data.
+        </div>
+        <div className="mt-3 d-flex flex-wrap">
+          <div className="rounded-pill me-1 my-1 px-1" style={{ backgroundColor: "#ccffff", borderRadius: "20px", border: "2px solid #00b3b3" }}>
+            <span style={{ color: "#00b3b3" }}>&#x2022;</span> Java
+          </div>
+          <div className="rounded-pill me-1 my-1 px-1" style={{ backgroundColor: "#c2939e", borderRadius: "20px", border: "2px solid #4f0919" }}>
+            <span style={{ color: "#4f0919" }}>&#x2022;</span> Java Swing
           </div>
           <div className="rounded-pill me-1 my-1 px-1" style={{ backgroundColor: "#d1e0e0", borderRadius: "20px", border: "2px solid #476b6b" }}>
             <span style={{ color: "#476b6b" }}>&#x2022;</span> SQLite3

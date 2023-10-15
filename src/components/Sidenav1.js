@@ -43,12 +43,12 @@ const Sidenav1 = () => {
                     </li>
                     <li>
                         <Link className="btn sidebarNavButtonPhone aboutNav directPage" href="" data-bs-toggle="offcanvas" data-bs-target="#sidebarNavExperience" role="button" aria-controls="offcanvasExample">
-                            Work
+                            Work Experience
                         </Link>
                     </li>
                     <li>
                         <Link className="btn sidebarNavButtonPhone aboutNav" href="/misc" data-bs-dismiss="offcanvas" data-bs-target="#sidebarNav1" role="button" aria-controls="offcanvasExample">
-                            Misc
+                            Misc Projects
                         </Link>
                     </li>
                     <li>
@@ -60,7 +60,7 @@ const Sidenav1 = () => {
 
                 <ul style={{listStyle:'none'}} className="mt-4">
                     <li className="text-secondary">
-                        Quick Links
+                        Quick Access
                     </li>
                     <li>
                         <a className="btn sidebarNavButtonPhone aboutNav" href="/Resume_Aditya_Patel.pdf" target='_blank'>
@@ -91,11 +91,6 @@ const Sidenav1 = () => {
                     <li>
                         <a className="btn sidebarNavButtonPhone aboutNav" href="https://github.com/thisisadityapatel" target="_blank" rel="noopener noreferrer">
                             <i className="bi bi-github socialMediaIcon"></i> <span className="ms-1">GitHub</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a className="btn sidebarNavButtonPhone aboutNav" href="" target="_blank" rel="noopener noreferrer">
-                            <i className="bi bi-discord socialMediaIcon"></i> <span className="ms-1">Discord</span>
                         </a>
                     </li>
                 </ul>

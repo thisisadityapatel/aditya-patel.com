@@ -52,7 +52,7 @@ const Sidenav2 = () => {
                             </Link>
                         </li>
                     </ul>
-                    <h5 className="mt-5 text-secondary">Github</h5>
+                    <h5 className="mt-5 text-secondary">Github Projects Links</h5>
                     <ul style={{listStyle:'none', paddingLeft: '0rem'}}>
                         {(projects?.map((proj) => {
                             return (
