@@ -68,7 +68,7 @@ const Sidenav1 = () => {
                         </a>
                     </li>
                     <li>
-                        <a className="btn sidebarNavButtonPhone aboutNav" data-bs-toggle="modal" data-bs-target="#emailMeModal" data-bs-dismiss="offcanvas">
+                        <a className="btn sidebarNavButtonPhone aboutNav" href="mailto:aditya.patel@torontomu.ca">
                             <i className="bi bi-envelope aboutIcon"></i> <span className="ms-1">Email-Me</span>
                         </a>
                     </li>
