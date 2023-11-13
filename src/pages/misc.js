@@ -4,20 +4,19 @@ const misc = () => {
   return (
     <div className="hobbiesDiv container">
       <div className="mt-5 text-center pb-5">
-          <h4> <span style={{fontSize: "150%"}} className="wave mx-1">🏗️</span> Stuff that's kinda useful</h4>
+          <h4> <span style={{fontSize: "150%"}} className="wave mx-1">🏗️</span> Made with a lot of Redbull</h4>
       </div>
 
       <div className="border border-3 p-4 flex" style={{borderRadius: "10px"}}>
         <div className="text-left mb-3">
           <div className="h4">DeskGenius </div>
           <div className="h5">
-            <a href="https://deskgenius.vercel.app/" className="hover-underline-animation" style={{textDecoration:"none", color:"#4d94ff", fontSize: "15.5px"}}>deskgenius.vercel.app <i class="bi bi-link-45deg"></i></a>
+            <a href="https://deskgenius.vercel.app/" className="hover-underline-animation" style={{textDecoration:"none", color:"#4d94ff", fontSize: "15.5px"}} target='__blank'>deskgenius.vercel.app <i class="bi bi-link-45deg"></i></a>
           </div>
         </div>
         <div>
-          DeskGenius is a software that utilizes 3D rendering technology to help you visualize table arrangements before making a purchase. 
-          Whether you're setting up a home office, workspace, or gaming station, DeskGenius allows you to explore different desk configurations in a virtual environment. 
-          By combining the power of Next.js and Three Fiber (Three.js), DeskGenius offers an interactive and immersive experience that saves you time, money, and energy in creating your dream setup.
+          Front-end 3D Rendering Engine, using Next.js and Three-Fiber, for visualizing table arrangements before purchasing. 
+          Utilizes graphic ray tracing, texture mapping and advanced algorithms to optimize rendering performance & less computational overhead, resulting in a highly responsive UI and immersive user experience.
         </div>
         <div className="mt-3 d-flex flex-wrap">
           <div className="rounded-pill me-1 my-1 px-1" style={{ backgroundColor: "#ffe0b3", borderRadius: "20px", border: "2px solid #ff9900" }}>
@@ -45,12 +44,12 @@ const misc = () => {
         <div className="text-left mb-3">
           <div className="h4">PetroForecast </div>
           <div className="h5">
-            <a href="https://github.com/thisisadityapatel/petroforecast" className="hover-underline-animation" style={{textDecoration:"none", color:"#4d94ff", fontSize: "15.5px"}}>thisisadityapatel/petroforecast <i class="bi bi-link-45deg"></i>
+            <a href="https://github.com/thisisadityapatel/petroforecast" className="hover-underline-animation" style={{textDecoration:"none", color:"#4d94ff", fontSize: "15.5px"}} target='__blank'>thisisadityapatel/petroforecast <i class="bi bi-link-45deg"></i>
             </a>
           </div>
         </div>
         <div>
-          Eduardo Saverin (context: mark zuckerberg's friend) made 300k during his summer at harvard betting on heating oil futures, crazy! Built this Full Stack Machine Learning project to visualize and predict the data and to understand his bet from a prespect of smart analytics.
+          Eduardo Saverin (context: Facebook co-founder) made 300k during his summer at harvard betting on heating oil futures, crazy! Built this Full Stack Machine Learning project to visualize and predict the data and to understand his bet from a prespect of smart analytics and machine learning.
         </div>
         <div className="mt-3 d-flex flex-wrap">
           <div className="rounded-pill me-1 my-1 px-1" style={{ backgroundColor: "#ffccff", borderRadius: "20px", border: "2px solid #800080" }}>
@@ -75,7 +74,7 @@ const misc = () => {
         <div className="text-left mb-3">
           <div className="h4">SchedulingSignals</div>
           <div className="h5">
-            <a href="https://github.com/thisisadityapatel/schedulingSignals_OperatingSystem" className="hover-underline-animation" style={{textDecoration:"none", color:"#4d94ff", fontSize: "15.5px"}}>thisisadityapatel/schedulingSignals<i class="bi bi-link-45deg"></i>
+            <a href="https://github.com/thisisadityapatel/schedulingSignals_OperatingSystem" className="hover-underline-animation" style={{textDecoration:"none", color:"#4d94ff", fontSize: "15.5px"}} target='__blank'>thisisadityapatel/schedulingSignals<i class="bi bi-link-45deg"></i>
             </a>
           </div>
         </div>
@@ -96,7 +95,7 @@ const misc = () => {
         <div className="text-left mb-3">
           <div className="h4">SecureCash</div>
           <div className="h5">
-            <a href="https://github.com/thisisadityapatel/SecureCash" className="hover-underline-animation" style={{textDecoration:"none", color:"#4d94ff", fontSize: "15.5px"}}>thisisadityapatel/SecureCash<i class="bi bi-link-45deg"></i>
+            <a href="https://github.com/thisisadityapatel/SecureCash" className="hover-underline-animation" style={{textDecoration:"none", color:"#4d94ff", fontSize: "15.5px"}} target='__blank'>thisisadityapatel/SecureCash<i class="bi bi-link-45deg"></i>
             </a>
           </div>
         </div>
