@@ -16,9 +16,9 @@ const nunito = Nunito_Sans({
 export default function App({ Component, pageProps }) {
   return <main className={nunito.className}>
     <Head>
-      <meta charset="utf-8" />
+      <meta charSet="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <meta http-equiv="refresh" /> 
+      <meta httpEquiv="refresh" /> 
       <title>Aditya Patel</title>
     </Head>
     <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></Script>
