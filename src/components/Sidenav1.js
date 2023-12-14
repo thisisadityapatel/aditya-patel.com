@@ -48,7 +48,7 @@ const Sidenav1 = () => {
                     </li>
                     <li>
                         <Link className="btn sidebarNavButtonPhone aboutNav" href="/misc" data-bs-dismiss="offcanvas" data-bs-target="#sidebarNav1" role="button" aria-controls="offcanvasExample">
-                            Misc Projects
+                            Projects
                         </Link>
                     </li>
                     <li>
