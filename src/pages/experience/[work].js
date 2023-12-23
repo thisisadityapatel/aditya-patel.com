@@ -45,7 +45,7 @@ const Experience = ({experiences}) => {
                     <div className="carousel-inner">
                         {
                         imagesPath?.map((img, index) => {
-                            return <div key={index} className={"carousel-item " + (index == 0?"active":"")}><img src={img} className="w-100" alt={"nothing"} /></div>;   
+                            return <div key={index} className={"carousel-item " + (index == 0?"active":"")} style={{padding: "0px", border: "3px solid silver", borderRadius: "18px"}}><img src={img} className="w-100" alt={"nothing"} style={{borderRadius: "15px"}}/></div>;   
                         })}
                     </div>
 

@@ -5,29 +5,29 @@ export const experiences = [
         "from" : "May 2023",
         "to" : "Present (12 Months)",
         "worktype" : "Co-op / Internship",
-        "position" : "Software Developer Intern",
+        "position" : "Software Engineer Intern (12 Months)",
         "images" : [],
         "description" : [
-            "I am currently interning as a Software Developer for the Helios Automation Insights Team at the RBC Innovation and Technology headquaters in Toronto, where I work on Full Stack Development, Data Engineering and DevOps.",
+            "I am currently interning as a Software Engineer for the Helios Insights and Generative AI Team at the RBC Innovation and Technology headquaters in Toronto, where I work on Full Stack Development, Data Engineering and DevOps.",
             "So far I designed a more efficient Log Parsing System for GitHub Actions CI/CD Pipeline using AWS S3, PostgreSQL, Apache Kafka, Apache Spark, and Python3. This made it easier to collect, store, and analyze logs, providing valuable data for our deployment process. I also built Full Stack Dashboard applications using React.js and Typescript, with a Django back-end. These dashboards included mathematical calculations to offer DevOps insights and boosted our story completion rate by 32%.",
             "I managed various Python DAGs for scheduled data tasks, making data collection, storage, and analysis more streamlined by integrating with Elasticsearch through Apache Airflow. This led to an impressive 82% efficiency improvement. Additionally, I created a scalable Python API that utilized GitHub Secret Scanning. This automated the detection and resolution of hard-coded passwords in code across Enterprise GitHub, greatly enhancing security by addressing over 80,000 vulnerabilities at RBC.",
             "Throughout these projects, I worked collaboratively in an Agile development environment, ensuring the timely delivery of high-quality software solutions."
         ],
         "technologies" : [
-            "Python", "Django", "Postgres", "Apache Airflow", "Docker", "Kafka", "React.js", "JavaScript ES6+"
+            "Python", "Django", "React.js", "PostgreSQL", "Apache Airflow", "Docker", "Kafka", "TypeScript", "Kubernetes", "Spark", "Openshift", "JavaScript ES6+", "Langchain", "Machine Learning"
         ],
         "link" : "https://www.rbccm.com/en/",
         "companylogo" : "/rbc.png",
-        "width": "230",
-        "height": "40"
+        "width": "200",
+        "height": "30"
     },
     {
         "work_id" : "Scotiabank",
-        "company" : "Scotiabank",
+        "company" : "Scotiabank GBM",
         "from" : "May 2022",
         "to" : "August 2022",
         "worktype" : "Internship",
-        "position" : "Trade Floor Software Developer (Web) Intern",
+        "position" : "Trade Floor Software Developer Intern (Web)",
         "images" : [ "/scotiaImage1.webp", "/scotiaImage2.webp", "/scotiaImage3.webp" ],
         "description" : [
             "I interned at Scotiabank as a Trade Floor Software Developer (Web) Intern and Technology Analyst in the Global Banking and Markets Technology Team. In this role I worked on Scotiabank's trading floor, engineering full stack web development (C#) projects and enhancement of web-based systems.",
@@ -51,7 +51,7 @@ export const experiences = [
         "to" : "March 2023",
         "worktype" : "Volunteering",
         "position" : "Software Engineer",
-        "images" : ["/ieeeevent2.webp", "/ieeeevent1.webp"],
+        "images" : ["/ieeeevent1.webp", "/ieeeevent2.webp"],
         "description" : [
             "Volunteered with IEEE Toronto Metropolitan University as a Software Engineering. My role included engineering, designing and maintaining the IEEE TMU online registration systems.",
             "With the university changing its name from Ryerson University to Toronto Metropolitan University, I'm worked on creating a new robust, modern UI that boldly represents the goals of the university simultaneously being precise, clean, and capturing for the users.",

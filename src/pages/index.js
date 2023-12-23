@@ -7,6 +7,33 @@ import Link from 'next/link'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+  const mediaLinks = [{
+      'name': 'LinkedIn',
+      'endpoint': 'https://www.linkedin.com/in/thisisadityapatel/',
+      'icon': 'bi-linkedin',
+    },
+    {
+      'name': 'GitHub',
+      'endpoint': 'https://github.com/thisisadityapatel',
+      'icon': 'bi-github',
+    },
+    {
+      'name': 'Resume',
+      'endpoint': '/Resume_Aditya_Patel.pdf',
+      'icon': 'bi-filetype-pdf',
+    },
+    {
+      'name': 'Email',
+      'endpoint': 'mailto:adityakdpatel@gmail.com',
+      'icon': 'bi-envelope-fill',
+    },
+    {
+      'name': 'Calender',
+      'endpoint': 'https://calendly.com/adityakdpatel/30min',
+      'icon': 'bi-calendar-week'
+    }
+  ]
+
   return (
     <>
       <Head>
@@ -33,11 +60,11 @@ export default function Home() {
             {"I'm into Swimming and Basketball, I also love talking about Space, Physics and about different food options here in Toronto - So feel free to shoot me an email - "} <span><a className="hover-underline-animation introLink" href="mailto:aditya.patel@torontomu.ca">aditya.patel@torontomu.ca</a></span> {" , or set-up some time in my schedule by clicking the calendar below!"}
         </p>
         <div className="introSocials">
-            <Link href="https://www.linkedin.com/in/thisisadityapatel/" className="introSocialIconLink" target="_blank"><i className="bi bi-linkedin introIconFont"></i></Link>
-            <Link href="/Resume_Aditya_Patel.pdf" className="introSocialIconLink" target="_blank"><i className="bi bi-filetype-pdf introIconFont"></i></Link>
-            <Link href="https://github.com/thisisadityapatel" className="introSocialIconLink" target="_blank"><i className="bi bi-github introIconFont"></i></Link>
-            <Link href="mailto:adityakdpatel@gmail.com" className="introSocialIconLink"><i className="bi bi-envelope-fill introIconFont"></i></Link>
-            <Link href="https://calendly.com/adityakdpatel/30min" className="introSocialIconLink" target="_blank"><i className="bi bi-calendar-week introIconFont"></i></Link>
+          {
+            mediaLinks.map((item) => {
+              return <Link href={item.endpoint} className="introSocialIconLink" target="_blank"><i className={"bi " + item.icon + " introIconFont"}></i></Link>
+            }) 
+          }
         </div>
 
         <div className="text-secondary text-center mt-5 mb-5">

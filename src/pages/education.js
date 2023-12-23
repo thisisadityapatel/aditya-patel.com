@@ -1,6 +1,21 @@
 import React from 'react'
 import Image from 'next/image'
 
+export const universityCourses = [
+    "CPS305 Data Structures",
+    "CPS393 Introduction to UNIX, C and C++",
+    "CPS506 Comparative Programming Languages",
+    "CPS590 Operating Systems",
+    "CPS109 Computer Science 1",
+    "CPS109 Computer Science 2",
+    "CPS213 Computer Organization 1",
+    "CPS310 Computer Organization 2",
+    "MTH207 Calculus & Computation 1",
+    "MTH110 Discrete Mathematics I",
+    "CPS420 Discrete Structures",
+    "MTH108 Linear Algebra",
+]
+
 const Education = () => {
   return (
     <div className="educationDiv container portfolioElement">
@@ -8,7 +23,7 @@ const Education = () => {
                 <img src="/tmu.gif" alt="tmu gif" style={{width: "14rem"}}></img>
             </div>
 
-            <h4 className="text-center">{"Bachelor's of Science (Honours), "}<span className="fw-bold">{"Computer Science"}</span>{"(Co-op)"}</h4>
+            <h4 className="text-center">{"Bachelor of Science (Honours), "}<span className="fw-bold">{"Computer Science"}</span>{"(Co-op)"}</h4>
             <h6 className="text-center text-secondary">{"September 2021 - December 2025"}</h6>
 
             <div className="mt-5">
@@ -22,28 +37,6 @@ const Education = () => {
                 </div>
             </div>
 
-            <div className="mt-5">
-                <div className="h5 text-secondary">{"Relevent Coursework"}</div>
-                <hr />
-                <div className="pt-1 courseListGrid">
-                   {" Here are the relevent couses I have taken so far:"}
-                    <ul className="mt-1" style={{listStyle:'none', columns: '2'}}>
-                        <li><i className="bi bi-caret-right greenColor"></i>{"CPS305 Data Structures"}</li>
-                        <li><i className="bi bi-caret-right greenColor"></i>{"CPS393 Introduction to UNIX, C and C++"}</li>
-                        <li><i className="bi bi-caret-right greenColor"></i>{"CPS506 Comparative Programming Languages"}</li>
-                        <li><i className="bi bi-caret-right greenColor"></i>{"CPS590 Operating Systems"}</li>
-                        <li><i className="bi bi-caret-right greenColor"></i>{"CPS109 Computer Science 1"}</li>
-                        <li><i className="bi bi-caret-right greenColor"></i>{"CPS209 Computer Science 2"}</li>
-                        <li><i className="bi bi-caret-right greenColor"></i>{"CPS213 Computer Organization 1"}</li>
-                        <li><i className="bi bi-caret-right greenColor"></i>{"CPS310 Computer Organization 2"}</li>
-                        <li><i className="bi bi-caret-right greenColor"></i>{"MTH207 Calculus & Computation 1"}</li>
-                        <li><i className="bi bi-caret-right greenColor"></i>{"MTH110 Discrete Mathematics I"}</li>
-                        <li><i className="bi bi-caret-right greenColor"></i>{"CPS420 Discrete Structures"}</li>
-                        <li><i className="bi bi-caret-right greenColor"></i>{"MTH108 Linear Algebra"}</li>
-                    </ul>
-                </div>
-            </div>
-
             <div className="mt-5 mb-5">
                 <div className="h5 text-secondary">{"Extracurricular Activities"}</div>
                 <hr />
@@ -53,6 +46,19 @@ const Education = () => {
                 <p>
                    {"In high school, I was not only a member of the athletic teams for clusters but also a professional soccer player. Furthermore, I have earned multiple medals in various athletic events, such as the long-jump, 100-meter, and 200-meter sprints."}
                 </p>
+            </div>
+
+            <div className="mt-5">
+                <div className="h5 text-secondary">{"Relevent Coursework"}</div>
+                <hr />
+                <div className="pt-1 courseListGrid">
+                   {" Here are the relevent couses I have taken so far:"}
+                    <ul className="mt-1" style={{listStyle:'none', columns: '2'}}>
+                        {universityCourses.map((course, index) => {
+                            return <li key={index}><i className="bi bi-caret-right greenColor"></i>{course}</li>
+                        })}
+                    </ul>
+                </div>
             </div>
     </div>
   )

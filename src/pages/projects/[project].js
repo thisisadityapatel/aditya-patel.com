@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 
 const Post = () => {
     const router = useRouter();
-    const {name, description, htmllink} = router.query;
+    const {name, description, htmllink, topics} = router.query;
 
     return (
         <div className="projectDescription container">
@@ -16,10 +16,14 @@ const Post = () => {
                     </div>
                 </div>
                 <div className='mt-5'>
-                    <div className='h5 text-secondary' style={{fontStyle: 'italic'}}>Technology & Concepts</div>
+                    <div className='h5 text-secondary' style={{fontStyle: 'italic'}}>Topics</div>
                     <hr />
                     <div>
-                        {}
+                        <div className="mt-3 d-flex flex-wrap">
+                            {topics.map((tool)=>{
+                                return (<div className="rounded-pill me-1 my-1 px-1" style={{ backgroundColor: "#cfcccc", borderRadius: "20px", border: "2px solid #4d4d4d"}}><span>{tool}</span></div>)
+                            })}
+                        </div>
                     </div>
                 </div>
                 <div className='mt-5'>

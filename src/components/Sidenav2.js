@@ -33,22 +33,22 @@ const Sidenav2 = () => {
                     <ul style={{listStyle:'none', paddingLeft: '0rem'}}>
                         <li>
                             <Link  href="/experience/RBC" className="btn experienceButton aboutNav" data-bs-dismiss='offcanvas' data-bs-target='#sidebarNavExperience'>
-                                Royal Bank of Canada
+                                👽 Royal Bank of Canada
                             </Link>
                         </li>
                         <li>
                             <Link  href="/experience/Scotiabank" className="btn experienceButton aboutNav" data-bs-dismiss='offcanvas' data-bs-target='#sidebarNavExperience'>
-                                Scotiabank
+                                📈 Scotiabank GBM
                             </Link>
                         </li>
                         <li>
                             <Link  href="/experience/Ieee" className="btn experienceButton aboutNav" data-bs-dismiss='offcanvas' data-bs-target='#sidebarNavExperience'>
-                                IEEE TMU
+                                🎒 IEEE TMU
                             </Link>
                         </li>
                         <li>
                             <Link  href="/experience/Enactus" className="btn experienceButton aboutNav" data-bs-dismiss='offcanvas' data-bs-target='#sidebarNavExperience'>
-                                Enactus TMU
+                                🚀 Enactus TMU
                             </Link>
                         </li>
                     </ul>
@@ -64,7 +64,7 @@ const Sidenav2 = () => {
                                             name: proj.name,
                                             description: proj?.description,
                                             htmllink: proj.html_url,
-                                            technologies: proj.topics,
+                                            topics: proj.topics,
                                         }
                                     }}  as={`/projects/${proj.id}`} className="btn experienceButton aboutNav" data-bs-dismiss='offcanvas' data-bs-target='#sidebarNavExperience'>{proj.name}</Link>
                                 </li>
