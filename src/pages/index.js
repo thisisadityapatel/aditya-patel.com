@@ -61,8 +61,8 @@ export default function Home() {
         </p>
         <div className="introSocials">
           {
-            mediaLinks.map((item) => {
-              return <Link href={item.endpoint} className="introSocialIconLink" target="_blank"><i className={"bi " + item.icon + " introIconFont"}></i></Link>
+            mediaLinks.map((item, index) => {
+              return <Link href={item.endpoint} className="introSocialIconLink" target="_blank" key={index}><i className={"bi " + item.icon + " introIconFont"}></i></Link>
             }) 
           }
         </div>

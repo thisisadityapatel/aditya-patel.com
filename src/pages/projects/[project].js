@@ -4,6 +4,8 @@ const Post = () => {
     const router = useRouter();
     const {name, description, htmllink, topics} = router.query;
 
+    console.log(topics);
+
     return (
         <div className="projectDescription container">
             <div className="indProjDetails">
@@ -20,8 +22,8 @@ const Post = () => {
                     <hr />
                     <div>
                         <div className="mt-3 d-flex flex-wrap">
-                            {topics.map((tool)=>{
-                                return (<div className="rounded-pill me-1 my-1 px-1" style={{ backgroundColor: "#cfcccc", borderRadius: "20px", border: "2px solid #4d4d4d"}}><span>{tool}</span></div>)
+                            {topics == null?"":topics.map((item, index)=>{
+                                return (<div key={index} className="rounded-pill me-1 my-1 px-1" style={{ backgroundColor: "#cfcccc", borderRadius: "20px", border: "2px solid #4d4d4d"}}><span>{item}</span></div>)
                             })}
                         </div>
                     </div>
