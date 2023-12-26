@@ -1,7 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import { Inter } from '@next/font/google'
-import styles from '@/styles/Home.module.css'
 import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -51,10 +49,10 @@ export default function Home() {
         <p>
             {"Currently a "} <Link style={{textDecoration: "underline"}} className="introLinkJob hover-underline-animation" href="/experience/RBC">{"Software Engineer Intern"}</Link> {" at "} 
             <a href="https://www.rbccm.com/en/" className="introLink hover-underline-animation">Royal Bank of Canada</a> 
-            {" in the Helios Team. I also previously interned as a "}
+            {" for the Helios Gen-AI and Insights team. I also previously interned as a "}
             <Link style={{textDecoration: "underline"}} className="introLinkJob hover-underline-animation" href="/experience/Scotiabank">
               {"Trade Floor Software Developer Intern"}
-            </Link> (Web)  {"for"} <a href="https://www.gbm.scotiabank.com/en.html" className="introLink hover-underline-animation">Scotiabank Capital Markets</a> {" where I engineered low latency applications and I'm open to Internship/Research opportunities."}
+            </Link> (Web)  {"for"} <a href="https://www.gbm.scotiabank.com/en.html" className="introLink hover-underline-animation">Scotiabank Capital Markets</a> {" and I'm open to Internship/Research opportunities."}
         </p>
         <p>
             {"I'm into Swimming and Basketball, I also love talking about Space, Physics and about different food options here in Toronto - So feel free to shoot me an email - "} <span><a className="hover-underline-animation introLink" href="mailto:aditya.patel@torontomu.ca">aditya.patel@torontomu.ca</a></span> {" , or set-up some time in my schedule by clicking the calendar below!"}
