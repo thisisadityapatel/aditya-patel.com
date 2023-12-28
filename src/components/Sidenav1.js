@@ -13,6 +13,8 @@ const Sidenav1 = () => {
     const [wtemp, setWtemp] = useState();
     const [wsnow, setWsnow] = useState();
     const [wrain, setWrain] = useState();
+    const [wtime, setWtime] = useState();
+    const [wdate, setWdate] = useState();
 
     useEffect(() => {
         fetch('https://api.open-meteo.com/v1/forecast?latitude=43.66&longitude=-79.38&hourly=temperature_2m,rain,snowfall,windspeed_10m')
@@ -27,6 +29,19 @@ const Sidenav1 = () => {
         });
     }, []);
 
+    useEffect(() => {
+        fetch('https://timeapi.io/api/Time/current/zone?timeZone=America/Toronto')
+        .then((res) => res.json())
+        .then((data) => {
+            setWdate(data['date']);
+            setWtime(data['time']);
+        })
+        .catch((err) => {
+            console.log(err);
+        });
+    }, []);
+
+
     return (
     <>
         <div className="offcanvas offcanvas-start" tabIndex="-1" id="sidebarNav1" aria-labelledby="sidebarNav1Label">
@@ -38,7 +53,7 @@ const Sidenav1 = () => {
                 <ul style={{listStyle : "none"}}>
                     <li>
                         <Link className="btn sidebarNavButtonPhone aboutNav directPage" data-bs-dismiss="offcanvas" data-bs-target="#sidebarNav1" href="/">
-                            Introduction
+                            🧑🏻‍💻 Introduction
                         </Link>
                     </li>
                     <li>
@@ -98,6 +113,9 @@ const Sidenav1 = () => {
                 <ul style={{listStyle:'none'}} className="mt-4">
                     <li className="text-secondary">
                         Toronto Weather 
+                    </li>
+                    <li style={{marginLeft: '12px'}}>
+                        <i className="bi bi-clock"></i> : {wtime} {wdate}
                     </li>
                     <li style={{marginLeft: '12px'}}>
                         <i className="bi bi-thermometer-sun"></i> : {wtemp} °C
