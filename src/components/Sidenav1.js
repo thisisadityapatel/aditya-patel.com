@@ -14,7 +14,19 @@ const Sidenav1 = () => {
     const [wsnow, setWsnow] = useState();
     const [wrain, setWrain] = useState();
     const [wtime, setWtime] = useState();
-    const [wdate, setWdate] = useState();
+
+    function formatDate(date) {
+        const options = {
+          hour: 'numeric',
+          minute: 'numeric',
+          day: 'numeric',
+          month: 'long'
+        };
+        const dayAndMonth = date.toLocaleDateString('en-US', options);
+        const day = dayAndMonth.split(' ')[0];
+        const formattedDate = `${day} ${dayAndMonth.slice(day.length)}`;
+        return formattedDate;
+    }
 
     useEffect(() => {
         fetch('https://api.open-meteo.com/v1/forecast?latitude=43.66&longitude=-79.38&hourly=temperature_2m,rain,snowfall,windspeed_10m')
@@ -30,11 +42,11 @@ const Sidenav1 = () => {
     }, []);
 
     useEffect(() => {
-        fetch('https://timeapi.io/api/Time/current/zone?timeZone=America/Toronto')
+        fetch('https://worldtimeapi.org/api/timezone/America/Toronto')
         .then((res) => res.json())
         .then((data) => {
-            setWdate(data['date']);
-            setWtime(data['time']);
+            var thisdate = new Date(data['datetime']);
+            setWtime(formatDate(thisdate));
         })
         .catch((err) => {
             console.log(err);
@@ -115,7 +127,7 @@ const Sidenav1 = () => {
                         Toronto Weather 
                     </li>
                     <li style={{marginLeft: '12px'}}>
-                        <i className="bi bi-clock"></i> : {wtime} {wdate}
+                        <i className="bi bi-clock"></i> : {wtime}
                     </li>
                     <li style={{marginLeft: '12px'}}>
                         <i className="bi bi-thermometer-sun"></i> : {wtemp} °C
