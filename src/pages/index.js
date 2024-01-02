@@ -44,15 +44,15 @@ export default function Home() {
             <img src="/introImage-compressed.jpg" alt={"Aditya Patel Profile Picture"} className="introProfileImage border border-5 rounded-circle"/>
         </div>
         <p> 
-            {"Hey, I'm"} <span style={{textDecoration: "underline"}}>{"Aditya Patel"}</span> {", I'm a "} <span style={{textDecoration: "underline"}}>{"Computer Science"}</span> {" undergrad at"} <a href="https://www.torontomu.ca/about/" className="introLink hover-underline-animation">Toronto Metropolitan University</a> {"in my junior year, planning on graduating by December 2025. A passionate programmer, I like challenging myself to do things I’ve never accomplished before and I strive to learn, build and engineer stuff (checkout my "} <Link className="introLink hover-underline-animation" href="./misc">{"Projects"}</Link>{")."}
+            {"Hey, I'm"} <span style={{textDecoration: "underline"}}>{"Aditya Patel"}</span> {", I'm a "} <span style={{textDecoration: "underline"}}>{"Computer Science"}</span> {" undergrad at"} <Link href="https://www.torontomu.ca/about/" target='_blank' className="introLink hover-underline-animation">Toronto Metropolitan University</Link> {"in my junior year, planning on graduating by December 2025. A passionate programmer, I like challenging myself to do things I’ve never accomplished before and I strive to learn, build and engineer stuff (checkout my "} <Link className="introLink hover-underline-animation" href="./misc">{"Projects"}</Link>{")."}
         </p>
         <p>
             {"Currently a "} <Link style={{textDecoration: "underline"}} className="introLinkJob hover-underline-animation" href="/experience/RBC">{"Software Engineer Intern"}</Link> {" at "} 
-            <a href="https://www.rbccm.com/en/" className="introLink hover-underline-animation">Royal Bank of Canada</a> 
+            <Link href="https://www.rbccm.com/en/" className="introLink hover-underline-animation" target='_blank'>Royal Bank of Canada</Link> 
             {" for the Helios Gen-AI and Insights team. I also previously interned as a "}
             <Link style={{textDecoration: "underline"}} className="introLinkJob hover-underline-animation" href="/experience/Scotiabank">
               {"Trade Floor Software Developer Intern"}
-            </Link> (Web)  {"for"} <a href="https://www.gbm.scotiabank.com/en.html" className="introLink hover-underline-animation">Scotiabank Capital Markets</a> {" and I'm open to Internship/Research opportunities."}
+            </Link> (Web)  {"for"} <Link href="https://www.gbm.scotiabank.com/en.html" className="introLink hover-underline-animation" target='_blank'>Scotiabank Capital Markets</Link> {" and I'm open to Internship/Research opportunities."}
         </p>
         <p>
             {"I'm into Swimming and Basketball, I also love talking about Space, Physics and about different food options here in Toronto - So feel free to shoot me an email - "} <span><a className="hover-underline-animation introLink" href="mailto:aditya.patel@torontomu.ca">aditya.patel@torontomu.ca</a></span> {" , or set-up some time in my schedule by clicking the calendar below!"}
