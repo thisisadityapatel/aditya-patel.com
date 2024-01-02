@@ -111,11 +111,6 @@ const Sidenav1 = () => {
                         </a>
                     </li>
                     <li>
-                        <a className="btn sidebarNavButtonPhone aboutNav" href="https://www.instagram.com/thisisadityapatel/" target="_blank" rel="noopener noreferrer">
-                            <i className="bi bi-instagram socialMediaIcon"></i> <span className="ms-1">Instagram</span>
-                        </a>
-                    </li>
-                    <li>
                         <a className="btn sidebarNavButtonPhone aboutNav" href="https://github.com/thisisadityapatel" target="_blank" rel="noopener noreferrer">
                             <i className="bi bi-github socialMediaIcon"></i> <span className="ms-1">GitHub</span>
                         </a>
