@@ -233,3 +233,10 @@ footer {
 		background-position: 0% 50%;
 	}
 }
+
+.btngradient{
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+    padding-top: 2px;
+  }
