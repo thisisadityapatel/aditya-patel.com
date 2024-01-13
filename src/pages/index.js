@@ -64,9 +64,8 @@ export default function Home() {
             }) 
           }
         </div>
-
         <div className="text-secondary text-center mt-5 mb-5">
-          <span style={{fontSize: "160%"}} className="wave mx-1">☕</span>{" Developed by Aditya Patel © 2023"}
+        <span style={{fontSize: "160%"}} className="wave mx-1">🏎️💨 </span>{" Developed by Aditya Patel © 2024"}
         </div>
       </div>
       <footer></footer>

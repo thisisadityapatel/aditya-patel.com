@@ -6,7 +6,7 @@ const Header = () => {
     <>
         <nav className="navbar navbar-expand-lg navbar-light sticky-top navbar-inner" style={{backgroundColor: "white !important"}}>
             <div className="container-fluid">
-                <button className="animate-charcter" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebarNav1" aria-controls="sidebarNav1" style={{border: "0px"}}>
+                <button className="animate-charcter" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebarNav1" aria-controls="sidebarNav1" style={{borderWidth: "2px", paddingTop: "2px", borderImage: "linear-gradient(to right, red, purple)", borderStyle: "solid"}}>
                     <i className="bi bi-justify h5"></i>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavDropdown">
