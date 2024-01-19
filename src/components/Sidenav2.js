@@ -33,7 +33,7 @@ const Sidenav2 = () => {
                     <ul style={{listStyle:'none', paddingLeft: '0rem'}}>
                         <li>
                             <Link  href="/experience/RBC" className="btn experienceButton aboutNav" data-bs-dismiss='offcanvas' data-bs-target='#sidebarNavExperience'>
-                                👽 Royal Bank of Canada
+                                📊 Royal Bank of Canada
                             </Link>
                         </li>
                         <li>
@@ -43,7 +43,7 @@ const Sidenav2 = () => {
                         </li>
                         <li>
                             <Link  href="/experience/Ieee" className="btn experienceButton aboutNav" data-bs-dismiss='offcanvas' data-bs-target='#sidebarNavExperience'>
-                                🎒 IEEE TMU
+                                ⚙️ IEEE TMU
                             </Link>
                         </li>
                         <li>

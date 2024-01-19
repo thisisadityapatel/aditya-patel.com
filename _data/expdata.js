@@ -5,7 +5,7 @@ export const experiences = [
         "from" : "May 2023",
         "to" : "Present (12 Months)",
         "worktype" : "Co-op / Internship",
-        "position" : "Software Engineer Intern (12 Months Co-op)",
+        "position" : "Software Engineering Intern (12 Months Co-op)",
         "images" : ["/rbcImage7.jpg", "/rbcImage1.jpg", "/rbcImage2.webp", "/rbcImage4.webp"],
         "description" : [
             "I am currently interning as a Software Engineer for the Helios Insights and Generative AI Team at the RBC Innovation and Technology headquaters in Toronto, where I work on Full Stack Development, Data Engineering and DevOps.",

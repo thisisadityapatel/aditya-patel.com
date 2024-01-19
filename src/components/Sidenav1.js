@@ -65,22 +65,22 @@ const Sidenav1 = () => {
                 <ul style={{listStyle : "none"}}>
                     <li>
                         <Link className="btn sidebarNavButtonPhone aboutNav directPage" data-bs-dismiss="offcanvas" data-bs-target="#sidebarNav1" href="/">
-                            🧑🏻‍💻 Introduction
+                            Introduction
                         </Link>
                     </li>
                     <li>
                         <Link className="btn sidebarNavButtonPhone aboutNav directPage" href="" data-bs-toggle="offcanvas" data-bs-target="#sidebarNavExperience" role="button" aria-controls="offcanvasExample">
-                            ⚙️ Work Experience
+                            Work Experience
                         </Link>
                     </li>
                     <li>
                         <Link className="btn sidebarNavButtonPhone aboutNav" href="/misc" data-bs-dismiss="offcanvas" data-bs-target="#sidebarNav1" role="button" aria-controls="offcanvasExample">
-                            💻 Projects
+                            Projects
                         </Link>
                     </li>
                     <li>
                         <Link className="btn sidebarNavButtonPhone aboutNav directPage" data-bs-dismiss="offcanvas" data-bs-target="#sidebarNav1" href="/education">
-                            🎒 Education
+                            Education
                         </Link>
                     </li>
                 </ul>

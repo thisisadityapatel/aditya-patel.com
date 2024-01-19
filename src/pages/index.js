@@ -32,6 +32,8 @@ export default function Home() {
     }
   ]
 
+  const current_Date = new Date();
+
   return (
     <>
       <Head>
@@ -47,15 +49,12 @@ export default function Home() {
             {"Hey, I'm"} <span style={{textDecoration: "underline"}}>{"Aditya Patel"}</span> {", I'm a "} <span style={{textDecoration: "underline"}}>{"Computer Science"}</span> {" undergrad at"} <Link href="https://www.torontomu.ca/about/" target='_blank' className="introLink hover-underline-animation">Toronto Metropolitan University</Link> {"in my junior year, planning on graduating by December 2025. A passionate programmer, I like challenging myself to do things I’ve never accomplished before and I strive to learn, build and engineer stuff (checkout my "} <Link className="introLink hover-underline-animation" href="./misc">{"Projects"}</Link>{")."}
         </p>
         <p>
-            {"Currently a "} <Link style={{textDecoration: "underline"}} className="introLinkJob hover-underline-animation" href="/experience/RBC">{"Software Engineer Intern"}</Link> {" at "} 
-            <Link href="https://www.rbccm.com/en/" className="introLink hover-underline-animation" target='_blank'>Royal Bank of Canada</Link> 
-            {" for the Helios Gen-AI and Insights team. I also previously interned as a "}
-            <Link style={{textDecoration: "underline"}} className="introLinkJob hover-underline-animation" href="/experience/Scotiabank">
-              {"Trade Floor Software Developer Intern"}
-            </Link> (Web)  {"for"} <Link href="https://www.gbm.scotiabank.com/en.html" className="introLink hover-underline-animation" target='_blank'>Scotiabank Capital Markets</Link> {" and I'm open to Internship/Research opportunities."}
+            {"Currently a "} <span style={{textDecoration: "underline"}}>{"Software Engineering Intern"}</span> {" at "} 
+            <Link href="/experience/RBC" className="introLink hover-underline-animation">Royal Bank of Canada</Link> 
+            {" for the Helios Gen-AI and Insights team, building full-stack projects. I also previously interned as a "}<span style={{textDecoration: "underline"}}>{"Trade Floor Software Developer Intern"}</span> {"for"} <Link href="/experience/Scotiabank" className="introLink hover-underline-animation">Scotiabank Capital Markets</Link> {" and am open to Internship/Research opportunities."}
         </p>
         <p>
-            {"I'm into Swimming and Basketball, I also love talking about Space, Physics and about different food options here in Toronto - So feel free to shoot me an email - "} <span><a className="hover-underline-animation introLink" href="mailto:aditya.patel@torontomu.ca">aditya.patel@torontomu.ca</a></span> {" , or set-up some time in my schedule by clicking the calendar below!"}
+            {"I'm into Swimming and Basketball, I also love talking about Space, Physics and about different food options here in Toronto - So feel free to shoot me an email - "} <span><a className="hover-underline-animation introLink" href="mailto:adityakdpatel@gmail.com">adityakdpatel@gmail.com</a></span> {" , or set-up some time in my schedule by clicking the calendar below!"}
         </p>
         <div className="introSocials">
           {
@@ -65,7 +64,7 @@ export default function Home() {
           }
         </div>
         <div className="text-secondary text-center mt-5 mb-5">
-        <span style={{fontSize: "160%"}} className="wave mx-1">🏎️💨 </span>{" Developed by Aditya Patel © 2024"}
+        <span style={{fontSize: "120%"}} className="wave mx-1">🏎️💨 </span>{` Aditya Patel ${current_Date.getFullYear()} © All Rights Reserved.`}
         </div>
       </div>
       <footer></footer>
