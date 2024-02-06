@@ -64,7 +64,7 @@ export default function Home() {
           }
         </div>
         <div className="text-secondary text-center mt-5 mb-5">
-        <span style={{fontSize: "120%"}} className="wave mx-1">🏎️💨 </span>{` Aditya Patel ${current_Date.getFullYear()} © All Rights Reserved.`}
+        <span style={{fontSize: "120%"}} className="wave mx-1">🏎️💨 </span>{` Developed by`} <Link href="https://www.linkedin.com/in/thisisadityapatel/" style={{textDecoration:"underline"}} className='text-secondary'>Aditya Patel</Link> {`© ${current_Date.getFullYear()} All Rights Reserved.`}
         </div>
       </div>
       <footer></footer>
