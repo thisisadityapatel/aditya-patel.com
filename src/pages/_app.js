@@ -7,7 +7,6 @@ import '@/styles/animateCharacter.css'
 import { Nunito_Sans } from '@next/font/google'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import { Analytics } from '@vercel/analytics/react';
-import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const nunito = Nunito_Sans({
   subsets: ['latin'],
@@ -28,6 +27,5 @@ export default function App({ Component, pageProps }) {
     <Sidenav2 />
     <Component {...pageProps} />
     <Analytics />
-    <SpeedInsights />
   </main>
 }
