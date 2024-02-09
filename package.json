@@ -17,6 +17,7 @@
     "@next/font": "^13.1.6",
     "@popperjs/core": "^2.11.6",
     "@vercel/analytics": "^1.0.2",
+    "@vercel/speed-insights": "^1.0.9",
     "babel-plugin-macros": "^3.1.0",
     "boostrap": "^2.0.0",
     "bootstrap-icons": "^1.10.3",
