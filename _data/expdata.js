@@ -6,7 +6,7 @@ export const experiences = [
         "to" : "Present (12 Months)",
         "worktype" : "Co-op / Internship",
         "position" : "Software Engineering Intern (12 Months Co-op)",
-        "images" : ["/rbcImage7.jpg", "/rbcImage1.jpg", "/rbcImage2.webp", "/rbcImage4.webp"],
+        "images" : ["/rbcImage7.jpg", "/rbcImage1.jpg", "/rbcImage4.webp"],
         "description" : [
             "I am currently interning as a Software Engineer for the Helios Insights and Generative AI Team at the RBC Innovation and Technology headquaters in Toronto, where I work on Full Stack Development, Data Engineering and DevOps.",
             "So far I designed a more efficient Log Parsing System for GitHub Actions CI/CD Pipeline using AWS S3, PostgreSQL, Apache Kafka, Apache Spark, and Python3. This made it easier to collect, store, and analyze logs, providing valuable data for our deployment process. I also built Full Stack Dashboard applications using React.js and Typescript, with a Django back-end. These dashboards included mathematical calculations to offer DevOps insights and boosted our story completion rate by 32%.",
@@ -28,7 +28,7 @@ export const experiences = [
         "to" : "August 2022",
         "worktype" : "Internship",
         "position" : "Trade Floor Software Developer Intern (Web)",
-        "images" : [ "/scotiaImage1.webp", "/scotiaImage2.webp", "/scotiaImage3.webp"],
+        "images" : [ "/scotiaImage3.webp", "/scotiaImage1.webp", "/scotiaImage2.webp"],
         "description" : [
             "I interned at Scotiabank as a Trade Floor Software Developer (Web) Intern and Technology Analyst in the Global Banking and Markets Technology Team. In this role I worked on Scotiabank's trading floor, engineering full stack web development (C#) projects and enhancement of web-based systems.",
             "As part of the Global Banking & Markets team, I analyzed business processes, liaise with various groups within the bank, engineered web-based systems, and design user interfaces to meet business needs. I had the chance to work with advanced web development technologies, including working with large datasets, bulk editing, APIs, encryption, and intelligent prediction using analytics/machine learning.",
@@ -69,7 +69,7 @@ export const experiences = [
         "from" : "October 2021",
         "to" : "February 2022",
         "worktype" : "Volunteering",
-        "position" : "Software Developer",
+        "position" : "Software Developer (TO-Thrive Start-up)",
         "images" : [],
         "description" : [
             "In my first year, I got the chance to volunteer with TO-Thrive, which was a small e-commerce startup under the incubator Enactus-Toronto Metropolitan University. Working as a Software Developer, I collaborated on creating the TO-Thrive Website. The website was built on Webflow and the initial prototyping was done in Figma.",

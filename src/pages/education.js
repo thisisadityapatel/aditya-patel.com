@@ -20,19 +20,21 @@ const Education = () => {
   return (
     <div className="educationDiv container portfolioElement">
             <div className="text-center my-5" >
-                <img src="/tmu.gif" alt="tmu gif" style={{width: "14rem"}}></img>
+                <img src="/tmu.gif" alt="tmu gif" style={{width: "9rem"}}></img>
             </div>
 
             <h4 className="text-center">{"Bachelor of Science (Honours), "}<span className="fw-bold">{"Computer Science"}</span>{"(Co-op)"}</h4>
-            <h6 className="text-center text-secondary">{"September 2021 - December 2025"}</h6>
+            <h6 className="text-center text-secondary">{"September 2021 - Present"}</h6>
 
             <div className="mt-5">
-                <div className="h5 text-secondary">{"Awards"}</div>
+                <div className="h5 text-secondary">{"Relevent Coursework"}</div>
                 <hr />
                 <div className="pt-1 courseListGrid">
-                    <ul className="mt-1" style={{listStyle:'none'}}>
-                        <li><i className="bi bi-caret-right greenColor"></i>{"TMU Dean's List (2022-23)"}</li>
-                        <li><i className="bi bi-caret-right greenColor"></i>{"TMU Dean's List (2021-22)"}</li>
+                   {" Here are the relevent couses I have taken so far:"}
+                    <ul className="mt-1" style={{listStyle:'none', columns: '2'}}>
+                        {universityCourses.map((course, index) => {
+                            return <li key={index}><i className="bi bi-caret-right greenColor"></i>{course}</li>
+                        })}
                     </ul>
                 </div>
             </div>
@@ -49,14 +51,12 @@ const Education = () => {
             </div>
 
             <div className="mt-5">
-                <div className="h5 text-secondary">{"Relevent Coursework"}</div>
+                <div className="h5 text-secondary">{"Awards"}</div>
                 <hr />
                 <div className="pt-1 courseListGrid">
-                   {" Here are the relevent couses I have taken so far:"}
-                    <ul className="mt-1" style={{listStyle:'none', columns: '2'}}>
-                        {universityCourses.map((course, index) => {
-                            return <li key={index}><i className="bi bi-caret-right greenColor"></i>{course}</li>
-                        })}
+                    <ul className="mt-1" style={{listStyle:'none'}}>
+                        <li><i className="bi bi-caret-right greenColor"></i>{"TMU Dean's List (2022-23)"}</li>
+                        <li><i className="bi bi-caret-right greenColor"></i>{"TMU Dean's List (2021-22)"}</li>
                     </ul>
                 </div>
             </div>

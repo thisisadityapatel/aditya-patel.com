@@ -84,7 +84,7 @@ body{
     color: #333333;
 }
 .introProfileImage{
-    width: 15.6rem;   
+    width: 14.6rem;   
 }
 .educationDiv{
     font-size: 93%;
@@ -116,7 +116,7 @@ body{
     cursor: pointer;
 }
 .introIconFont{
-    font-size: 200%;
+    font-size: 180%;
     margin: 1.3rem;
 }
 .introSocials{

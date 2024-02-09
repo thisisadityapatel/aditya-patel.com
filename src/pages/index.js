@@ -54,7 +54,7 @@ export default function Home() {
             {" for the Helios Gen-AI and Insights team, building full-stack projects. I also previously interned as a "}<span style={{textDecoration: "underline"}}>{"Trade Floor Software Developer Intern"}</span> {"for"} <Link href="/experience/Scotiabank" className="introLink hover-underline-animation">Scotiabank Capital Markets</Link> {" and am open to Internship/Research opportunities."}
         </p>
         <p>
-            {"I'm into Swimming and Basketball, I also love talking about Space, Physics and about different food options here in Toronto - So feel free to shoot me an email - "} <span><a className="hover-underline-animation introLink" href="mailto:adityakdpatel@gmail.com">adityakdpatel@gmail.com</a></span> {" , or set-up some time in my schedule by clicking the calendar below!"}
+            {"I'm into Swimming and Basketball, I also love talking about F1, Physics and about different food options here in Toronto - So feel free to shoot me an email - "} <span><a className="hover-underline-animation introLink" href="mailto:adityakdpatel@gmail.com">adityakdpatel@gmail.com</a></span> {" , or set-up some time in my schedule by clicking the calendar below!"}
         </p>
         <div className="introSocials">
           {
