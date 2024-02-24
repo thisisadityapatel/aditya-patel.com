@@ -32,13 +32,18 @@ const Sidenav2 = () => {
                     <h5 className="text-secondary">Professional Experience</h5>
                     <ul style={{listStyle:'none', paddingLeft: '0rem'}}>
                         <li>
+                            <Link  href="/experience/Wealthsimple" className="btn experienceButton aboutNav" data-bs-dismiss='offcanvas' data-bs-target='#sidebarNavExperience'>
+                                💹 Wealthsimple
+                            </Link>
+                        </li>
+                        <li>
                             <Link  href="/experience/RBC" className="btn experienceButton aboutNav" data-bs-dismiss='offcanvas' data-bs-target='#sidebarNavExperience'>
                                 📊 Royal Bank of Canada
                             </Link>
                         </li>
                         <li>
                             <Link  href="/experience/Scotiabank" className="btn experienceButton aboutNav" data-bs-dismiss='offcanvas' data-bs-target='#sidebarNavExperience'>
-                                📈 Scotiabank GBM
+                                🕸️ Scotiabank GBM
                             </Link>
                         </li>
                         <li>
@@ -48,7 +53,7 @@ const Sidenav2 = () => {
                         </li>
                         <li>
                             <Link  href="/experience/Enactus" className="btn experienceButton aboutNav" data-bs-dismiss='offcanvas' data-bs-target='#sidebarNavExperience'>
-                                🚀 Enactus TMU
+                                📦 Enactus TMU
                             </Link>
                         </li>
                     </ul>

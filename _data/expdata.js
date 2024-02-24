@@ -1,11 +1,28 @@
 export const experiences = [
     {
+        "work_id" : "Wealthsimple",
+        "company" : "Wealthsimple",
+        "from" : "May 2024",
+        "to" : "August 2024",
+        "worktype" : "Co-op / Internship",
+        "position" : "Software Engineer Intern",
+        "images" : [],
+        "description" : [
+            "Incoming Summer Intern for ML & LLM's Data Prducts Team."
+        ],
+        "technologies" : [],
+        "link" : "https://www.wealthsimple.com/",
+        "companylogo" : "/wealthsimplelogo.png",
+        "width": "200",
+        "height": "30"
+    },
+    {
         "work_id" : "RBC",
         "company" : "Royal Bank of Canada",
         "from" : "May 2023",
         "to" : "Present (12 Months)",
         "worktype" : "Co-op / Internship",
-        "position" : "Software Engineering Intern (12 Months Co-op)",
+        "position" : "Software Engineer Intern (12 Months Co-op)",
         "images" : ["/rbcImage7.jpg", "/rbcImage1.jpg", "/rbcImage4.webp"],
         "description" : [
             "I am currently interning as a Software Engineer for the Helios Insights and Generative AI Team at the RBC Innovation and Technology headquaters in Toronto, where I work on Full Stack Development, Data Engineering and DevOps.",
