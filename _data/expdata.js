@@ -6,6 +6,7 @@ export const experiences = [
         "to" : "August 2024",
         "worktype" : "Co-op / Internship",
         "position" : "Software Engineer Intern",
+        "location": "Toronto, ON",
         "images" : [],
         "description" : [
             "Incoming Summer Intern for ML & LLM's Data Prducts Team."
@@ -13,25 +14,26 @@ export const experiences = [
         "technologies" : [],
         "link" : "https://www.wealthsimple.com/",
         "companylogo" : "/wealthsimplelogo.png",
-        "width": "200",
-        "height": "30"
+        "width": "300",
+        "height": "40"
     },
     {
         "work_id" : "RBC",
         "company" : "Royal Bank of Canada",
         "from" : "May 2023",
-        "to" : "Present (12 Months)",
+        "to" : "April 2024",
         "worktype" : "Co-op / Internship",
         "position" : "Software Engineer Intern (12 Months Co-op)",
+        "location": "Toronto, ON",
         "images" : ["/rbcImage7.jpg", "/rbcImage1.jpg", "/rbcImage4.webp"],
         "description" : [
             "I am currently interning as a Software Engineer for the Helios Insights and Generative AI Team at the RBC Innovation and Technology headquaters in Toronto, where I work on Full Stack Development, Data Engineering and DevOps.",
-            "So far I designed a more efficient Log Parsing System for GitHub Actions CI/CD Pipeline using AWS S3, PostgreSQL, Apache Kafka, Apache Spark, and Python3. This made it easier to collect, store, and analyze logs, providing valuable data for our deployment process. I also built Full Stack Dashboard applications using React.js and Typescript, with a Django back-end. These dashboards included mathematical calculations to offer DevOps insights and boosted our story completion rate by 32%.",
+            "So far I designed a more efficient Log Parsing System for GitHub Actions CI/CD Pipeline using AWS S3, PostgreSQL, Apache Kafka, Apache Spark, and Python3. This made it easier to collect, store, and analyze logs, providing valuable data for our deployment process. I also built Full Stack Dashboard applications using React.js and Typescript, with a Django back-end. These dashboards included mathematical calculations to offer DevOps DORA insights and boosted enterprise leadtime rate by 32%.",
             "I managed various Python DAGs for scheduled data tasks, making data collection, storage, and analysis more streamlined by integrating with Elasticsearch through Apache Airflow. This led to an impressive 82% efficiency improvement. Additionally, I created a scalable Python API that utilized GitHub Secret Scanning. This automated the detection and resolution of hard-coded passwords in code across Enterprise GitHub, greatly enhancing security by addressing over 80,000 vulnerabilities at RBC.",
             "Throughout these projects, I worked collaboratively in an Agile development environment, ensuring the timely delivery of high-quality software solutions."
         ],
         "technologies" : [
-            "Python", "Django", "React.js", "PostgreSQL", "Apache Airflow", "Docker", "Kafka", "TypeScript", "Kubernetes", "Spark", "Openshift", "JavaScript ES6+", "Langchain", "Machine Learning"
+            "Python", "Django", "React.js", "PostgreSQL", "Apache Airflow", "Docker", " Apache Kafka", "TypeScript", "Kubernetes", "Apache Spark", "Openshift OCP4", "JavaScript ES6+", "Langchain", "Machine Learning"
         ],
         "link" : "https://www.rbccm.com/en/",
         "companylogo" : "/rbc.png",
@@ -45,6 +47,7 @@ export const experiences = [
         "to" : "August 2022",
         "worktype" : "Internship",
         "position" : "Trade Floor Software Developer Intern (Web)",
+        "location": "Toronto, ON",
         "images" : [ "/scotiaImage3.webp", "/scotiaImage1.webp", "/scotiaImage2.webp"],
         "description" : [
             "I interned at Scotiabank as a Trade Floor Software Developer (Web) Intern and Technology Analyst in the Global Banking and Markets Technology Team. In this role I worked on Scotiabank's trading floor, engineering full stack web development (C#) projects and enhancement of web-based systems.",
@@ -67,7 +70,8 @@ export const experiences = [
         "from" : "August 2022",
         "to" : "March 2023",
         "worktype" : "Volunteering",
-        "position" : "Software Engineer",
+        "position" : "Software Engineer Volunteer",
+        "location": "Toronto, ON",
         "images" : ["/ieeeevent1.webp", "/ieeeevent2.webp"],
         "description" : [
             "Volunteered with IEEE Toronto Metropolitan University as a Software Engineering. My role included engineering, designing and maintaining the IEEE TMU online registration systems.",
@@ -85,11 +89,12 @@ export const experiences = [
         "company" : "Enactus Toronto Metropolitan University",
         "from" : "October 2021",
         "to" : "February 2022",
-        "worktype" : "Volunteering",
+        "worktype" : "Part Time",
         "position" : "Software Developer (TO-Thrive Start-up)",
+        "location": "Toronto, ON",
         "images" : [],
         "description" : [
-            "In my first year, I got the chance to volunteer with TO-Thrive, which was a small e-commerce startup under the incubator Enactus-Toronto Metropolitan University. Working as a Software Developer, I collaborated on creating the TO-Thrive Website. The website was built on Webflow and the initial prototyping was done in Figma.",
+            "In my first year, I got the chance to work part-time with TO-Thrive, which was a small e-commerce startup under the incubator Enactus-Toronto Metropolitan University. Working as a Software Developer, I collaborated on creating the TO-Thrive Website. I was responsible for the front-end development and the back-end integration of the website.",
             "As a freshman, without any experience it was a great way to learn the functioning of a small organization. TO Thrive aims to help artists leverage emerging technologies to empower them to make a living wage doing what they love. Feel free to check out this awesome startup at Enactus."
         ],
         "technologies" : [],

@@ -144,12 +144,9 @@ body{
     border-radius:8px !important;
 }
 .experienceButton{
-    width: 100%;
-    text-align: left !important;
-}
-.experienceButton{
     text-align: left !important;
     width: 100%;
+    margin-bottom: 0.5rem;
 }
 .experienceButton:hover{
     background-color: #e6e6e6;

@@ -22,7 +22,7 @@ const Sidenav2 = () => {
     }, []);
 
   return (
-        <div className="offcanvas offcanvas-start" tabIndex="-1" id="sidebarNavExperience" aria-labelledby="sidebarNavExperienceLabels">
+        <div className="offcanvas offcanvas-start" tabIndex="-1" id="sidebarNav2" aria-labelledby="sidebarNav2Labels">
             <div className="offcanvas-header">
                 <h5 className="offcanvas-title text-secondary animate-charcter" id="offcanvasExampleLabel">Work</h5>
                 <button type="button" className="btn navExperienceBackBtn" data-bs-toggle="offcanvas" data-bs-target="#sidebarNav1"><i className="bi bi-arrow-left animate-charcter" style={{fontSize: '1.5rem'}}></i></button>
@@ -33,27 +33,27 @@ const Sidenav2 = () => {
                     <ul style={{listStyle:'none', paddingLeft: '0rem'}}>
                         <li>
                             <Link  href="/experience/Wealthsimple" className="btn experienceButton aboutNav" data-bs-dismiss='offcanvas' data-bs-target='#sidebarNavExperience'>
-                                💹 Wealthsimple
+                                💹 Wealthsimple <span style={{fontStyle: "italic", color: "grey", fontSize: "15px"}}>SWE Intern</span>
                             </Link>
                         </li>
                         <li>
                             <Link  href="/experience/RBC" className="btn experienceButton aboutNav" data-bs-dismiss='offcanvas' data-bs-target='#sidebarNavExperience'>
-                                📊 Royal Bank of Canada
+                                📊 Royal Bank of Canada <span style={{fontStyle: "italic", color: "grey", fontSize: "15px"}}>SWE Intern</span>
                             </Link>
                         </li>
                         <li>
                             <Link  href="/experience/Scotiabank" className="btn experienceButton aboutNav" data-bs-dismiss='offcanvas' data-bs-target='#sidebarNavExperience'>
-                                🕸️ Scotiabank GBM
+                                🕸️ Scotiabank GBM <span style={{fontStyle: "italic", color: "grey", fontSize: "15px"}}>SDE Intern</span>
                             </Link>
                         </li>
                         <li>
                             <Link  href="/experience/Ieee" className="btn experienceButton aboutNav" data-bs-dismiss='offcanvas' data-bs-target='#sidebarNavExperience'>
-                                ⚙️ IEEE TMU
+                                ⚙️ IEEE TMU <span style={{fontStyle: "italic", color: "grey", fontSize: "15px"}}>SWE Vol.</span>
                             </Link>
                         </li>
                         <li>
                             <Link  href="/experience/Enactus" className="btn experienceButton aboutNav" data-bs-dismiss='offcanvas' data-bs-target='#sidebarNavExperience'>
-                                📦 Enactus TMU
+                                📦 Enactus TMU <span style={{fontStyle: "italic", color: "grey", fontSize: "15px"}}>WebDev</span>
                             </Link>
                         </li>
                     </ul>

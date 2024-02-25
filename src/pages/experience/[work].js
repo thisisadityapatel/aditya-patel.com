@@ -25,7 +25,7 @@ const Experience = ({experiences}) => {
             </div>
 
             <h4 className="text-center mt-4">{temp.position}</h4>
-            <h6 className="text-center text-secondary">{temp.worktype} | {temp.from} - {temp.to}</h6>
+            <h6 className="text-center text-secondary">{`${temp.worktype} | ${temp.from} - ${temp.to} | ${temp.location}`}</h6>
 
             <div className="clearfix mt-5">
                 {hasImages?
