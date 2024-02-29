@@ -39,6 +39,26 @@ const misc = () => {
           </div>
         </div>
       </div>
+
+      <div className="border border-3 p-4 flex" style={{borderRadius: "10px", marginTop: "2.5rem"}}>
+        <div className="text-left mb-3">
+          <div className="h4">ContinueDev Sagemaker Endpoint</div>
+          <div className="h5">
+            <a href="https://github.com/thisisadityapatel/continueSageEndpoint" className="hover-underline-animation" style={{textDecoration:"none", color:"#4d94ff", fontSize: "15.5px"}} target='__blank'>thisisadityapatel/continueSageEndpoint<i class="bi bi-link-45deg"></i></a>
+          </div>
+        </div>
+        <div>
+          ContinueDev Sagamaker Endpoint API using LangChain for continue.dev extension to support LLM models hosted via AWS Sagemaker. Enables streaming llm response from sagemaker using SSE connection of Ollama mocking.
+        </div>
+        <div className="mt-3 d-flex flex-wrap">
+          <div className="rounded-pill me-1 my-1 px-1" style={{ backgroundColor: "#ffccff", borderRadius: "20px", border: "2px solid #800080" }}>
+            <span style={{ color: "#800080" }}>&#x2022;</span> Python
+          </div>
+          <div className="rounded-pill me-1 my-1 px-1" style={{ backgroundColor: "#cadbb4", borderRadius: "20px", border: "2px solid #494f40" }}>
+            <span style={{ color: "#494f40" }}>&#x2022;</span> LangChain
+          </div>
+        </div>
+      </div>
       
       <div className="border border-3 p-4 flex" style={{borderRadius: "10px", marginTop: "2.5rem"}}>
         <div className="text-left mb-3">
