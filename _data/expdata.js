@@ -9,7 +9,7 @@ export const experiences = [
         "location": "Toronto, ON",
         "images" : [],
         "description" : [
-            "Incoming Summer Intern for ML & LLM's Data Prducts Team."
+            "Incoming Summer Intern for ML & LLM's Data Products Team."
         ],
         "technologies" : [],
         "link" : "https://www.wealthsimple.com/",

@@ -31,11 +31,11 @@ const Sidenav2 = () => {
                 <ul style={{listStyle:'none'}} className="mt-1">
                     <h5 className="text-secondary">Professional Experience</h5>
                     <ul style={{listStyle:'none', paddingLeft: '0rem'}}>
-                        <li>
+                        {/* <li>
                             <Link  href="/experience/Wealthsimple" className="btn experienceButton aboutNav" data-bs-dismiss='offcanvas' data-bs-target='#sidebarNavExperience'>
                                 💹 Wealthsimple <span style={{fontStyle: "italic", color: "grey", fontSize: "15px"}}>SWE Intern</span>
                             </Link>
-                        </li>
+                        </li> */}
                         <li>
                             <Link  href="/experience/RBC" className="btn experienceButton aboutNav" data-bs-dismiss='offcanvas' data-bs-target='#sidebarNavExperience'>
                                 📊 Royal Bank of Canada <span style={{fontStyle: "italic", color: "grey", fontSize: "15px"}}>SWE Intern</span>
