@@ -46,7 +46,7 @@ export default function Home() {
             <img src="/introImage-compressed.jpg" alt={"Aditya Patel Profile Picture"} className="introProfileImage border border-5 rounded-circle"/>
         </div>
         <p> 
-            {"Hey, I'm"} <span style={{textDecoration: "underline"}}>{"Aditya Patel"}</span> {", I'm a "} <span style={{textDecoration: "underline"}}>{"Computer Science"}</span> {" undergrad at"} <Link href="https://www.torontomu.ca/about/" target='_blank' className="introLink hover-underline-animation">Toronto Metropolitan University</Link> {"in my junior year, planning on graduating by December 2025. A passionate programmer, I like challenging myself to do things I’ve never accomplished before and I strive to learn, build and engineer stuff (checkout my "} <Link className="introLink hover-underline-animation" href="./misc">{"Projects"}</Link>{")."}
+            {"Hey, I'm"} <span style={{textDecoration: "underline"}}>{"Aditya Patel"}</span> {", I'm a "} <span style={{textDecoration: "underline"}}>{"Computer Science"}</span> {" undergrad at"} <Link href="https://www.torontomu.ca/about/" target='_blank' className="introLink hover-underline-animation">Toronto Metropolitan University</Link> {"in my senior year, planning to graduate by 2026. A passionate programmer, I like challenging myself to do things I’ve never accomplished before and I strive to learn, build and engineer stuff (checkout my "} <Link className="introLink hover-underline-animation" href="./misc">{"Projects"}</Link>{")."}
         </p>
         <p>
             {"Currently a "} <span style={{textDecoration: "underline"}}>{"Software Engineering Intern"}</span> {" at "} 
@@ -64,7 +64,7 @@ export default function Home() {
           }
         </div>
         <div className="text-secondary text-center mt-5 mb-5">
-        <span style={{fontSize: "120%"}} className="wave mx-1">🏎️💨 </span>{` Developed by`} <Link href="https://www.linkedin.com/in/thisisadityapatel/" style={{textDecoration:"underline"}} className='text-secondary'>Aditya Patel</Link> {`© ${current_Date.getFullYear()} All Rights Reserved.`}
+          <span style={{fontSize: "120%"}} className="wave mx-1">🏎️💨 </span>{` Developed by`} <Link href="https://www.linkedin.com/in/thisisadityapatel/" style={{textDecoration:"underline"}} className='text-secondary'>Aditya Patel</Link> {`© ${current_Date.getFullYear()} All Rights Reserved.`}
         </div>
       </div>
       <footer></footer>
