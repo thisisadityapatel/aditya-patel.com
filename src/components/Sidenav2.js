@@ -31,19 +31,19 @@ const Sidenav2 = () => {
                 <ul style={{listStyle:'none'}} className="mt-1">
                     <h5 className="text-secondary">Professional Experience</h5>
                     <ul style={{listStyle:'none', paddingLeft: '0rem'}}>
-                        {/* <li>
+                        <li>
                             <Link  href="/experience/Wealthsimple" className="btn experienceButton aboutNav" data-bs-dismiss='offcanvas' data-bs-target='#sidebarNavExperience'>
                                 💹 Wealthsimple <span style={{fontStyle: "italic", color: "grey", fontSize: "15px"}}>SWE Intern</span>
                             </Link>
-                        </li> */}
+                        </li>
                         <li>
                             <Link  href="/experience/RBC" className="btn experienceButton aboutNav" data-bs-dismiss='offcanvas' data-bs-target='#sidebarNavExperience'>
-                                📊 Royal Bank of Canada <span style={{fontStyle: "italic", color: "grey", fontSize: "15px"}}>SWE Intern</span>
+                                ♾️ Royal Bank of Canada <span style={{fontStyle: "italic", color: "grey", fontSize: "15px"}}>SWE Intern</span>
                             </Link>
                         </li>
                         <li>
                             <Link  href="/experience/Scotiabank" className="btn experienceButton aboutNav" data-bs-dismiss='offcanvas' data-bs-target='#sidebarNavExperience'>
-                                🕸️ Scotiabank GBM <span style={{fontStyle: "italic", color: "grey", fontSize: "15px"}}>SDE Intern</span>
+                                📈 Scotiabank GBM <span style={{fontStyle: "italic", color: "grey", fontSize: "15px"}}>SDE Intern</span>
                             </Link>
                         </li>
                         <li>
@@ -53,7 +53,7 @@ const Sidenav2 = () => {
                         </li>
                         <li>
                             <Link  href="/experience/Enactus" className="btn experienceButton aboutNav" data-bs-dismiss='offcanvas' data-bs-target='#sidebarNavExperience'>
-                                📦 Enactus TMU <span style={{fontStyle: "italic", color: "grey", fontSize: "15px"}}>WebDev</span>
+                                🕸️ Enactus TMU <span style={{fontStyle: "italic", color: "grey", fontSize: "15px"}}>WebDev</span>
                             </Link>
                         </li>
                     </ul>
