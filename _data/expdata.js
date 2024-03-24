@@ -9,7 +9,7 @@ export const experiences = [
         "location": "Toronto, ON",
         "images" : [],
         "description" : [
-            "LLMs & ML Data Products Team."
+            "Large Language Models & ML - Data Products Team."
         ],
         "technologies" : [],
         "link" : "https://www.wealthsimple.com/",
@@ -23,7 +23,7 @@ export const experiences = [
         "from" : "May 2023",
         "to" : "April 2024",
         "worktype" : "Co-op / Internship",
-        "position" : "Software Engineer Intern (12 Months Co-op)",
+        "position" : "Software Engineer Intern (12 Months Co-op)", 
         "location": "Toronto, ON",
         "images" : ["/rbcImage7.jpg", "/rbcImage1.jpg", "/rbcImage4.webp"],
         "description" : [
