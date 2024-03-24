@@ -9,7 +9,7 @@ export const experiences = [
         "location": "Toronto, ON",
         "images" : [],
         "description" : [
-            "Machine Learning & LLM's Data Products Team."
+            "LLMs & ML Data Products Team."
         ],
         "technologies" : [],
         "link" : "https://www.wealthsimple.com/",
