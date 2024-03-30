@@ -5,7 +5,7 @@ export const experiences = [
         "from" : "May 2024",
         "to" : "August 2024",
         "worktype" : "Co-op / Internship",
-        "position" : "Software Engineer Intern",
+        "position" : "Software Engineering Intern",
         "location": "Toronto, ON",
         "images" : [],
         "description" : [
@@ -23,7 +23,7 @@ export const experiences = [
         "from" : "May 2023",
         "to" : "April 2024",
         "worktype" : "Co-op / Internship",
-        "position" : "Software Engineer Intern (12 Months Co-op)", 
+        "position" : "Software Engineering Intern (12 Months Co-op)", 
         "location": "Toronto, ON",
         "images" : ["/rbcImage7.jpg", "/rbcImage1.jpg", "/rbcImage4.webp"],
         "description" : [
@@ -50,7 +50,7 @@ export const experiences = [
         "location": "Toronto, ON",
         "images" : [ "/scotiaImage3.webp", "/scotiaImage1.webp", "/scotiaImage2.webp"],
         "description" : [
-            "I interned at Scotiabank as a Trade Floor Software Developer (Web) Intern and Technology Analyst in the Global Banking and Markets Technology Team. In this role I worked on Scotiabank's trading floor, engineering full stack web development (C#) projects and enhancement of web-based systems.",
+            "I interned at Scotiabank as a Trade Floor Software Developer (Web) Intern in the Global Banking and Markets Technology Team. In this role I worked on Scotiabank's trading floor, engineering full stack web development (C#) projects and enhancement of web-based systems.",
             "As part of the Global Banking & Markets team, I analyzed business processes, liaise with various groups within the bank, engineered web-based systems, and design user interfaces to meet business needs. I had the chance to work with advanced web development technologies, including working with large datasets, bulk editing, APIs, encryption, and intelligent prediction using analytics/machine learning.",
             "I engineered 4 Full Stack Web Projects independently from scratch. The projects were: Email Communication Archive System, File Validator (along with its API), JSON to Excel (along with its API) and SSH-File-Transfer API.",
             "It was an excellent opportunity to learn and grow personally, getting a chance to gain exposure to capital markets and the financial world. The opportunity to collaborate with the other engineers on the team was a great way to learn more about their approaches and experiences.",
