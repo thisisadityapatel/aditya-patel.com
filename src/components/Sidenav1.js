@@ -58,7 +58,7 @@ const Sidenav1 = () => {
     <>
         <div className="offcanvas offcanvas-start" tabIndex="-1" id="sidebarNav1" aria-labelledby="sidebarNav1Label">
             <div className="offcanvas-header">
-                <h5 className="offcanvas-title text-secondary animate-charcter" id="offcanvasExampleLabel"> <i className="bi bi-c-circle"></i> Aditya</h5>
+                <h5 className="offcanvas-title text-secondary" id="offcanvasExampleLabel">aditya-patel.com</h5>
                 <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" data-bs-target="#sidebarNav1" aria-label="Close"></button>
             </div>
             <div className="offcanvas-body">

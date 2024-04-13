@@ -237,3 +237,7 @@ footer {
     border-image: linear-gradient(to right, darkblue, darkorchid) 1;
     padding-top: 2px;
   }
+
+.projectDescriptionFontSize{
+    font-size: 13px;
+}

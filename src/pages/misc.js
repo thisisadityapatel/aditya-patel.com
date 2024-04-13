@@ -4,7 +4,7 @@ const misc = () => {
   return (
     <div className="hobbiesDiv container">
       <div className="mt-5 text-center pb-5">
-          <h4> <span style={{fontSize: "150%"}} className="wave mx-1">♾️</span> Made with a ton of SDLC</h4>
+          <h4>Some stuff from my free time</h4>
       </div>
 
       <div className="border border-3 p-4 flex" style={{borderRadius: "10px"}}>
@@ -14,11 +14,11 @@ const misc = () => {
             <a href="https://deskgenius.vercel.app/" className="hover-underline-animation" style={{textDecoration:"none", color:"#4d94ff", fontSize: "15.5px"}} target='__blank'>deskgenius.vercel.app <i class="bi bi-link-45deg"></i></a>
           </div>
         </div>
-        <div>
-          Front-end 3D Rendering Engine, using Next.js and Three-Fiber, for visualizing table arrangements before purchasing. 
-          Utilizes graphic ray tracing, texture mapping and advanced algorithms to optimize rendering performance & less computational overhead, resulting in a highly responsive UI and immersive user experience.
+        <div className='projectDescriptionFontSize'>
+          Front-end 3D rendering engine, using Next.js and Three-Fiber, for visualizing desktop setups before purchasing. Utilizes graphic ray tracing, texture mapping and advanced algorithms to optimize rendering performance and reducing
+          computational overhead, resulting in a highly responsive UI and immersive user experience.
         </div>
-        <div className="mt-3 d-flex flex-wrap">
+        <div className="mt-3 d-flex flex-wrap projectDescriptionFontSize">
           <div className="rounded-pill me-1 my-1 px-1" style={{ backgroundColor: "#ffe0b3", borderRadius: "20px", border: "2px solid #ff9900" }}>
             <span style={{ color: "#ff9900" }}>&#x2022;</span> Next.js
           </div>
@@ -26,7 +26,7 @@ const misc = () => {
             <span style={{ color: "#00994d" }}>&#x2022;</span> React.js
           </div>
           <div className="rounded-pill me-1 my-1 px-1" style={{ backgroundColor: "#ccebff", borderRadius: "20px", border: "2px solid #006bb3" }}>
-            <span style={{ color: "#006bb3" }}>&#x2022;</span> Three Fiber
+            <span style={{ color: "#006bb3" }}>&#x2022;</span> Three.js
           </div>
           <div className="rounded-pill me-1 my-1 px-1" style={{ backgroundColor: "#ffffb3", borderRadius: "20px", border: "2px solid #cccc00" }}>
             <span style={{ color: "#cccc00" }}>&#x2022;</span> JavaScript
@@ -47,10 +47,10 @@ const misc = () => {
             <a href="https://github.com/thisisadityapatel/continueSageEndpoint" className="hover-underline-animation" style={{textDecoration:"none", color:"#4d94ff", fontSize: "15.5px"}} target='__blank'>thisisadityapatel/continueSageEndpoint<i class="bi bi-link-45deg"></i></a>
           </div>
         </div>
-        <div>
+        <div className='projectDescriptionFontSize'>
           ContinueDev Sagamaker Endpoint API using LangChain for continue.dev extension to support LLM models hosted via AWS Sagemaker. Enables streaming llm response from sagemaker using SSE connection of Ollama mocking.
         </div>
-        <div className="mt-3 d-flex flex-wrap">
+        <div className="mt-3 d-flex flex-wrap projectDescriptionFontSize">
           <div className="rounded-pill me-1 my-1 px-1" style={{ backgroundColor: "#ffccff", borderRadius: "20px", border: "2px solid #800080" }}>
             <span style={{ color: "#800080" }}>&#x2022;</span> Python
           </div>
@@ -68,10 +68,10 @@ const misc = () => {
             </a>
           </div>
         </div>
-        <div>
+        <div className='projectDescriptionFontSize'>
           Eduardo Saverin (context: Facebook co-founder) made 300k during his summer at harvard betting on heating oil futures, crazy! Built this Full Stack Machine Learning project to visualize and predict the data and to understand his bet from a prespect of smart analytics and machine learning.
         </div>
-        <div className="mt-3 d-flex flex-wrap">
+        <div className="mt-3 d-flex flex-wrap projectDescriptionFontSize">
           <div className="rounded-pill me-1 my-1 px-1" style={{ backgroundColor: "#ffccff", borderRadius: "20px", border: "2px solid #800080" }}>
             <span style={{ color: "#800080" }}>&#x2022;</span> Python
           </div>
@@ -98,10 +98,10 @@ const misc = () => {
             </a>
           </div>
         </div>
-        <div>
+        <div className='projectDescriptionFontSize'>
           Project focused on multiprocessing with Round Robin (RR) and Lucky 7 (L7) algorithms for inter-process communication via. signals in C and Bash Scripts, having master-worker cluster architecture. Minimized latency and optimized data synchronization through algorithms, facilitating seamless inter-process coordination.
         </div>
-        <div className="mt-3 d-flex flex-wrap">
+        <div className="mt-3 d-flex flex-wrap projectDescriptionFontSize">
           <div className="rounded-pill me-1 my-1 px-1" style={{ backgroundColor: "#cfcccc", borderRadius: "20px", border: "2px solid #4d4d4d" }}>
             <span style={{ color: "#4d4d4d" }}>&#x2022;</span> C Programming
           </div>
@@ -119,10 +119,10 @@ const misc = () => {
             </a>
           </div>
         </div>
-        <div>
+        <div className='projectDescriptionFontSize'>
           Java-based graphical user interface (GUI Java Swing) ATM system that enables secure and easier transactions. Object orientated structure to its core alongside a live database to store and collect transaction data.
         </div>
-        <div className="mt-3 d-flex flex-wrap">
+        <div className="mt-3 d-flex flex-wrap projectDescriptionFontSize">
           <div className="rounded-pill me-1 my-1 px-1" style={{ backgroundColor: "#ccffff", borderRadius: "20px", border: "2px solid #00b3b3" }}>
             <span style={{ color: "#00b3b3" }}>&#x2022;</span> Java
           </div>
