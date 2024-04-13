@@ -25,7 +25,7 @@ export const experiences = [
         "worktype" : "Co-op / Internship",
         "position" : "Software Engineering Intern (12 Months Co-op)", 
         "location": "Toronto, ON",
-        "images" : ["/rbcImage7.jpg", "/rbcImage1.jpg", "/rbcImage4.webp"],
+        "images" : ["/rbcImage7.jpg", "/rbcImage4.png"],
         "description" : [
             "I am currently interning as a Software Engineer for the Helios Insights and Generative AI Team at the RBC Innovation and Technology headquaters in Toronto, where I work on Full Stack Development, Data Engineering and DevOps.",
             "So far I designed a more efficient Log Parsing System for GitHub Actions CI/CD Pipeline using AWS S3, PostgreSQL, Apache Kafka, Apache Spark, and Python3. This made it easier to collect, store, and analyze logs, providing valuable data for our deployment process. I also built Full Stack Dashboard applications using React.js and Typescript, with a Django back-end. These dashboards included mathematical calculations to offer DevOps DORA insights and boosted enterprise leadtime rate by 32%.",
@@ -46,9 +46,9 @@ export const experiences = [
         "from" : "May 2022",
         "to" : "August 2022",
         "worktype" : "Internship",
-        "position" : "Trade Floor Software Developer Intern (Web)",
+        "position" : "Trade Floor Software Developer Intern",
         "location": "Toronto, ON",
-        "images" : [ "/scotiaImage3.webp", "/scotiaImage1.webp", "/scotiaImage2.webp"],
+        "images" : [ "/scotiaImage3.webp", "/scotiaImage2.webp"],
         "description" : [
             "I interned at Scotiabank as a Trade Floor Software Developer (Web) Intern in the Global Banking and Markets Technology Team. In this role I worked on Scotiabank's trading floor, engineering full stack web development (C#) projects and enhancement of web-based systems.",
             "As part of the Global Banking & Markets team, I analyzed business processes, liaise with various groups within the bank, engineered web-based systems, and design user interfaces to meet business needs. I had the chance to work with advanced web development technologies, including working with large datasets, bulk editing, APIs, encryption, and intelligent prediction using analytics/machine learning.",
@@ -72,7 +72,7 @@ export const experiences = [
         "worktype" : "Volunteering",
         "position" : "Software Engineer Volunteer",
         "location": "Toronto, ON",
-        "images" : ["/ieeeevent1.webp", "/ieeeevent2.webp"],
+        "images" : ["/ieeeevent2.webp", "/ieeeevent1.webp"],
         "description" : [
             "Volunteered with IEEE Toronto Metropolitan University as a Software Engineering. My role included engineering, designing and maintaining the IEEE TMU online registration systems.",
             "With the university changing its name from Ryerson University to Toronto Metropolitan University, I'm worked on creating a new robust, modern UI that boldly represents the goals of the university simultaneously being precise, clean, and capturing for the users.",
