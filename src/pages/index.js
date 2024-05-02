@@ -46,7 +46,7 @@ export default function Home() {
             <img src="/introImage-compressed.jpg" alt={"Aditya Patel Profile Picture"} className="introProfileImage border border-5 rounded-circle"/>
         </div>
         <p> 
-            {"Hey, I'm Aditya, a "} <span style={{textDecoration: "underline"}}>{"Computer Science"}</span> {" undergrad at"} <Link href="https://www.torontomu.ca/about/" target='_blank' className="introLink hover-underline-animation">Toronto Metropolitan University</Link> {"in my senior year, planning to graduate by 2026. A passionate programmer, I like challenging myself to do things I’ve never accomplished before and I strive to learn, build and engineer stuff (checkout my "} <Link className="introLink hover-underline-animation" href="./misc">{"Projects"}</Link>{")."}
+            {"Hey, I'm Aditya, a "} <span style={{textDecoration: "underline"}}>{"Computer Science"}</span> {" undergrad at"} <Link href="https://www.torontomu.ca/about/" target='_blank' className="introLink hover-underline-animation">Toronto Metropolitan University</Link> {"in my senior year, planning to graduate by 2026. A passionate programmer, I like challenging myself to do things I’ve never accomplished before and I strive to learn, build and engineer stuff."}
         </p>
         <p>
             {"Currently a "} <span style={{textDecoration: "underline"}}>{"Software Engineering Intern"}</span> {" at "} 
