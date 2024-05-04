@@ -43,7 +43,7 @@ export default function Home() {
       </Head>
       <div className="container introDiv portfolioElement">
         <div className="text-center my-5">
-            <img src="/introImage-compressed.jpg" alt={"Aditya Patel Profile Picture"} className="introProfileImage border border-5 rounded-circle"/>
+            <img src="/introProfileImage.jpg" alt={"Aditya Patel Profile Picture"} className="introProfileImage border border-5 rounded-circle"/>
         </div>
         <p> 
             {"Hey, I'm Aditya, a "} <span style={{textDecoration: "underline"}}>{"Computer Science"}</span> {" undergrad at"} <Link href="https://www.torontomu.ca/about/" target='_blank' className="introLink hover-underline-animation">Toronto Metropolitan University</Link> {"in my senior year, planning to graduate by 2026. A passionate programmer, I like challenging myself to do things I’ve never accomplished before and I strive to learn, build and engineer stuff."}
@@ -63,7 +63,7 @@ export default function Home() {
             }) 
           }
         </div>
-        <div className="text-secondary text-center mt-5 mb-5">
+        <div className="text-secondary text-center mt-5 mb-5" style={{fontSize: "80%"}}>
           <span style={{fontSize: "130%"}} className="wave mx-1">🏂</span> {` Developed by`} <Link href="https://www.linkedin.com/in/thisisadityapatel/" style={{textDecoration:"underline"}} className='text-secondary'>Aditya Patel</Link> {`© ${current_Date.getFullYear()} All Rights Reserved.`}
         </div>
       </div>
