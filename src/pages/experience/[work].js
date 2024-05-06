@@ -19,7 +19,7 @@ const Experience = ({experiences}) => {
     (technologies?.length) !== 0 ? hasTechnologies = true: hasTechnologies = false;
 
     return (
-        <div className="container experinceDisplay">
+        <div className="container experinceDisplay experienceDiv">
             <div className="text-center mt-5">
                 {companyLogo?<img src={companyLogo} alt={temp.company} style={{width: "10rem"}}/>:''}
             </div>

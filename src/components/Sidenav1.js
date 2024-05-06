@@ -61,7 +61,7 @@ const Sidenav1 = () => {
                 <h5 className="offcanvas-title text-secondary" id="offcanvasExampleLabel">aditya-patel.com</h5>
                 <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" data-bs-target="#sidebarNav1" aria-label="Close"></button>
             </div>
-            <div className="offcanvas-body">
+            <div className="offcanvas-body sidebarDivs">
                 <ul style={{listStyle : "none"}}>
                     <li>
                         <Link className="btn sidebarNavButtonPhone aboutNav directPage" data-bs-dismiss="offcanvas" data-bs-target="#sidebarNav1" href="/">

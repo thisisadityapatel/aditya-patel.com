@@ -87,15 +87,19 @@ body{
     width: 14.6rem;   
 }
 .educationDiv{
-    font-size: 93%;
+    font-size: 90%;
     color: #333333;
 }
 .experienceDiv{
-    font-size: 93%;
+    font-size: 90%;
+    color: #333333;
+}
+.sidebarDivs{
+    font-size: 90%;
     color: #333333;
 }
 .hobbiesDiv{
-    font-size: 93%;
+    font-size: 90%;
     color: #333333;
 }
 .introDiv p{
