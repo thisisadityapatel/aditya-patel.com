@@ -27,10 +27,10 @@ export const experiences = [
         "location": "Toronto, ON",
         "images" : ["/rbcImage7.jpg", "/rbcImage4.png"],
         "description" : [
-            "I interned as a Software Engineer for the Helios Gen-AI and Insights Team at the RBC Innovation and Technology headquaters in Toronto, where I work on Full Stack Development, Data Engineering and DevOps.",
-            "I designed a more efficient Log Parsing System for GitHub Actions CI/CD Pipeline using AWS S3, PostgreSQL, Apache Kafka, Apache Spark, and Python3. This made it easier to collect, store, and analyze logs, providing valuable data for our deployment process. I also built Full Stack Dashboard applications using React.js and Typescript, with a Django back-end. These dashboards included mathematical calculations to offer DevOps DORA and SPACE insights and boosted enterprise leadtime rate by 32%.",
-            "I managed various Python DAGs for scheduled data tasks, making data collection, storage, and analysis more streamlined by integrating with Elasticsearch through Apache Airflow. This led to an impressive 82% efficiency improvement. Additionally, I created a scalable Python API that utilized GitHub Secret Scanning. This automated the detection and resolution of hard-coded passwords in code across Enterprise GitHub, greatly enhancing security by addressing over 80,000 vulnerabilities at RBC.",
-            "Throughout these projects, I worked collaboratively in an Agile development environment, ensuring the timely delivery of high-quality software solutions."
+            "I interned as a Software Engineer for the Helios Gen-AI and Insights Team at the RBC Innovation and Technology headquaters in Toronto, where I work on full stack development, data engineering and DevOps.",
+            "I designed a more efficient log parsing system for GitHub Actions CI/CD pipeline using AWS S3, PostgreSQL, Apache Kafka, Apache Spark, and Python3. This made it easier to collect, store, and analyze logs, providing valuable data for our deployment process. I also built full stack dashboard applications using React.js and Typescript, with a Django back-end. These dashboards included mathematical calculations to offer DevOps DORA and SPACE insights and boosted enterprise leadtime rate by 32%.",
+            "I managed various ETL DAG Pipelines for scheduled data tasks, making data collection, storage, and analysis more streamlined by integrating with Elasticsearch through Apache Airflow. This led to an impressive 82% efficiency improvement. Additionally, I created a scalable Python API that utilized GitHub secret scanning. This automated the detection and resolution of hard-coded passwords in code across Enterprise GitHub, greatly enhancing security by addressing over 80,000 vulnerabilities at RBC.",
+            "Throughout these projects, I worked collaboratively in an agile development environment, ensuring the timely delivery of high-quality software solutions."
         ],
         "technologies" : [
             "Python", "Django", "React.js", "Large Language Models", "PostgreSQL", "Apache Airflow", "Docker", " Apache Kafka", "TypeScript", "Kubernetes", "Apache Spark", "Openshift OCP4", "JavaScript ES6+", "Langchain", "Machine Learning"
@@ -52,9 +52,9 @@ export const experiences = [
         "description" : [
             "I interned at Scotiabank as a Trade Floor Software Developer Intern in the Global Banking and Markets Technology Team. In this role I worked on Scotiabank's trading floor, engineering full stack web development (C#) projects and enhancement of web-based systems.",
             "As part of the Global Banking & Markets team, I analyzed business processes, liaise with various groups within the bank, engineered web-based systems, and design user interfaces to meet business needs. I had the chance to work with advanced web development technologies, including working with large datasets, bulk editing, APIs, encryption, and intelligent prediction using analytics/machine learning.",
-            "I engineered 4 Full Stack Web Projects independently from scratch. The projects were: Email Communication Archive System, File Validator (along with its API), JSON to Excel (along with its API) and SSH-File-Transfer API.",
+            "I engineered 4 full stack web projects independently from scratch. The projects were: Email Communication Archive System, File Validator (along with its API), JSON to Excel (along with its API) and SSH-File-Transfer API.",
             "It was an excellent opportunity to learn and grow personally, getting a chance to gain exposure to capital markets and the financial world. The opportunity to collaborate with the other engineers on the team was a great way to learn more about their approaches and experiences.",
-            "At the GBM Tech Showcase, I presented my projects to the COO and Executive of GBM, where I talked about the impact, utility and benefits of the tools I developed. If you want to learn more about my work at Scotiabank in a more technical detail, don't hesitate to get in touch with me."
+            "At the GBM tech showcase, I presented my projects to the COO and executive of GBM, where I talked about the impact, utility and benefits of the tools I developed. If you want to learn more about my work at Scotiabank in a more technical detail, don't hesitate to get in touch with me."
         ],
         "technologies" : [
             ".NET Framework", "JavaScript", "C# Programming Language", "HTML & CSS", "RESTful API's", "SSH & HTTP", "jQuery", "React.js"
@@ -76,7 +76,7 @@ export const experiences = [
         "description" : [
             "Volunteered with IEEE Toronto Metropolitan University as a Web Software Engineer. My role included engineering, designing and maintaining the IEEE TMU website and online registration systems.",
             "With the university changing its name from Ryerson University to Toronto Metropolitan University, I'm worked on creating a new robust, modern UI that boldly represents the goals of the university simultaneously being precise, clean, and capturing for the users.",
-            "I further assisted the team in organizing events like IEEE Industry Night and reached out to TMU Alumni working at leading tech firms to invite them to represent their organizations and provide career advice to TMU Engineering and Computer Science students."
+            "I further assisted the team in organizing events like IEEE Industry Night and reached out to TMU Alumni working at leading tech firms to invite them to represent their organizations and provide career advice to TMU engineering and computer science students."
         ],
         "technologies" : [],
         "link" : "https://ieeetorontomu.ca/",
