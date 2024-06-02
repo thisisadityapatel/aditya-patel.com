@@ -9,7 +9,7 @@ export const experiences = [
         "location": "Toronto, ON",
         "images" : [],
         "description" : [
-            "Trade Order Generation - Data Platform Team"
+            "Trade Order Generation - Data Products Team"
         ],
         "technologies" : [],
         "link" : "https://www.wealthsimple.com/",
