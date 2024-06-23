@@ -43,7 +43,7 @@ export default function Home() {
       </Head>
       <div className="container introDiv portfolioElement">
         <div className="text-center my-5">
-            <img src="/introProfileImage.jpg" alt={"Aditya Patel Profile Picture"} className="introProfileImage border border-5 rounded-circle"/>
+            <img src="/introProfileImage.png" alt={"Aditya Patel Profile Picture"} className="introProfileImage border border-5 rounded-circle"/>
         </div>
         <p> 
             {"Hey, I'm Aditya, a "} <span style={{textDecoration: "underline"}}>{"Computer Science"}</span> {" undergrad at"} <Link href="https://www.torontomu.ca/about/" target='_blank' className="introLink hover-underline-animation">Toronto Metropolitan University</Link> {"in my senior year, planning to graduate by 2026. A passionate programmer, I like challenging myself to do things I’ve never accomplished before and I strive to learn, build and engineer stuff."}
