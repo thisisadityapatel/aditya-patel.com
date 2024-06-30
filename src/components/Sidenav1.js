@@ -119,7 +119,7 @@ const Sidenav1 = () => {
 
                 <ul style={{listStyle:'none'}} className="mt-4">
                     <li className="text-secondary">
-                        Toronto Weather 
+                        Toronto, CA 
                     </li>
                     <li style={{marginLeft: '12px'}}>
                         <i className="bi bi-clock"></i> : {wtime}

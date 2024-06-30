@@ -67,9 +67,9 @@ const Experience = ({experiences}) => {
                 <div className="h5 text-secondary">Technologies Used</div>
                 <hr />
                 <div>
-                    <ul className="mt-1" style={{listStyle: 'none', columns: '2',
-                    WebkitColumns: '2',
-                    MozColumns: '2',}}>
+                    <ul className="mt-1" style={{listStyle: 'none', columns: '3',
+                    WebkitColumns: '3',
+                    MozColumns: '3',}}>
                         {technologies?.map((techs, index) => {
                             return (<li key={index}><i className="bi bi-caret-right greenColor"></i> {techs} </li>)
                         })}
