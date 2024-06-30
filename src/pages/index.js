@@ -37,7 +37,7 @@ export default function Home() {
       const emojis = ['🏀', '💱', '🏂', '⚙️']; // Add more emojis if needed
       const randomIndex = Math.floor(Math.random() * emojis.length);
       setEmoji(emojis[randomIndex]);
-    }, 5000);
+    }, 2500);
 
     return () => clearInterval(interval);
   }, []);
