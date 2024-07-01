@@ -247,7 +247,7 @@ footer {
 }
 
 .btngradient{
-    border-width: 2px;
+    border-width: 0px;
     border-style: solid;
     border-image: linear-gradient(to right, darkblue, darkorchid) 1;
     padding-top: 2px;
