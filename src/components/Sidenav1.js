@@ -89,22 +89,22 @@ const Sidenav1 = () => {
                     <li className="text-secondary">
                         Quick Access
                     </li>
-                    <li>
+                    {/* <li>
                         <a className="btn sidebarNavButtonPhone aboutNav" href="/Resume_Aditya_Patel.pdf" target='_blank'>
                             <i className="bi bi-file-earmark-pdf-fill"></i> <span className="ms-1">Resume</span>
                         </a>
-                    </li>
+                    </li> */}
                     <li>
                         <a className="btn sidebarNavButtonPhone aboutNav" href="mailto:aditya.patel@torontomu.ca">
-                            <i className="bi bi-envelope aboutIcon"></i> <span className="ms-1">Email-Me</span>
+                            <i className="bi bi-envelope aboutIcon"></i> <span className="ms-1">Email</span>
                         </a>
                     </li>
-                </ul>
+                {/* </ul>
 
                 <ul style={{listStyle:'none'}} className="mt-4">
                     <li className="text-secondary">
                         Social Media
-                    </li>
+                    </li> */}
                     <li>
                         <a className="btn sidebarNavButtonPhone aboutNav" href="https://www.linkedin.com/in/thisisadityapatel/" target="_blank" rel="noopener noreferrer">
                             <i className="bi bi-linkedin socialMediaIcon"></i> <span className="ms-1">LinkedIn</span>
