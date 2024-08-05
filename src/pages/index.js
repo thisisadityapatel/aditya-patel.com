@@ -35,12 +35,15 @@ export default function Home() {
   useEffect(() => {
     const interval = setInterval(() => {
       const emojis = ['🏀', '💱', '🏂', '⚙️']; // Add more emojis if needed
-      const randomIndex = Math.floor(Math.random() * emojis.length);
+      let randomIndex;
+      do {
+        randomIndex = Math.floor(Math.random() * emojis.length);
+      } while (emojis[randomIndex] === emoji);
       setEmoji(emojis[randomIndex]);
     }, 2500);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [emoji]);
 
   const current_Date = new Date();
 
