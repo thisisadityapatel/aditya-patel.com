@@ -13,11 +13,11 @@ export default function Home() {
       'endpoint': 'https://github.com/thisisadityapatel',
       'icon': 'bi-github',
     },
-    {
-      'name': 'Resume',
-      'endpoint': '/Resume_Aditya_Patel.pdf',
-      'icon': 'bi-filetype-pdf',
-    },
+    // {
+    //   'name': 'Resume',
+    //   'endpoint': '/Resume_Aditya_Patel.pdf',
+    //   'icon': 'bi-filetype-pdf',
+    // },
     {
       'name': 'Email',
       'endpoint': 'mailto:adityakdpatel@gmail.com',
