@@ -62,9 +62,9 @@ export default function Home() {
             {"Hey, I'm Aditya, a "} <span style={{textDecoration: "underline"}}>{"Computer Science"}</span> {" undergrad at"} <Link href="https://www.torontomu.ca/about/" target='_blank' className="introLink hover-underline-animation">Toronto Metropolitan University</Link> {"in my senior year, planning to graduate by 2026. A passionate programmer, I like challenging myself to do things I’ve never accomplished before and I strive to learn, build and engineer stuff."}
         </p>
         <p>
-            {"Currently a "} <span style={{textDecoration: "underline"}}>{"Software Engineering Intern"}</span> {" at "} 
+            {"Currently a "} <span style={{textDecoration: "underline"}}>{"Software Engineer Intern"}</span> {" at "} 
             <Link href="/experience/Wealthsimple" className="introLink hover-underline-animation">Wealthsimple.</Link> 
-            {" I was previously a "} <span style={{textDecoration: "underline"}}>{"Software Engineering Intern"}</span>{" at "} <Link href="/experience/RBC" className="introLink hover-underline-animation">Royal Bank of Canada</Link> {", a "}<span style={{textDecoration: "underline"}}>{"Trade Floor Software Developer Intern"}</span> {"for"} <Link href="/experience/Scotiabank" className="introLink hover-underline-animation">Scotiabank GBM</Link> {" and am open to Internship/Research opportunities for 2025."}
+            {" I was previously a "} <span style={{textDecoration: "underline"}}>{"Software Engineer Intern"}</span>{" at "} <Link href="/experience/RBC" className="introLink hover-underline-animation">Royal Bank of Canada</Link> {", a "}<span style={{textDecoration: "underline"}}>{"Trade Floor Software Developer Intern"}</span> {"for"} <Link href="/experience/Scotiabank" className="introLink hover-underline-animation">Scotiabank GBM</Link> {" and am open to Internship/Research opportunities for 2025."}
         </p>
         <p>
             {"I'm into Swimming and Basketball, I also love talking about F1, Physics and different food options here in Toronto - So feel free to shoot me an email - "} <span><a className="hover-underline-animation introLink" href="mailto:adityakdpatel@gmail.com">adityakdpatel@gmail.com</a></span> {" , or set-up some time in my schedule by clicking the calendar below!"}

@@ -5,7 +5,7 @@ export const experiences = [
         "from" : "May 2024",
         "to" : "August 2024",
         "worktype" : "Co-op",
-        "position" : "Software Engineering Intern",
+        "position" : "Software Engineer Intern",
         "location": "Toronto, ON",
         "images" : [],
         "description" : [
@@ -23,7 +23,7 @@ export const experiences = [
         "from" : "May 2023",
         "to" : "April 2024",
         "worktype" : "Co-op",
-        "position" : "Software Engineering Intern", 
+        "position" : "Software Engineer Intern", 
         "location": "Toronto, ON",
         "images" : ["/rbcImage7.jpg", "/rbcImage4.png"],
         "description" : [
