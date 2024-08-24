@@ -64,7 +64,7 @@ export default function Home() {
         <p>
             {"Currently a "} <span style={{textDecoration: "underline"}}>{"Software Engineer Intern"}</span> {" at "} 
             <Link href="/experience/Wealthsimple" className="introLink hover-underline-animation">Wealthsimple.</Link> 
-            {" I was previously a "} <span style={{textDecoration: "underline"}}>{"Software Engineer Intern"}</span>{" at "} <Link href="/experience/RBC" className="introLink hover-underline-animation">Royal Bank of Canada</Link> {", a "}<span style={{textDecoration: "underline"}}>{"Trade Floor Software Developer Intern"}</span> {"for"} <Link href="/experience/Scotiabank" className="introLink hover-underline-animation">Scotiabank GBM</Link> {" and am open to Internship/Research opportunities for 2025."}
+            {" I was previously a "} <span style={{textDecoration: "underline"}}>{"Software Engineer Intern"}</span>{" at "} <Link href="/experience/RBC" className="introLink hover-underline-animation">Royal Bank of Canada</Link> {", a "}<span style={{textDecoration: "underline"}}>{"Trading Floor Software Developer Intern"}</span> {"for"} <Link href="/experience/Scotiabank" className="introLink hover-underline-animation">Scotiabank GBM</Link> {" and am open to Internship/Research opportunities for 2025."}
         </p>
         <p>
             {"I'm into Swimming and Basketball, I also love talking about F1, Physics and different food options here in Toronto - So feel free to shoot me an email - "} <span><a className="hover-underline-animation introLink" href="mailto:adityakdpatel@gmail.com">adityakdpatel@gmail.com</a></span> {" , or set-up some time in my schedule by clicking the calendar below!"}
