@@ -17,9 +17,6 @@ const Header = () => {
                         <li className="nav-item">
                             <Link className="nav-link hover-underline-animation active" aria-current="page" href="/misc">Projects</Link>
                         </li>
-                        {/* <li className="nav-item">
-                            <Link className="nav-link hover-underline-animation active" href="/Resume_Aditya_Patel.pdf" target='_blank'>Resume</Link>
-                        </li> */}
                         <li className="nav-item">
                             <a className="nav-link hover-underline-animation active" href="mailto:aditya.patel@torontomu.ca">Email-Me</a>
                         </li>

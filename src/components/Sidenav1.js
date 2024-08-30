@@ -4,12 +4,6 @@ import { Router, useRouter } from 'next/router'
 import { useState, useEffect } from 'react'
 
 const Sidenav1 = () => {
-    const router = useRouter();
-
-    const sendString = (value) => {
-        router.push(`/Sidenav2?category=${value}`)
-    }
-
     const [wtemp, setWtemp] = useState();
     const [wsnow, setWsnow] = useState();
     const [wrain, setWrain] = useState();
@@ -58,7 +52,7 @@ const Sidenav1 = () => {
     <>
         <div className="offcanvas offcanvas-start" tabIndex="-1" id="sidebarNav1" aria-labelledby="sidebarNav1Label">
             <div className="offcanvas-header">
-                <h5 className="offcanvas-title text-secondary" id="offcanvasExampleLabel">aditya-patel.com</h5>
+                <h5 className="offcanvas-title text-secondary" id="offcanvasExampleLabel">Keep it simple.</h5>
                 <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" data-bs-target="#sidebarNav1" aria-label="Close"></button>
             </div>
             <div className="offcanvas-body sidebarDivs">
@@ -89,22 +83,11 @@ const Sidenav1 = () => {
                     <li className="text-secondary">
                         Quick Access
                     </li>
-                    {/* <li>
-                        <a className="btn sidebarNavButtonPhone aboutNav" href="/Resume_Aditya_Patel.pdf" target='_blank'>
-                            <i className="bi bi-file-earmark-pdf-fill"></i> <span className="ms-1">Resume</span>
-                        </a>
-                    </li> */}
                     <li>
                         <a className="btn sidebarNavButtonPhone aboutNav" href="mailto:aditya.patel@torontomu.ca">
                             <i className="bi bi-envelope aboutIcon"></i> <span className="ms-1">Email</span>
                         </a>
                     </li>
-                {/* </ul>
-
-                <ul style={{listStyle:'none'}} className="mt-4">
-                    <li className="text-secondary">
-                        Social Media
-                    </li> */}
                     <li>
                         <a className="btn sidebarNavButtonPhone aboutNav" href="https://www.linkedin.com/in/thisisadityapatel/" target="_blank" rel="noopener noreferrer">
                             <i className="bi bi-linkedin socialMediaIcon"></i> <span className="ms-1">LinkedIn</span>
