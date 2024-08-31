@@ -7,14 +7,16 @@ export const experiences = [
         "worktype" : "Co-op",
         "position" : "Software Engineer Intern",
         "location": "Toronto, ON",
-        "images" : [],
+        "images" : ["/wealthsimpleImage.png"],
         "description" : [
-            "Trading Algorithm - Order Generation Team"
+            "At Wealthsimple, I was part of the Order Generation Team. I contributed to optimizing trading algorithms and adding new data source infrastructure, significantly reducing latency by about 60%, enabling faster and more efficient processing. I also served as the primary technical owner of the order generation simulation platform, allowing traders to customize and fine-tune algorithm behavior, improving trade decision-making.",
+            "Additionally, I developed a full-stack web application tool to support this platform, working across both frontend and backend technologies. The team’s work helped maintain and optimize systems that handle billions of dollars annually, ensuring high-quality solutions for complex challenges.",
+            "Outside of engineering, I had the chance to be the DRI for HackSimple Summer 2024, a company-wide hackathon, managing the planning committee to successfully organize and conduct the event.",
         ],
-        "technologies" : [],
+        "technologies" : ["Python", "Ruby of Rails", "React Native", "TypeScript", "Kubernetes", "Apache Airflow", "GraphQL", "AWS", "Datadog"],
         "link" : "https://www.wealthsimple.com/",
         "companylogo" : "/wealthsimplelogo.png",
-        "width": "300",
+        "width": "50",
         "height": "40"
     },
     {
