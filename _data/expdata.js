@@ -9,11 +9,11 @@ export const experiences = [
         "location": "Toronto, ON",
         "images" : ["/wealthsimpleImage.png"],
         "description" : [
-            "At Wealthsimple, I was part of the Order Generation Team. I contributed to optimizing trading algorithms and adding new data source infrastructure, significantly reducing latency by about 60%, enabling faster and more efficient processing. I also served as the primary technical owner of the order generation simulation platform, allowing traders to customize and fine-tune algorithm behavior, improving trade decision-making.",
-            "Additionally, I developed a full-stack web application tool to support this platform, working across both frontend and backend technologies. The team’s work helped maintain and optimize systems that handle billions of dollars annually, ensuring high-quality solutions for complex challenges.",
-            "Outside of engineering, I had the chance to be the DRI for HackSimple Summer 2024, a company-wide hackathon, managing the planning committee to successfully organize and conduct the event.",
+            "At Wealthsimple, I was part of the Order Generation Team. I contributed to optimizing the trading algorithm and adding new S3 data source infrastructure, significantly reducing latency by about 60%, enabling faster and more efficient processing. I also served as the primary technical owner of the order generation simulation platform, allowing traders to customize and fine-tune algorithm behavior, improving market decision-making.",
+            "Additionally, I engineered full-stack web application tool to support this platform, working across both frontend and backend technologies. My team was responsible to maintain and optimize systems that handle billions of dollars annually, ensuring high-quality solutions for complex challenges.",
+            "Outside of engineering, I had the chance to be the co-DRI for HackSimple Summer 2024, a company-wide hackathon, managing the planning committee to successfully organize the event.",
         ],
-        "technologies" : ["Python", "Ruby of Rails", "React Native", "TypeScript", "Kubernetes", "Apache Airflow", "GraphQL", "AWS", "Datadog"],
+        "technologies" : ["Python", "Ruby of Rails", "React Native", "TypeScript", "Kubernetes", "Apache Airflow", "GraphQL", "AWS", "Datadog", "PostgreSQL"],
         "link" : "https://www.wealthsimple.com/",
         "companylogo" : "/wealthsimplelogo.png",
         "width": "50",
@@ -35,7 +35,7 @@ export const experiences = [
             "Throughout these projects, I worked collaboratively in an agile development environment, ensuring the timely delivery of high-quality software solutions."
         ],
         "technologies" : [
-            "Python", "Django", "React.js", "Large Language Models", "PostgreSQL", "TypeScript", "Apache Airflow", " Apache Kafka", "Apache Spark", "Kubernetes", "Docker", "Openshift OCP4", "JavaScript ES6+", "Langchain", "Machine Learning"
+            "Python", "Django", "React.js", "Large Language Models", "PostgreSQL", "TypeScript", "Apache Airflow", " Apache Kafka", "Apache Spark", "Kubernetes", "Docker", "Openshift OCP4", "Langchain", "Machine Learning"
         ],
         "link" : "https://www.rbccm.com/en/",
         "companylogo" : "/rbc.png",

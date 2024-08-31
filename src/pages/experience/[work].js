@@ -1,18 +1,16 @@
-import { useRouter } from "next/router";
 import React from 'react'
+import { useRouter } from "next/router";
 import { experiences } from "_data/expdata";
 
 const Experience = ({experiences}) => {
     const router = useRouter();
     const { work } = router.query;
-
-    let temp = experiences.find((exp) => {
+    const temp = experiences.find((exp) => {
         return exp.work_id === work;
     })
-
-    let technologies = temp.technologies;
-    let imagesPath = temp.images;
-    let companyLogo = temp.companylogo;
+    const technologies = temp.technologies;
+    const imagesPath = temp.images;
+    const companyLogo = temp.companylogo;
     let hasImages = true;
     let hasTechnologies = true;
     (imagesPath?.length) === 0 ? hasImages = false: hasImages = true;
@@ -25,7 +23,7 @@ const Experience = ({experiences}) => {
             </div>
 
             <h4 className="text-center mt-4">{temp.position}</h4>
-            <h6 className="text-center text-secondary">{`${temp.worktype} | ${temp.from} - ${temp.to} | ${temp.location}`}</h6>
+            <div className="text-center text-secondary">{`${temp.worktype} | ${temp.from} - ${temp.to} | ${temp.location}`}</div>
 
             <div className="clearfix mt-5">
                 {hasImages?
@@ -67,9 +65,7 @@ const Experience = ({experiences}) => {
                 <div className="h5 text-secondary">Technologies Used</div>
                 <hr />
                 <div>
-                    <ul className="mt-1" style={{listStyle: 'none', columns: '3',
-                    WebkitColumns: '3',
-                    MozColumns: '3',}}>
+                    <ul className="mt-1" style={{listStyle: 'none', columns: '2', WebkitColumns: '2', MozColumns: '2',}}>
                         {technologies?.map((techs, index) => {
                             return (<li key={index}><i className="bi bi-caret-right greenColor"></i> {techs} </li>)
                         })}
