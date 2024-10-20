@@ -17,7 +17,7 @@ export default function Home() {
       'name': 'Email',
       'endpoint': 'mailto:adityakdpatel@gmail.com',
       'icon': 'bi-envelope-fill',
-    }
+    },
   ]
 
   const [emoji, setEmoji] = useState('🏂');
