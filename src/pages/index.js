@@ -17,11 +17,6 @@ export default function Home() {
       'name': 'Email',
       'endpoint': 'mailto:adityakdpatel@gmail.com',
       'icon': 'bi-envelope-fill',
-    },
-    {
-      'name': 'Calender',
-      'endpoint': 'https://calendly.com/adityakdpatel/30min',
-      'icon': 'bi-calendar-week'
     }
   ]
 
