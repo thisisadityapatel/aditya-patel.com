@@ -1,24 +1,11 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import { useState, useEffect } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin, faXTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
 export default function Home() {
-  const mediaLinks = [{
-      'name': 'LinkedIn',
-      'endpoint': 'https://www.linkedin.com/in/thisisadityapatel/',
-      'icon': 'bi-linkedin',
-    },
-    {
-      'name': 'GitHub',
-      'endpoint': 'https://github.com/thisisadityapatel',
-      'icon': 'bi-github',
-    },
-    {
-      'name': 'Email',
-      'endpoint': 'mailto:adityakdpatel@gmail.com',
-      'icon': 'bi-envelope-fill',
-    },
-  ]
 
   const [emoji, setEmoji] = useState('🏂');
 
@@ -87,7 +74,7 @@ export default function Home() {
             href="/experience/RBC"
             className="introLink hover-underline-animation"
           >
-            Royal Bank of Canada
+            Royal Bank of Canada <FontAwesomeIcon icon={faXTwitter} />
           </Link>
           , a{" "}
           <span style={{ textDecoration: "underline" }}>
@@ -115,16 +102,38 @@ export default function Home() {
           , or set up some time in my schedule by clicking the calendar below!
         </p>
         <div className="introSocials">
-          {mediaLinks.map((item, index) => (
-            <Link
-              href={item.endpoint}
-              className="introSocialIconLink"
-              target="_blank"
-              key={index}
-            >
-              <i className={"bi " + item.icon + " introIconFont"}></i>
-            </Link>
-          ))}
+          <Link
+            href="https://www.linkedin.com/in/thisisadityapatel/"
+            className="introSocialIconLink"
+            target="_blank"
+            style={{ fontSize: "1.5em", margin: "0 10px" }}
+          >
+            <FontAwesomeIcon icon={faLinkedin} />
+          </Link>
+          <Link
+            href="https://github.com/thisisadityapatel"
+            className="introSocialIconLink"
+            target="_blank"
+            style={{ fontSize: "1.5em", margin: "0 10px" }}
+          >
+            <FontAwesomeIcon icon={faGithub} />
+          </Link>
+          <Link
+            href="mailto:adityakdpatel@gmail.com"
+            className="introSocialIconLink"
+            target="_blank"
+            style={{ fontSize: "1.5em", margin: "0 10px" }}
+          >
+            <FontAwesomeIcon icon={faEnvelope} />
+          </Link>
+          <Link
+            href="https://x.com/adihascode"
+            className="introSocialIconLink"
+            target="_blank"
+            style={{ fontSize: "1.5em", margin: "0 10px" }}
+          >
+            <FontAwesomeIcon icon={faXTwitter} />
+          </Link>
         </div>
         <div
           className="text-secondary text-center mt-5 mb-5"
