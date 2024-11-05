@@ -74,7 +74,7 @@ export default function Home() {
             href="/experience/RBC"
             className="introLink hover-underline-animation"
           >
-            Royal Bank of Canada <FontAwesomeIcon icon={faXTwitter} />
+            Royal Bank of Canada
           </Link>
           , a{" "}
           <span style={{ textDecoration: "underline" }}>
