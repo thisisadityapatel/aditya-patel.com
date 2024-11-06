@@ -106,7 +106,7 @@ export default function Home() {
             href="https://www.linkedin.com/in/thisisadityapatel/"
             className="introSocialIconLink"
             target="_blank"
-            style={{ fontSize: "1.5em", margin: "0 10px" }}
+            style={{ fontSize: "1.5em", margin: "0 20px" }}
           >
             <FontAwesomeIcon icon={faLinkedin} />
           </Link>
@@ -114,7 +114,7 @@ export default function Home() {
             href="https://github.com/thisisadityapatel"
             className="introSocialIconLink"
             target="_blank"
-            style={{ fontSize: "1.5em", margin: "0 10px" }}
+            style={{ fontSize: "1.5em", margin: "0 20px" }}
           >
             <FontAwesomeIcon icon={faGithub} />
           </Link>
@@ -122,7 +122,7 @@ export default function Home() {
             href="mailto:adityakdpatel@gmail.com"
             className="introSocialIconLink"
             target="_blank"
-            style={{ fontSize: "1.5em", margin: "0 10px" }}
+            style={{ fontSize: "1.5em", margin: "0 20px" }}
           >
             <FontAwesomeIcon icon={faEnvelope} />
           </Link>
@@ -130,7 +130,7 @@ export default function Home() {
             href="https://x.com/adihascode"
             className="introSocialIconLink"
             target="_blank"
-            style={{ fontSize: "1.5em", margin: "0 10px" }}
+            style={{ fontSize: "1.5em", margin: "0 20px" }}
           >
             <FontAwesomeIcon icon={faXTwitter} />
           </Link>
