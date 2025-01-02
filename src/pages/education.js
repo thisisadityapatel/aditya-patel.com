@@ -21,8 +21,7 @@ const Education = () => {
         <div className="text-center my-5" >
             <img src="/tmu.gif" alt="tmu gif" style={{width: "9rem"}}></img>
         </div>
-        <h4 className="text-center">{"Bachelor of Science (Honours), "}<span className="fw-bold">{"Computer Science"}</span>{" Co-op"}</h4>
-        <h6 className="text-center text-secondary">{"September 2021 - Present"}</h6>
+        <h4 className="text-center">{"Bachelor of Science (Hons.), "}<span className="fw-bold">{"Computer Science"}</span>{" Co-op"}</h4>
         <div className="mt-5">
             <div className="h5 text-secondary">{"Relevent Coursework"}</div>
             <hr />

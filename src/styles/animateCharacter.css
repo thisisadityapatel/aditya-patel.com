@@ -157,6 +157,9 @@ body{
 .projectVisitLink{
     width: 100%;
     border-radius:8px !important;
+    font-size: 13px;
+    font-style: italic;
+    margin-top: 1rem;
 }
 .experienceButton{
     text-align: left !important;

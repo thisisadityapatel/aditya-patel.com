@@ -73,7 +73,7 @@ const Experience = ({experiences}) => {
                 </div>
             </div>:""}
             <hr />
-            <a className='btn btn-secondary projectVisitLink mb-5' href={temp.link} target="_blank" rel="noopener noreferrer">Visit<i className='bi bi-box-arrow-up-right ms-1'></i></a>
+            <a className='btn btn-secondary projectVisitLink mb-5' href={temp.link} target="_blank" rel="noopener noreferrer">Company Website<i className='bi bi-box-arrow-up-right ms-1'></i></a>
         </div> 
     )
 }
