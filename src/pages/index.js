@@ -90,8 +90,8 @@ export default function Home() {
           , and am currently open to Internship/Research opportunities for 2025.
         </p>
         <p>
-          I'm into Swimming and Basketball. I also love talking about F1, Physics, 
-          and different food options here in Toronto. So feel free to shoot me an 
+          I'm into Swimming and Basketball. I also love talking about F1, Physics,
+          and different food options here in Toronto. So feel free to shoot me an
           email at{" "}
           <a
             className="hover-underline-animation introLink"
