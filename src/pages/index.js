@@ -127,7 +127,7 @@ export default function Home() {
             <FontAwesomeIcon icon={faEnvelope} />
           </Link>
           <Link
-            href="https://x.com/adihascode"
+            href="https://x.com/adityakdpatel"
             className="introSocialIconLink"
             target="_blank"
             style={{ fontSize: "1.5em", margin: "0 20px" }}
