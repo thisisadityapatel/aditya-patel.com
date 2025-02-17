@@ -1,6 +1,6 @@
 import React from 'react';
-import { techmapping } from '_data/techmapping';
-import { projectdata } from '_data/projectdata';
+import { techmapping } from '_data/mappings';
+import { projectdata } from '_data/projects';
 
 const TechList = ({ technologies }) => {
   return (
