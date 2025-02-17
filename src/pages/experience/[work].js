@@ -1,6 +1,6 @@
 import React from 'react'
 import { useRouter } from "next/router";
-import { experiences } from "_data/expdata";
+import { experiences } from "_data/experiences";
 
 const Experience = ({ experiences }) => {
     const router = useRouter();

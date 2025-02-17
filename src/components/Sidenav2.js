@@ -17,7 +17,7 @@ const Sidenav2 = () => {
     return (
         <div className="offcanvas offcanvas-start" tabIndex="-1" id="sidebarNav2" aria-labelledby="sidebarNav2Labels">
             <div className="offcanvas-header">
-                <h5 className="offcanvas-title text-secondary animate-charcter" id="offcanvasExampleLabel">Work</h5>
+                <h5 className="offcanvas-title text-secondary" id="offcanvasExampleLabel">Work</h5>
                 <button type="button" className="btn navExperienceBackBtn" data-bs-toggle="offcanvas" data-bs-target="#sidebarNav1"><i className="bi bi-arrow-left animate-charcter" style={{ fontSize: '1.5rem' }}></i></button>
             </div>
             <div className="offcanvas-body sidebarDivs">
