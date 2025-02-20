@@ -16,6 +16,8 @@ const Experience = ({ experiences }) => {
     (imagesPath?.length) === 0 ? hasImages = false : hasImages = true;
     (technologies?.length) !== 0 ? hasTechnologies = true : hasTechnologies = false;
 
+    console.log([experiences.map((exp) => { return {param: { work: exp.work_id}} })])
+
     return (
         <div className="container experinceDisplay experienceDiv">
             <div className="text-center mt-5">
@@ -80,9 +82,9 @@ const Experience = ({ experiences }) => {
 
 export async function getStaticPaths() {
     return {
-        paths: [{ params: { work: 'Wealthsimple' } }, { params: { work: 'RBC' } }, { params: { work: 'Scotiabank' } }, { params: { work: 'Enactus' } }, { params: { work: 'Ieee' } }],
+        paths: experiences.map((exp) => ({ params: { work: exp.work_id } })),
         fallback: false,
-    }
+    };
 }
 
 export async function getStaticProps({ params }) {
