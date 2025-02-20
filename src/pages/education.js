@@ -1,19 +1,5 @@
 import React from 'react'
-
-export const universityCourses = [
-    "CPS305 Data Structures",
-    "CPS393 Introduction to UNIX, C and C++",
-    "CPS506 Comparative Programming Languages",
-    "CPS590 Operating Systems",
-    "CPS109 Computer Science 1",
-    "CPS109 Computer Science 2",
-    "CPS213 Computer Organization 1",
-    "CPS310 Computer Organization 2",
-    "MTH207 Calculus & Computation 1",
-    "MTH110 Discrete Mathematics I",
-    "CPS420 Discrete Structures",
-    "MTH108 Linear Algebra",
-]
+import { courses } from '_data/courses'
 
 const Education = () => {
     return (
@@ -28,7 +14,7 @@ const Education = () => {
                 <div className="pt-1 courseListGrid">
                     {" Here are the relevent couses I have taken so far:"}
                     <ul className="mt-1" style={{ listStyle: 'none', columns: '2' }}>
-                        {universityCourses.map((course, index) => {
+                        {courses.map((course, index) => {
                             return <li key={index}><i className="bi bi-caret-right greenColor"></i>{course}</li>
                         })}
                     </ul>

@@ -1,1 +1,1 @@
-Visit my portfolio website at aditya-patel.com
+www.aditya-patel.com
