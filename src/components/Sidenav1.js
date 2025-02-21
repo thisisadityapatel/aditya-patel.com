@@ -67,6 +67,11 @@ const Sidenav1 = () => {
                             </Link>
                         </li>
                         <li>
+                            <Link className="btn sidebarNavButtonPhone aboutNav" href="/blog" data-bs-dismiss="offcanvas" data-bs-target="#sidebarNav1" role="button" aria-controls="offcanvasExample">
+                                Blog
+                            </Link>
+                        </li>
+                        <li>
                             <Link className="btn sidebarNavButtonPhone aboutNav" href="/misc" data-bs-dismiss="offcanvas" data-bs-target="#sidebarNav1" role="button" aria-controls="offcanvasExample">
                                 Projects
                             </Link>
