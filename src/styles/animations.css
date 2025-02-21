@@ -119,6 +119,17 @@ body{
     font-size: 93%;
     color: #333333;
 }
+.introLinkBlog{
+    text-decoration: none;
+    color: #000000 !important;
+    font-weight: 500;
+    text-decoration: underline;
+}
+.introLinkBlogDate{
+    color: #808080 !important;
+    font-style: italic;
+    font-size: 80%;
+}
 .introLink{
     text-decoration: none;
     color: #808080 !important;

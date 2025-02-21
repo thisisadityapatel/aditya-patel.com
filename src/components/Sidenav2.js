@@ -27,7 +27,7 @@ const Sidenav2 = () => {
                     <ul style={{ listStyle: 'none', paddingLeft: '0rem' }}>
                         {experiences.map((exp) => {
                             return (
-                                <li>
+                                <li key={exp.work_id}>
                                     <Link href={"/experience/" + exp.work_id} className="btn experienceButton aboutNav" data-bs-dismiss='offcanvas' data-bs-target='#sidebarNavExperience'>
                                         {exp.company}<span style={{ fontStyle: "italic", color: "grey", fontSize: "15px" }}>- {exp.short_position}</span>
                                     </Link>

@@ -20,13 +20,13 @@ const Header = () => {
                         <ul className="ms-auto navbar-nav navbarItems">
                             {(router.pathname !== '/') && 
                             (<li className="nav-item">
-                                <Link className="nav-link hover-underline-animation active" aria-current="page" href="/">Home</Link>
+                                <Link className="nav-link hover-underline-animation active" aria-current="page" href="/">home</Link>
                             </li>)}
                             <li className="nav-item">
-                                <Link className="nav-link hover-underline-animation active" aria-current="page" href="/blog">Blog</Link>
+                                <Link className="nav-link hover-underline-animation active" aria-current="page" href="/blog">blog</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link hover-underline-animation active" aria-current="page" href="/misc">Projects</Link>
+                                <Link className="nav-link hover-underline-animation active" aria-current="page" href="/misc">projects</Link>
                             </li>
                         </ul>
                     </div>
