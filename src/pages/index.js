@@ -37,7 +37,7 @@ export default function Home() {
           <Link href="https://www.torontomu.ca/about/" target="_blank" className="introLink hover-underline-animation">
             Toronto Metropolitan University
           </Link>{" "}
-          in my senior year, planning to graduate by 2026. A passionate programmer, I like challenging myself to do
+          in my senior year. Interested in AI, high performance computing and distributed systems, I like challenging myself to do
           things I’ve never accomplished before and I strive to learn, build, and engineer stuff.
         </p>
         <p>
