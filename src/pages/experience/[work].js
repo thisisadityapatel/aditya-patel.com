@@ -80,9 +80,9 @@ const Experience = ({ experiences }) => {
 
 export async function getStaticPaths() {
     return {
-        paths: [{ params: { work: 'Wealthsimple' } }, { params: { work: 'RBC' } }, { params: { work: 'Scotiabank' } }, { params: { work: 'Enactus' } }, { params: { work: 'Ieee' } }],
+        paths: experiences.map((exp) => ({ params: { work: exp.work_id } })),
         fallback: false,
-    }
+    };
 }
 
 export async function getStaticProps({ params }) {

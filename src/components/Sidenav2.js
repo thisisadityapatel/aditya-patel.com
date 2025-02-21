@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import { useEffect } from 'react'
+import { experiences } from '_data/experiences'
 
 const Sidenav2 = () => {
     useEffect(() => {
@@ -24,31 +25,15 @@ const Sidenav2 = () => {
                 <ul style={{ listStyle: 'none' }} className="mt-1">
                     <h5 className="text-secondary mb-3">Professional Experience</h5>
                     <ul style={{ listStyle: 'none', paddingLeft: '0rem' }}>
-                        <li>
-                            <Link href="/experience/Wealthsimple" className="btn experienceButton aboutNav" data-bs-dismiss='offcanvas' data-bs-target='#sidebarNavExperience'>
-                                Wealthsimple <span style={{ fontStyle: "italic", color: "grey", fontSize: "15px" }}>- SWE Intern</span>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="/experience/RBC" className="btn experienceButton aboutNav" data-bs-dismiss='offcanvas' data-bs-target='#sidebarNavExperience'>
-                                Royal Bank of Canada <span style={{ fontStyle: "italic", color: "grey", fontSize: "15px" }}>- SWE Intern</span>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="/experience/Scotiabank" className="btn experienceButton aboutNav" data-bs-dismiss='offcanvas' data-bs-target='#sidebarNavExperience'>
-                                Scotiabank GBM <span style={{ fontStyle: "italic", color: "grey", fontSize: "15px" }}>- SDE Intern</span>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="/experience/Ieee" className="btn experienceButton aboutNav" data-bs-dismiss='offcanvas' data-bs-target='#sidebarNavExperience'>
-                                IEEE TMU <span style={{ fontStyle: "italic", color: "grey", fontSize: "15px" }}>- SWE</span>
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="/experience/Enactus" className="btn experienceButton aboutNav" data-bs-dismiss='offcanvas' data-bs-target='#sidebarNavExperience'>
-                                Enactus TMU <span style={{ fontStyle: "italic", color: "grey", fontSize: "15px" }}>- WebDev Lead</span>
-                            </Link>
-                        </li>
+                        {experiences.map((exp) => {
+                            return (
+                                <li key={exp.work_id}>
+                                    <Link href={"/experience/" + exp.work_id} className="btn experienceButton aboutNav" data-bs-dismiss='offcanvas' data-bs-target='#sidebarNavExperience'>
+                                        {exp.company}<span style={{ fontStyle: "italic", color: "grey", fontSize: "15px" }}>- {exp.short_position}</span>
+                                    </Link>
+                                </li>
+                            )
+                        })}
                     </ul>
                 </ul>
             </div>

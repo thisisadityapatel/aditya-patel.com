@@ -1,7 +1,9 @@
 import React from 'react'
 import Link from 'next/link'
+import { useRouter } from "next/router";
 
 const Header = () => {
+    const router = useRouter();
     return (
         <>
             <nav className="navbar navbar-expand-lg navbar-light navbar-inner transparent" style={{ opacity: "0.85 !important" }}>
@@ -16,14 +18,15 @@ const Header = () => {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul className="ms-auto navbar-nav navbarItems">
+                            {(router.pathname !== '/') && 
+                            (<li className="nav-item">
+                                <Link className="nav-link hover-underline-animation active" aria-current="page" href="/">home</Link>
+                            </li>)}
                             <li className="nav-item">
-                                <Link className="nav-link hover-underline-animation active" aria-current="page" href="/">Home</Link>
+                                <Link className="nav-link hover-underline-animation active" aria-current="page" href="/blog">blog</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link hover-underline-animation active" aria-current="page" href="/misc">Projects</Link>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link hover-underline-animation active" href="mailto:aditya.patel@torontomu.ca">Email-Me</a>
+                                <Link className="nav-link hover-underline-animation active" aria-current="page" href="/misc">projects</Link>
                             </li>
                         </ul>
                     </div>

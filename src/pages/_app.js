@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Sidenav1 from '../components/Sidenav1'
 import Sidenav2 from '../components/Sidenav2'
 import '@/styles/animations.css'
-import { Nunito } from '@next/font/google'
+import { Nunito } from 'next/font/google'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import { Analytics } from '@vercel/analytics/react';
 import Script from 'next/script'

@@ -1,11 +1,12 @@
 export const experiences = [
     {
-        "work_id" : "Wealthsimple",
+        "work_id" : "wealthsimple",
         "company" : "Wealthsimple",
         "from" : "May 2024",
         "to" : "August 2024",
         "worktype" : "Co-op",
         "position" : "Software Engineer Intern",
+        "short_position" : "SWE Intern", 
         "location": "Toronto, ON",
         "images" : ["/wealthsimpleImage.webp"],
         "description" : [
@@ -20,12 +21,13 @@ export const experiences = [
         "height": "40"
     },
     {
-        "work_id" : "RBC",
+        "work_id" : "rbc",
         "company" : "Royal Bank of Canada",
         "from" : "May 2023",
         "to" : "April 2024",
         "worktype" : "Co-op",
         "position" : "Software Engineer Intern", 
+        "short_position" : "SWE Intern", 
         "location": "Toronto, ON",
         "images" : ["/rbcImage7.webp", "/rbcImage4.webp"],
         "description": [
@@ -43,12 +45,13 @@ export const experiences = [
         "height": "30"
     },
     {
-        "work_id" : "Scotiabank",
+        "work_id" : "scotiabank",
         "company" : "Scotiabank GBM",
         "from" : "May 2022",
         "to" : "August 2022",
         "worktype" : "Internship",
         "position" : "Trading Floor Software Developer Intern",
+        "short_position" : "SDE Intern", 
         "location": "Toronto, ON",
         "images" : [ "/scotiaImage3.webp", "/scotiaImage1.webp","/scotiaImage2.webp"],
         "description": [
@@ -67,12 +70,13 @@ export const experiences = [
         "height": "50"
     }, 
     {
-        "work_id" : "Ieee",
-        "company" : "IEEE Toronto Metropolitan University",
+        "work_id" : "ieee",
+        "company" : "IEEE TMU",
         "from" : "August 2022",
         "to" : "March 2023",
         "worktype" : "Volunteering",
         "position" : "Software Engineer Volunteer",
+        "short_position" : "SWE Volunteer", 
         "location": "Toronto, ON",
         "images" : ["/ieeeevent1.webp", "/ieeeevent2.webp"],
         "description" : [
@@ -87,16 +91,17 @@ export const experiences = [
         "height": "100"
     },
     {
-        "work_id" : "Enactus",
-        "company" : "Enactus Toronto Metropolitan University",
+        "work_id" : "enactus",
+        "company" : "Enactus TMU",
         "from" : "October 2021",
         "to" : "February 2022",
         "worktype" : "Part Time",
-        "position" : "Software Developer (TO-Thrive Start-up)",
+        "position" : "Lead Full-Stack Developer (TO-Thrive Start-up)",
+        "short_position" : "Full-Stack SDE", 
         "location": "Toronto, ON",
         "images" : [],
         "description" : [
-            "In my first year, I got the chance to work part-time with TO-Thrive, which was a small e-commerce startup under the incubator Enactus-Toronto Metropolitan University. Working as a Software Developer, I collaborated on creating the TO-Thrive Website. I was responsible for the front-end development and the back-end integration of the website.",
+            "In my first year, I got the chance to work part-time with TO-Thrive, which was a small e-commerce startup under the incubator Enactus Toronto Metropolitan University. Working as a Lead Full-Stack Developer, I collaborated on creating the TO-Thrive Website. I was responsible for the front-end development and the back-end integration of the website.",
             "As a freshman, without any experience it was a great way to learn the functioning of a small organization. TO Thrive aims to help artists leverage emerging technologies to empower them to make a living wage doing what they love. Feel free to check out this awesome startup at Enactus."
         ],
         "technologies" : [],
