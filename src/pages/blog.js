@@ -14,9 +14,9 @@ const blog = () => {
             <h2 style={{ fontFamily: 'Newspaper, serif, Times New Roman, Georgia, Garamond' }}>the gazette</h2>
             <div className="mt-5">
                 {posts.map((post, index) => (
-                    <h5 key={index} className="mt-5">
+                    <h6 key={index} className="mt-5">
                         <Link className='introLinkBlog hover-underline-animation' href={"/blog/" + post.endpoint}>{post.title}</Link> — <span className="introLinkBlogDate">{post.date}</span>
-                    </h5>
+                    </h6>
                 ))}
             </div>
         </div>
