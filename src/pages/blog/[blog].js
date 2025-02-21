@@ -15,7 +15,7 @@ const Blog = ({blogfiles}) => {
     const content = blogfiles.find(file => file.filename.replace(/\.md$/, '') === blog)?.content;
 
     return (
-        <div className="container">
+        <div className="container blogcontainer">
             <div class="mt-5">
                 <ReactMarkdown
                     children={content}

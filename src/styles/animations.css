@@ -156,6 +156,9 @@ body{
     text-decoration: none;
     color: black; 
 }
+.blogcontainer{
+    font-size: 90% !important;
+}
 .skillDesign{
     background-color: #e6e6e6;
     color: black;
