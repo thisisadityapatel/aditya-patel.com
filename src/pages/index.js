@@ -41,7 +41,7 @@ export default function Home() {
           things I’ve never accomplished before and I strive to learn, build, and engineer stuff.
         </p>
         <p>
-          Incoming Summer 2025 <span style={{ textDecoration: "underline" }}>Software Engineer Intern</span> at{" "}
+          Previously <span style={{ textDecoration: "underline" }}>Software Engineer Intern</span> at{" "}
           <Link href="/experience/Wealthsimple" className="introLink hover-underline-animation">
             Wealthsimple
           </Link>
