@@ -42,15 +42,15 @@ export default function Home() {
         </p>
         <p>
           Previously <span style={{ textDecoration: "underline" }}>Software Engineer Intern</span> at{" "}
-          <Link href="/experience/Wealthsimple" className="introLink hover-underline-animation">
+          <Link href="/experience/wealthsimple" className="introLink hover-underline-animation">
             Wealthsimple
           </Link>
           . Before that, I was a <span style={{ textDecoration: "underline" }}>Software Engineer Intern</span> at{" "}
-          <Link href="/experience/RBC" className="introLink hover-underline-animation">
+          <Link href="/experience/rbc" className="introLink hover-underline-animation">
             Royal Bank of Canada
           </Link>
           , a <span style={{ textDecoration: "underline" }}>Trading Floor Software Developer Intern</span> for{" "}
-          <Link href="/experience/Scotiabank" className="introLink hover-underline-animation">
+          <Link href="/experience/scotiabank" className="introLink hover-underline-animation">
             Scotiabank GBM
           </Link>
           , and am currently open to Internship/Research opportunities for 2025.
