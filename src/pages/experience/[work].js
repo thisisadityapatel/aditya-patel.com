@@ -65,15 +65,17 @@ const Experience = ({ experiences }) => {
                 <div className="h5 text-secondary">Technologies Used</div>
                 <hr />
                 <div>
-                    <ul className="mt-1" style={{ listStyle: 'none', columns: '2', WebkitColumns: '2', MozColumns: '2', }}>
-                        {technologies?.map((techs, index) => {
-                            return (<li key={index}><i className="bi bi-caret-right greenColor"></i> {techs} </li>)
-                        })}
+                    <ul className="mt-1 tech-list">
+                        {technologies?.map((tech, idx) => (
+                        <li key={idx}>
+                            <i className="bi bi-caret-right greenColor" /> {tech}
+                        </li>
+                        ))}
                     </ul>
                 </div>
             </div> : ""}
             <hr />
-            <a className='btn btn-secondary projectVisitLink mb-5' href={temp.link} target="_blank" rel="noopener noreferrer">Company Website<i className='bi bi-box-arrow-up-right ms-1'></i></a>
+            <a className='btn btn-secondary projectVisitLink mb-5' href={temp.link} target="_blank" rel="noopener noreferrer">Website <i className='bi bi-box-arrow-up-right ms-1'></i></a>
         </div>
     )
 }

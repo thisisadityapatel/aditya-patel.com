@@ -37,11 +37,11 @@ export default function Home() {
           <Link href="https://www.torontomu.ca/about/" target="_blank" className="introLink hover-underline-animation">
             Toronto Metropolitan University
           </Link>{" "}
-          in my senior year. Interested in AI, high performance computing and distributed systems, I like challenging myself to do
+          in my senior year. Interested in distributed systems, high performance computing architectures and AI/ML, I like challenging myself to do
           things I’ve never accomplished before and I strive to learn, build, and engineer stuff.
         </p>
         <p>
-          Previously <span style={{ textDecoration: "underline" }}>Software Engineer Intern</span> at{" "}
+          Previously a <span style={{ textDecoration: "underline" }}>Software Engineer Intern</span> at{" "}
           <Link href="/experience/wealthsimple" className="introLink hover-underline-animation">
             Wealthsimple
           </Link>
@@ -49,19 +49,14 @@ export default function Home() {
           <Link href="/experience/rbc" className="introLink hover-underline-animation">
             Royal Bank of Canada
           </Link>
-          , a <span style={{ textDecoration: "underline" }}>Trading Floor Software Developer Intern</span> for{" "}
+          , a <span style={{ textDecoration: "underline" }}>Trading Floor Software Developer Intern</span> at{" "}
           <Link href="/experience/scotiabank" className="introLink hover-underline-animation">
             Scotiabank GBM
           </Link>
           , and am currently open to Internship/Research opportunities for 2025.
         </p>
         <p>
-          I'm into Swimming and Basketball. I also love talking about F1, Physics, and different food options here in
-          Toronto. So feel free to shoot me an email at{" "}
-          <a className="hover-underline-animation introLink" href="mailto:adityakdpatel@gmail.com">
-            adityakdpatel@gmail.com
-          </a>
-          , or set up some time with me for a coffee chat!
+        I’m into swimming, basketball, and solving math olympiad problems. I also love talking about F1, physics, and the different food options here in Toronto. Feel free to shoot me an email at <a className="hover-underline-animation introLink" href="mailto:adityakdpatel@gmail.com">adityakdpatel@gmail.com</a>, coffee chats are always on the table.
         </p>
         <div className="introSocials">
           <Link
