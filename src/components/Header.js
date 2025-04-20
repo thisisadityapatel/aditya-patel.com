@@ -22,12 +22,12 @@ const Header = () => {
                             (<li className="nav-item">
                                 <Link className="nav-link hover-underline-animation active" aria-current="page" href="/">home</Link>
                             </li>)}
-                            <li className="nav-item">
+                            {(router.pathname !== '/blog') && (<li className="nav-item">
                                 <Link className="nav-link hover-underline-animation active" aria-current="page" href="/blog">blog</Link>
-                            </li>
-                            <li className="nav-item">
+                            </li>)}
+                            {(router.pathname !== '/misc') && (<li className="nav-item">
                                 <Link className="nav-link hover-underline-animation active" aria-current="page" href="/misc">projects</Link>
-                            </li>
+                            </li>)}
                         </ul>
                     </div>
                 </div>
