@@ -1,17 +1,21 @@
-import Head from 'next/head';
-import Link from 'next/link';
-import { useState, useEffect } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin, faXTwitter } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
+import Head from "next/head";
+import Link from "next/link";
+import { useState, useEffect } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faGithub,
+  faLinkedin,
+  faXTwitter,
+} from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
 export default function Home() {
-  const [emoji, setEmoji] = useState('🏂');
+  const [emoji, setEmoji] = useState("🏂");
   const current_Date = new Date();
 
   useEffect(() => {
     const interval = setInterval(() => {
-      const emojis = ['🏀', '💱', '🏂', '⚙️'];
+      const emojis = ["🏀", "💱", "🏂", "⚙️"];
       let randomIndex;
       do {
         randomIndex = Math.floor(Math.random() * emojis.length);
@@ -24,7 +28,10 @@ export default function Home() {
 
   return (
     <>
-      <div className="container introDiv portfolioElement" style={{ marginTop: "auto", marginBottom: "auto" }}>
+      <div
+        className="container introDiv portfolioElement"
+        style={{ marginTop: "auto", marginBottom: "auto" }}
+      >
         <div className="text-center my-5">
           <img
             src="/introProfileImage.webp"
@@ -33,30 +40,68 @@ export default function Home() {
           />
         </div>
         <p>
-          Hey, I'm Aditya, a <span style={{ textDecoration: "underline" }}>Computer Science</span> undergrad at{" "}
-          <Link href="https://www.torontomu.ca/about/" target="_blank" className="introLink hover-underline-animation">
+          Hey, I'm Aditya, a{" "}
+          <span style={{ textDecoration: "underline" }}>Computer Science</span>{" "}
+          undergrad at{" "}
+          <Link
+            href="https://www.torontomu.ca/about/"
+            target="_blank"
+            className="introLink hover-underline-animation"
+          >
             Toronto Metropolitan University
           </Link>{" "}
-          in my senior year. Interested in distributed systems, high performance computing architectures and AI/ML, I like challenging myself to do
-          things I’ve never accomplished before and I strive to learn, build, and engineer stuff.
+          in my senior year. Interested in distributed systems, high performance
+          backend architectures and AI/ML, I like challenging myself to do
+          things I’ve never accomplished before and I strive to learn, build,
+          and engineer stuff.
         </p>
         <p>
-          Previously a <span style={{ textDecoration: "underline" }}>Software Engineer Intern</span> at{" "}
-          <Link href="/experience/wealthsimple" className="introLink hover-underline-animation">
+          Currently a{" "}
+          <span style={{ textDecoration: "underline" }}>
+            Software Engineer Intern
+          </span>{" "}
+          at{" "}
+          <Link
+            href="/experience/wealthsimple"
+            className="introLink hover-underline-animation"
+          >
             Wealthsimple
           </Link>
-          . Before that, I was a <span style={{ textDecoration: "underline" }}>Software Engineer Intern</span> at{" "}
-          <Link href="/experience/rbc" className="introLink hover-underline-animation">
+          . Before that, I was a{" "}
+          <span style={{ textDecoration: "underline" }}>
+            Software Engineer Intern
+          </span>{" "}
+          at{" "}
+          <Link
+            href="/experience/rbc"
+            className="introLink hover-underline-animation"
+          >
             Royal Bank of Canada
           </Link>
-          , a <span style={{ textDecoration: "underline" }}>Trading Floor Software Developer Intern</span> at{" "}
-          <Link href="/experience/scotiabank" className="introLink hover-underline-animation">
+          , a{" "}
+          <span style={{ textDecoration: "underline" }}>
+            Trading Floor Software Developer Intern
+          </span>{" "}
+          at{" "}
+          <Link
+            href="/experience/scotiabank"
+            className="introLink hover-underline-animation"
+          >
             Scotiabank GBM
           </Link>
           , and am currently open to Internship/Research opportunities for 2025.
         </p>
         <p>
-        I’m into swimming, basketball, and solving math olympiad problems. I also love talking about F1, physics, and the different food options here in Toronto. Feel free to shoot me an email at <a className="hover-underline-animation introLink" href="mailto:adityakdpatel@gmail.com">adityakdpatel@gmail.com</a>, coffee chats are always on the table.
+          I’m into swimming, basketball, and solving math  olympiad problems. I
+          also love talking about F1, physics, and the different food options
+          here in Toronto. Feel free to shoot me an email at{" "}
+          <a
+            className="hover-underline-animation introLink"
+            href="mailto:adityakdpatel@gmail.com"
+          >
+            adityakdpatel@gmail.com
+          </a>
+          , coffee chats are always on the table.
         </p>
         <div className="introSocials">
           <Link
@@ -92,12 +137,19 @@ export default function Home() {
             <FontAwesomeIcon icon={faXTwitter} />
           </Link>
         </div>
-        <div className="text-secondary text-center mt-5 mb-5" style={{ fontSize: "80%" }}>
+        <div
+          className="text-secondary text-center mt-5 mb-5"
+          style={{ fontSize: "80%" }}
+        >
           <span style={{ fontSize: "130%" }} className="wave mx-1">
             {emoji}
           </span>{" "}
           Developed by{" "}
-          <Link href="https://www.linkedin.com/in/thisisadityapatel/" style={{ textDecoration: "underline" }} className="text-secondary">
+          <Link
+            href="https://www.linkedin.com/in/thisisadityapatel/"
+            style={{ textDecoration: "underline" }}
+            className="text-secondary"
+          >
             Aditya Patel
           </Link>{" "}
           © {current_Date.getFullYear()} All Rights Reserved.
