@@ -28,6 +28,9 @@ const Header = () => {
                             {(router.pathname !== '/misc') && (<li className="nav-item">
                                 <Link className="nav-link hover-underline-animation active" aria-current="page" href="/misc">projects</Link>
                             </li>)}
+                            <li className="nav-item">
+                                <Link className="nav-link hover-underline-animation active" aria-current="page" href="/Resume_Aditya_Kamleshkumar_Patel.pdf" target="_blank" rel="noopener noreferrer">resume</Link>
+                            </li>
                         </ul>
                     </div>
                 </div>

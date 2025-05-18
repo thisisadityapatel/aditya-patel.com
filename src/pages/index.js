@@ -6,6 +6,7 @@ import {
   faGithub,
   faLinkedin,
   faXTwitter,
+  faFilePdf
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
@@ -56,7 +57,7 @@ export default function Home() {
           and engineer stuff.
         </p>
         <p>
-          Currently a{" "}
+          Currently interning again as a{" "}
           <span style={{ textDecoration: "underline" }}>
             Software Engineer Intern
           </span>{" "}
