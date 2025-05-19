@@ -5,7 +5,7 @@ export const experiences = [
         "from" : "May 2024",
         "to" : "August 2024",
         "worktype" : "Co-op",
-        "position" : "Software Engineer Intern",
+        "position" : "Software Engineering Intern",
         "short_position" : "SWE Intern", 
         "location": "Toronto, ON",
         "images" : ["/wealthsimpleImage.webp"],

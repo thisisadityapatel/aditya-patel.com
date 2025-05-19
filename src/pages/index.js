@@ -59,7 +59,7 @@ export default function Home() {
         <p>
           Currently interning again as a{" "}
           <span style={{ textDecoration: "underline" }}>
-            Software Engineer Intern
+            Software Engineering Intern
           </span>{" "}
           at{" "}
           <Link
