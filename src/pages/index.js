@@ -145,14 +145,7 @@ export default function Home() {
           <span style={{ fontSize: "130%" }} className="wave mx-1">
             {emoji}
           </span>{" "}
-          Copyright © {current_Date.getFullYear()}
-          <Link
-            href="https://www.linkedin.com/in/thisisadityapatel/"
-            style={{ textDecoration: "underline" }}
-            className="text-secondary"
-          >
-            Aditya Patel
-          </Link>{" "}
+          Copyright © {current_Date.getFullYear()}{" "}<Link href="https://www.linkedin.com/in/thisisadityapatel/" style={{ textDecoration: "underline" }} className="text-secondary">Aditya Patel</Link>
         </div>
       </div>
     </>
