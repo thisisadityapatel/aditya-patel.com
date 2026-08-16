@@ -80,7 +80,7 @@ function App() {
               <p className="company">
                 <a href="https://www.wealthsimple.com/en-ca" target="_blank" rel="noopener noreferrer">
                   Wealthsimple
-                </a> — Distributed Algorithmic Trading Systems
+                </a> — Distributed algorithmic trading systems for direct indexing and portfolio optimization.
               </p>
             </div>
             <span className="date">may 2025 — present</span>
@@ -95,7 +95,7 @@ function App() {
               <p className="company">
                 <a href="https://www.wealthsimple.com/en-ca" target="_blank" rel="noopener noreferrer">
                   Wealthsimple
-                </a> — Order Generation Systems
+                </a> — Order generation and simulation systems for trading experimentation.
               </p>
             </div>
             <span className="date">may 2024 — aug 2024</span>
@@ -110,7 +110,7 @@ function App() {
               <p className="company">
                 <a href="https://rbcborealis.com/" target="_blank" rel="noopener noreferrer">
                   RBC Borealis AI
-                </a> — ML & Data Platform
+                </a> — ML & data platform for developer operations.
               </p>
             </div>
             <span className="date">may 2023 — apr 2024</span>
@@ -125,7 +125,7 @@ function App() {
               <p className="company">
                 <a href="https://www.gbm.scotiabank.com/en.html" target="_blank" rel="noopener noreferrer">
                   Scotiabank Capital Markets
-                </a> — Trade Desk Tooling
+                </a> — Low latency C# tooling for trading desk operations.
               </p>
             </div>
             <span className="date">may 2022 — aug 2022</span>
